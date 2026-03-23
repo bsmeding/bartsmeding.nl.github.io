@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://bartsmeding.nl/about/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/about/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/about/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ansible_roles_and_collections/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible_roles_and_collections/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible_roles_and_collections/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/contact/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/contact/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/contact/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/docker_images/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker_images/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker_images/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/projects/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/projects/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/projects/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ai/ai_in_networking/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ai/ai_in_networking/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ai/ai_in_networking/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ansible/ansible_role_awx_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_awx_docker/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_awx_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ansible/ansible_role_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_docker/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ansible/ansible_role_gitlab_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_gitlab_docker/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_gitlab_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ansible/ansible_role_nautobot_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_nautobot_docker/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_nautobot_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ansible/ansible_role_nginx_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_nginx_docker/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_nginx_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/ansible/ansible_role_swag_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_swag_docker/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_swag_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/docker/docker_conatiner_nautobot/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_nautobot/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_nautobot/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/about/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/about/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ansible_roles_and_collections/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible_roles_and_collections/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible_roles_and_collections/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/contact/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/contact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/contact/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/docker_images/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker_images/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker_images/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/projects/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/projects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/projects/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ai/ai_in_networking/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ai/ai_in_networking/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ai/ai_in_networking/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ansible/ansible_role_awx_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_awx_docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_awx_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ansible/ansible_role_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ansible/ansible_role_gitlab_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_gitlab_docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_gitlab_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ansible/ansible_role_nautobot_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_nautobot_docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_nautobot_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ansible/ansible_role_nginx_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_nginx_docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_nginx_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/ansible/ansible_role_swag_docker/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_swag_docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_swag_docker/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/docker/docker_conatiner_nautobot/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_nautobot/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_nautobot/"/>
+    </url>
+</urlset>
