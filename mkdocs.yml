@@ -1,0 +1,96 @@
+site_name: bartsmeding IT
+site_description: Network & infrastructure automation — Ansible roles, Docker images, profile & contact
+site_url: https://bartsmeding.nl/
+site_author: Bart Smeding — bartsmeding IT
+repo_url: https://github.com/bsmeding/bartsmeding.nl.github.io
+edit_uri: edit/main/docs/
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: bartsmeding IT
+          site_description: Network & infrastructure automation — Ansible roles, Docker images, profile & contact
+        - locale: nl
+          name: Nederlands
+          build: true
+          site_name: bartsmeding IT
+          site_description: Netwerk- en infrastructuurautomatisering — Ansible-roles, Docker-images, profiel & contact
+          nav_translations:
+            Home: Start
+            About: Over
+            Projects: Projecten
+            Contact: Contact
+            Ansible: Ansible
+            Docker: Docker
+            'Ansible Roles & Collections': Ansible-roles & -collections
+            'Docker images index': Docker-images (overzicht)
+            'Nautobot container image': Nautobot-containerimage
+            'AI in networking': AI in netwerken
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+  - Contact: contact.md
+  - Ansible:
+    - 'Ansible Roles & Collections': ansible_roles_and_collections.md
+    - 'bsmeding.docker': ansible/ansible_role_docker.md
+    - 'bsmeding.nautobot_docker': ansible/ansible_role_nautobot_docker.md
+    - 'bsmeding.awx_docker': ansible/ansible_role_awx_docker.md
+    - 'bsmeding.nginx_docker': ansible/ansible_role_nginx_docker.md
+    - 'bsmeding.gitlab_ce_docker': ansible/ansible_role_gitlab_docker.md
+    - 'bsmeding.swag_docker': ansible/ansible_role_swag_docker.md
+  - Docker:
+    - 'Docker images index': docker_images.md
+    - 'Nautobot container image': docker/docker_conatiner_nautobot.md
+  - 'AI in networking': ai/ai_in_networking.md
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch theme
+    - scheme: default
+      primary: blue grey
+      accent: teal
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bartsmeding/
+    - icon: fontawesome/brands/github
+      link: https://github.com/bsmeding
