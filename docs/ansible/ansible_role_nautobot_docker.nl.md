@@ -3,8 +3,7 @@
 Role to install Nautobot CMDB in Docker container
 
 - **GitHub:** [ansible_role_nautobot_docker](https://github.com/bsmeding/ansible_role_nautobot_docker)
-- **Ansible Galaxy:** [bsmeding.nautobot_docker](https://galaxy.ansible.com/bsmeding/nautobot_docker)
-- **Laatste tag:** `1.4.0`
+- **Ansible Galaxy:** [bsmeding.nautobot_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/nautobot_docker/)
 
 ---
 

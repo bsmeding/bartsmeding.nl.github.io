@@ -3,8 +3,7 @@
 Secure Web Application Gateway (SWAG) running in docker container
 
 - **GitHub:** [ansible_role_swag_docker](https://github.com/bsmeding/ansible_role_swag_docker)
-- **Ansible Galaxy:** [bsmeding.swag_docker](https://galaxy.ansible.com/bsmeding/swag_docker)
-- **Laatste tag:** `1.4.0`
+- **Ansible Galaxy:** [bsmeding.swag_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/swag_docker/)
 
 ---
 

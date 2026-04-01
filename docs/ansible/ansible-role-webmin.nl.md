@@ -3,8 +3,7 @@
 Ansible role to install and configure Webmin.
 
 - **GitHub:** [ansible-role-webmin](https://github.com/bsmeding/ansible-role-webmin)
-- **Ansible Galaxy:** [bsmeding.webmin](https://galaxy.ansible.com/bsmeding/webmin)
-- **Laatste tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.webmin](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/webmin/)
 
 ---
 

@@ -3,8 +3,7 @@
 Ansible role for LLdap in Docker
 
 - **GitHub:** [ansible_role_lldap_docker](https://github.com/bsmeding/ansible_role_lldap_docker)
-- **Ansible Galaxy:** [bsmeding.lldap_docker](https://galaxy.ansible.com/bsmeding/lldap_docker)
-- **Laatste tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.lldap_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/lldap_docker/)
 
 ---
 

@@ -3,8 +3,7 @@
 Ansible Role to install Telegraf, InfluxDB, Chronograf, Kapacitor and Grafana (TICK+G) as docker containers
 
 - **GitHub:** [ansible_role_tickg_stack_containers](https://github.com/bsmeding/ansible_role_tickg_stack_containers)
-- **Ansible Galaxy:** [bsmeding.tickg_stack_docker](https://galaxy.ansible.com/bsmeding/tickg_stack_docker)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.tickg_stack_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/tickg_stack_docker/)
 
 ---
 

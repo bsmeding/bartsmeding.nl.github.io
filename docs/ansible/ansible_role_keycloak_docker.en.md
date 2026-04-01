@@ -3,8 +3,7 @@
 Ansible role for Keycloak in Docker
 
 - **GitHub:** [ansible_role_keycloak_docker](https://github.com/bsmeding/ansible_role_keycloak_docker)
-- **Ansible Galaxy:** [bsmeding.keycloak_docker](https://galaxy.ansible.com/bsmeding/keycloak_docker)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.keycloak_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/keycloak_docker/)
 
 ---
 

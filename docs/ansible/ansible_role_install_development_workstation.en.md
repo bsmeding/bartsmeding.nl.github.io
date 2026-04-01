@@ -3,8 +3,7 @@
 Set up a development workstation on macOS and Ubuntu with comprehensive development tools
 
 - **GitHub:** [ansible_role_install_development_workstation](https://github.com/bsmeding/ansible_role_install_development_workstation)
-- **Ansible Galaxy:** [bsmeding.install_development_workstation](https://galaxy.ansible.com/bsmeding/install_development_workstation)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.install_development_workstation](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/install_development_workstation/)
 
 ---
 

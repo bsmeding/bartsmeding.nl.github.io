@@ -3,8 +3,7 @@
 Ansible role for Beszel in Docker
 
 - **GitHub:** [ansible_role_beszel_docker](https://github.com/bsmeding/ansible_role_beszel_docker)
-- **Ansible Galaxy:** [bsmeding.beszel_docker](https://galaxy.ansible.com/bsmeding/beszel_docker)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.beszel_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/beszel_docker/)
 
 ---
 

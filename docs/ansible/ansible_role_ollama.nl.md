@@ -3,8 +3,7 @@
 Deploy Ollama on Linux (local LLM inference server)
 
 - **GitHub:** [ansible_role_ollama](https://github.com/bsmeding/ansible_role_ollama)
-- **Ansible Galaxy:** [bsmeding.ollama](https://galaxy.ansible.com/bsmeding/ollama)
-- **Laatste tag:** `0.1.0`
+- **Ansible Galaxy:** [bsmeding.ollama](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/ollama/)
 
 ---
 

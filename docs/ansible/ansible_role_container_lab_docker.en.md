@@ -3,8 +3,7 @@
 Role to install container_lab in Docker container
 
 - **GitHub:** [ansible_role_container_lab_docker](https://github.com/bsmeding/ansible_role_container_lab_docker)
-- **Ansible Galaxy:** [bsmeding.container_lab_docker](https://galaxy.ansible.com/bsmeding/container_lab_docker)
-- **Latest tag:** `0.1.0`
+- **Ansible Galaxy:** [bsmeding.container_lab_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/container_lab_docker/)
 
 ---
 

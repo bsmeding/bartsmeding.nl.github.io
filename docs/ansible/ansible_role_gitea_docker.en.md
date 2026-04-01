@@ -3,8 +3,7 @@
 Install Gitea in Docker container
 
 - **GitHub:** [ansible_role_gitea_docker](https://github.com/bsmeding/ansible_role_gitea_docker)
-- **Ansible Galaxy:** [bsmeding.gitea_docker](https://galaxy.ansible.com/bsmeding/gitea_docker)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.gitea_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/gitea_docker/)
 
 ---
 

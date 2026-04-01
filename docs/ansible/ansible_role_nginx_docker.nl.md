@@ -3,8 +3,7 @@
 NGINX webserver running in docker container
 
 - **GitHub:** [ansible_role_nginx_docker](https://github.com/bsmeding/ansible_role_nginx_docker)
-- **Ansible Galaxy:** [bsmeding.nginx_docker](https://galaxy.ansible.com/bsmeding/nginx_docker)
-- **Laatste tag:** `1.1.0`
+- **Ansible Galaxy:** [bsmeding.nginx_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/nginx_docker/)
 
 ---
 

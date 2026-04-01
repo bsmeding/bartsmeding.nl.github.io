@@ -3,8 +3,7 @@
 Manage and run the gitlab ce docker container with Postgres container as backend.
 
 - **GitHub:** [ansible_role_gitlab_ce_docker](https://github.com/bsmeding/ansible_role_gitlab_ce_docker)
-- **Ansible Galaxy:** [bsmeding.gitlab_docker](https://galaxy.ansible.com/bsmeding/gitlab_docker)
-- **Laatste tag:** `1.1.0`
+- **Ansible Galaxy:** [bsmeding.gitlab_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/gitlab_docker/)
 
 ---
 

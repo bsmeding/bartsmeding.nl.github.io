@@ -3,8 +3,7 @@
 Deploy LibreChat (ChatGPT-style UI with multi-provider AI) via Docker Compose
 
 - **GitHub:** [ansible_role_librechat_docker](https://github.com/bsmeding/ansible_role_librechat_docker)
-- **Ansible Galaxy:** [bsmeding.librechat_docker](https://galaxy.ansible.com/bsmeding/librechat_docker)
-- **Laatste tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.librechat_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/librechat_docker/)
 
 ---
 

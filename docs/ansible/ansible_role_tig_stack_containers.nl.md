@@ -3,8 +3,7 @@
 Ansible Role to install Telegraf, InfluxDB and Grafana (TIG) as docker containers
 
 - **GitHub:** [ansible_role_tig_stack_containers](https://github.com/bsmeding/ansible_role_tig_stack_containers)
-- **Ansible Galaxy:** [bsmeding.tig_stack_docker](https://galaxy.ansible.com/bsmeding/tig_stack_docker)
-- **Laatste tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.tig_stack_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/tig_stack_docker/)
 
 ---
 

@@ -3,8 +3,7 @@
 Deploy 1Password connect proxy in Docker container
 
 - **GitHub:** [ansible_role_1password_connect_docker](https://github.com/bsmeding/ansible_role_1password_connect_docker)
-- **Ansible Galaxy:** [bsmeding.1password_connect_docker](https://galaxy.ansible.com/bsmeding/1password_connect_docker)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.1password_connect_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/1password_connect_docker/)
 
 ---
 

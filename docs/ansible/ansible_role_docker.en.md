@@ -3,8 +3,7 @@
 Docker for Linux, Forked from geerlingguy.docker.
 
 - **GitHub:** [ansible_role_docker](https://github.com/bsmeding/ansible_role_docker)
-- **Ansible Galaxy:** [bsmeding.docker](https://galaxy.ansible.com/bsmeding/docker)
-- **Latest tag:** `1.1.0`
+- **Ansible Galaxy:** [bsmeding.docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/docker/)
 
 ---
 

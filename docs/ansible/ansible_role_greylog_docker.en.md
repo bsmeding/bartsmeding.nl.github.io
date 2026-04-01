@@ -3,8 +3,7 @@
 Ansible role for Graylog in Docker
 
 - **GitHub:** [ansible_role_greylog_docker](https://github.com/bsmeding/ansible_role_greylog_docker)
-- **Ansible Galaxy:** [bsmeding.greylog_docker](https://galaxy.ansible.com/bsmeding/greylog_docker)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.greylog_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/greylog_docker/)
 
 ---
 

@@ -3,8 +3,7 @@
 Deploy Open WebUI (web interface for Ollama) via Docker container
 
 - **GitHub:** [ansible_role_openwebui_docker](https://github.com/bsmeding/ansible_role_openwebui_docker)
-- **Ansible Galaxy:** [bsmeding.openwebui_docker](https://galaxy.ansible.com/bsmeding/openwebui_docker)
-- **Latest tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.openwebui_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/openwebui_docker/)
 
 ---
 

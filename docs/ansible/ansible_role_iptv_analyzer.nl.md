@@ -3,8 +3,7 @@
 Ansible role to install IPTV Analyzer (https://github.com/bsmeding/IPTV-Analyzer) with Ansible. Original made by netoptimizer / Jesper Dangaard Brouer
 
 - **GitHub:** [ansible_role_iptv_analyzer](https://github.com/bsmeding/ansible_role_iptv_analyzer)
-- **Ansible Galaxy:** [bsmeding.iptv_analyzer](https://galaxy.ansible.com/bsmeding/iptv_analyzer)
-- **Laatste tag:** `none yet`
+- **Ansible Galaxy:** [bsmeding.iptv_analyzer](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/iptv_analyzer/)
 
 ---
 

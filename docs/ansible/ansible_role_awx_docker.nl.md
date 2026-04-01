@@ -3,8 +3,7 @@
 Role to Install Ansible AWX (opensource Tower) in Docker container
 
 - **GitHub:** [ansible_role_awx_docker](https://github.com/bsmeding/ansible_role_awx_docker)
-- **Ansible Galaxy:** [bsmeding.awx_docker](https://galaxy.ansible.com/bsmeding/awx_docker)
-- **Laatste tag:** `1.2.0`
+- **Ansible Galaxy:** [bsmeding.awx_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/awx_docker/)
 
 ---
 

@@ -3,8 +3,7 @@
 Gitea ACT Runner running in docker container
 
 - **GitHub:** [ansible_role_gitea_runner](https://github.com/bsmeding/ansible_role_gitea_runner)
-- **Ansible Galaxy:** [bsmeding.gitea_runner](https://galaxy.ansible.com/bsmeding/gitea_runner)
-- **Laatste tag:** `0.1.0`
+- **Ansible Galaxy:** [bsmeding.gitea_runner](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/gitea_runner/)
 
 ---
 

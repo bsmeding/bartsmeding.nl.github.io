@@ -3,7 +3,7 @@
 This Ansible role deploys GitLab Community Edition in a Docker container. It is designed for easy, automated GitLab deployments for labs, demos, or production.
 
 - **GitHub:** [bsmeding/ansible_role_gitlab_ce_docker](https://github.com/bsmeding/ansible_role_gitlab_ce_docker)
-- **Ansible Galaxy:** [bsmeding.gitlab_ce_docker](https://galaxy.ansible.com/bsmeding/gitlab_ce_docker)
+- **Ansible Galaxy:** [bsmeding.gitlab_ce_docker](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/gitlab_ce_docker/)
 
 ---
 
@@ -76,7 +76,7 @@ gitlab__directory_volumes:
 
 ## More Information
 - [GitHub Repository](https://github.com/bsmeding/ansible_role_gitlab_ce_docker)
-- [Ansible Galaxy Documentation](https://galaxy.ansible.com/bsmeding/gitlab_ce_docker)
+- [Ansible Galaxy Documentation](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/gitlab_ce_docker/)
 
 ---
 
