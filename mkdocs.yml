@@ -66,7 +66,7 @@ nav:
 
 theme:
   name: material
-  logo: images/logo_small.png
+  logo: images/logo2.png
   favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme)"
