@@ -10,7 +10,9 @@ tags:
 
 # Docker-images
 
-**bartsmeding IT** onderhoudt meerdere Docker-images, vooral voor Ansible CI/CD-pipelines en netwerk-/infrastructuurapplicaties, met extra’s die passen bij dagelijks gebruik.
+**b@rtsmeding IT** bouwt en onderhoudt deze **Docker-images** zodat teams **consistente Ansible CI/CD** kunnen draaien (Molecule, linting, device-bibliotheken) en **doordachte applicatie-images** (bijv. Nautobot met bruikbare defaults) zonder elke keer basislagen opnieuw uit te vinden.
+
+We gebruiken ze intern en bij **automation delivery**; voor **images afgestemd op uw registry, securitybeleid of pipeline** kunt u bij ons **advies** terecht — zie [Over](about.md).
 
 ---
 

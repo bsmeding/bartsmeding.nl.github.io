@@ -10,7 +10,9 @@ tags:
 
 # Ansible Roles and Collections
 
-**bartsmeding IT** maintains several Ansible roles and collections, primarily for network, cloud, and infrastructure automation. Many are used in demos, labs, or student environments.
+**b@rtsmeding IT** maintains these **Ansible roles** in the open: they power **labs and demos**, back **training** material, and are reused in **customer engagements** where a maintained, CI-checked baseline beats a one-off script.
+
+If you need **roles extended**, **integrated into your pipeline**, or **matched to your standards**, that is part of our **consultancy** — [get in touch via About](about.md).
 
 ---
 

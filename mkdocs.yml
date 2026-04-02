@@ -1,5 +1,5 @@
 site_name: bartsmeding IT
-site_description: Network & infrastructure automation — Ansible roles, Docker images, profile & contact
+site_description: Network & infrastructure automation consultancy and training — Ansible, CI/CD, cloud, and NetAIOps
 site_url: https://bartsmeding.nl/
 site_author: Bart Smeding — bartsmeding IT
 repo_url: https://github.com/bsmeding/bartsmeding.nl.github.io
@@ -18,51 +18,49 @@ plugins:
           name: English
           build: true
           site_name: bartsmeding IT
-          site_description: Network & infrastructure automation — Ansible roles, Docker images, profile & contact
+          site_description: Network & infrastructure automation consultancy and training — Ansible, CI/CD, cloud, and NetAIOps
         - locale: nl
           name: Nederlands
           build: true
           site_name: bartsmeding IT
-          site_description: Netwerk- en infrastructuurautomatisering — Ansible-roles, Docker-images, profiel & contact
+          site_description: Advies en training netwerk- en infrastructuurautomatisering — Ansible, CI/CD, cloud en NetAIOps
           nav_translations:
             Home: Start
             About: Over
             Projects: Projecten
-            Contact: Contact
-            Ansible: Ansible
-            Docker: Docker
-            'Ansible Roles & Collections': Ansible-roles & -collections
-            'Docker images index': Docker-images (overzicht)
+            'Roles overview': Rolesoverzicht
+            'Docker overview': Docker-overzicht
+            'Ansible roles & collections': Ansible-roles & -collections
+            'Docker images': Docker-images
+            'Docker overview': Docker-overzicht
             'Nautobot container image': Nautobot-containerimage
             'AI in networking': AI in netwerken
 
 nav:
   - Home: index.md
   - Projects: projects.md
-  - Ansible:
-    - 'Ansible Roles & Collections': ansible_roles_and_collections.md
-    - 'bsmeding.awx_docker': ansible/ansible_role_awx_docker.md
-    - 'bsmeding.container_lab_docker': ansible/ansible_role_container_lab_docker.md
-    - 'bsmeding.docker': ansible/ansible_role_docker.md
-    - 'bsmeding.gitea_runner': ansible/ansible_role_gitea_runner.md
-    - 'bsmeding.gitlab_docker': ansible/ansible_role_gitlab_ce_docker.md
-    - 'bsmeding.install_development_workstation': ansible/ansible_role_install_development_workstation.md
-    - 'bsmeding.iptv_analyzer': ansible/ansible_role_iptv_analyzer.md
-    - 'bsmeding.librechat_docker': ansible/ansible_role_librechat_docker.md
-    - 'bsmeding.nautobot_docker': ansible/ansible_role_nautobot_docker.md
-    - 'bsmeding.nginx_docker': ansible/ansible_role_nginx_docker.md
-    - 'bsmeding.ollama': ansible/ansible_role_ollama.md
-    - 'bsmeding.openwebui_docker': ansible/ansible_role_openwebui_docker.md
-    - 'bsmeding.swag_docker': ansible/ansible_role_swag_docker.md
-    - 'bsmeding.tickg_stack_docker': ansible/ansible_role_tickg_stack_containers.md
-    - 'bsmeding.tig_stack_docker': ansible/ansible_role_tig_stack_containers.md
-    - 'bsmeding.webmin': ansible/ansible-role-webmin.md
-  - Docker:
-    - 'Docker images index': docker_images.md
-    - 'Nautobot container image': docker/docker_conatiner_nautobot.md
-  - 'AI in networking': ai/ai_in_networking.md
-  - About: about.md  
-  - Contact: contact.md
+  - Ansible roles & collections:
+      - Roles overview: ansible_roles_and_collections.md
+      - 'bsmeding.awx_docker': ansible/ansible_role_awx_docker.md
+      - 'bsmeding.container_lab_docker': ansible/ansible_role_container_lab_docker.md
+      - 'bsmeding.docker': ansible/ansible_role_docker.md
+      - 'bsmeding.gitea_runner': ansible/ansible_role_gitea_runner.md
+      - 'bsmeding.gitlab_docker': ansible/ansible_role_gitlab_ce_docker.md
+      - 'bsmeding.install_development_workstation': ansible/ansible_role_install_development_workstation.md
+      - 'bsmeding.iptv_analyzer': ansible/ansible_role_iptv_analyzer.md
+      - 'bsmeding.librechat_docker': ansible/ansible_role_librechat_docker.md
+      - 'bsmeding.nautobot_docker': ansible/ansible_role_nautobot_docker.md
+      - 'bsmeding.nginx_docker': ansible/ansible_role_nginx_docker.md
+      - 'bsmeding.ollama': ansible/ansible_role_ollama.md
+      - 'bsmeding.openwebui_docker': ansible/ansible_role_openwebui_docker.md
+      - 'bsmeding.swag_docker': ansible/ansible_role_swag_docker.md
+      - 'bsmeding.tickg_stack_docker': ansible/ansible_role_tickg_stack_containers.md
+      - 'bsmeding.tig_stack_docker': ansible/ansible_role_tig_stack_containers.md
+      - 'bsmeding.webmin': ansible/ansible-role-webmin.md
+  - Docker images:
+      - Docker overview: docker_images.md
+      - 'Nautobot container image': docker/docker_conatiner_nautobot.md
+  - About: about.md
 
 theme:
   name: material

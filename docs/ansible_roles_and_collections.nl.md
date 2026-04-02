@@ -10,7 +10,9 @@ tags:
 
 # Ansible-roles & -collections
 
-**bartsmeding IT** onderhoudt meerdere Ansible-roles en -collections, vooral voor netwerk-, cloud- en infrastructuurautomatisering. Veel worden gebruikt in demo's, labs of leeromgevingen.
+**b@rtsmeding IT** onderhoudt deze **Ansible-roles** in de open: ze ondersteunen **labs en demo’s**, **trainingsmateriaal** en worden hergebruikt in **klantopdrachten** waar een onderhouden, CI-gecontroleerde basis beter is dan een eenmalig script.
+
+Als u **roles wilt uitbreiden**, **in uw pipeline wilt inbedden** of **aan uw standaarden wilt toetsen**, hoort dat bij ons **advies** — [neem contact op via Over](about.md).
 
 ---
 

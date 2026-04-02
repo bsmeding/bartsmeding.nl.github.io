@@ -10,7 +10,9 @@ tags:
 
 # Docker Images
 
-**bartsmeding IT** maintains several Docker images, mostly to run Ansible CI/CD pipelines and network/infrastructure applications with enhancements for daily work.
+**b@rtsmeding IT** builds and maintains these **Docker images** so teams can run **consistent Ansible CI/CD** (Molecule, linting, device libraries) and **opinionated app images** (e.g. Nautobot with useful defaults) without reinventing base layers.
+
+They are what we use internally and in **automation delivery**; if you want **images aligned to your registry, security policy, or pipeline**, we can help through **consultancy** — see [About](about.md).
 
 ---
 

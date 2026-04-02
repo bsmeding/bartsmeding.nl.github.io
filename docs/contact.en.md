@@ -1,19 +1,5 @@
 # Contact
 
-The best way to reach **bartsmeding IT** / **Bart Smeding** depends on what you need.
+Contact details for **b@rtsmeding IT** / **Bart Smeding** are on the **[About](about.md)** page (LinkedIn, GitHub, and how we work with clients).
 
----
-
-## Professional
-
-- **LinkedIn:** [linkedin.com/in/bartsmeding](https://www.linkedin.com/in/bartsmeding/) — messages about collaboration, speaking, or automation work  
-
----
-
-## Code & issues
-
-- **GitHub:** [github.com/bsmeding](https://github.com/bsmeding) — for open-source repos, issues, and contributions  
-
----
-
-*For tutorials and NetDevOps topics, use [NetDevOps.it](https://netdevops.it/) — comments and community context are there.*
+For tutorials and NetDevOps topics, see **[NetDevOps.it](https://netdevops.it/)**.

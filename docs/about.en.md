@@ -2,9 +2,11 @@
 
 ![Profile picture](images/bartsmeding3.jpg){ width="240" }
 
-## Who I am
+## b@rtsmeding IT
 
-I am **Bart Smeding** (**bartsmeding IT**), a network and infrastructure automation specialist with many years of experience in Microsoft infrastructure and enterprise/datacenter networks, and a strong focus on **automation** for the last decade and more. I care about **Ansible**, **network and infrastructure automation**, **DevOps**, **Python**, **CI/CD**, and shipping **Ansible roles and collections** that hold up in production.
+**Bart Smeding** runs **b@rtsmeding IT B.V.** as a **network and infrastructure automation** practice: **consultancy**, **training**, and **delivery** of automation that survives in production — from **brownfield** onboarding to **greenfield** design, and from **traditional networking** to **tested deploy and rollback** pipelines.
+
+We work at the intersection of **NetDevOps** and **NetAIOps**: solid automation first, then **AI** where it adds clear value (observability, CMDB-backed queries, assisted operations). A longer technical angle is in **[AI in networking](ai/ai_in_networking.md)**.
 
 ---
 
@@ -22,9 +24,10 @@ I help teams **own and extend** what we build: clear **handover**, documentation
 
 - **Ansible** (roles, collections, AWX/Tower patterns)
 - **Network / infrastructure automation**
-- **DevOps** and **CI/CD**
+- **DevOps** and **CI/CD** (including **GitLab CI/CD**)
 - **Python** for orchestration and tooling
 - **Source of truth** integrations (e.g. **Nautobot** with dynamic inventory and jobs)
+- **Cloud and hybrid** automation patterns
 
 ---
 
@@ -36,7 +39,6 @@ I help teams **own and extend** what we build: clear **handover**, documentation
 - **AWX** for team workflows and project sync  
 - **Nautobot** jobs for onboarding, upgrades, and validation  
 - **Linux** automation (e.g. Nginx, DNS, common services)  
-- **GitLab CI/CD** pipelines  
 
 **Technical breadth:** network design and operations, IPv4/IPv6, routing/switching, security, monitoring, virtualization (Hyper-V, VMware), scripting beyond Python where it fits.
 
@@ -44,6 +46,22 @@ I help teams **own and extend** what we build: clear **handover**, documentation
 
 ## What lives on this site vs NetDevOps.it
 
-**Here (bartsmeding.nl):** **bartsmeding IT** — Ansible roles and Docker images I maintain, AI-in-networking notes, profile, and contact.
+**Here (bartsmeding.nl):** **b@rtsmeding IT** — what we **offer** to clients, **Ansible roles** and **Docker images** we maintain, and **how to reach us**.
 
-**[NetDevOps.it](https://netdevops.it/):** Tutorials, blog, courses, and general NetDevOps education — not our product catalog.
+**[NetDevOps.it](https://netdevops.it/):** Tutorials, blog, courses, and general NetDevOps education — not our services brochure.
+
+---
+
+## Contact
+
+The best way to reach **b@rtsmeding IT** / **Bart Smeding** depends on what you need.
+
+### Professional
+
+- **LinkedIn:** [linkedin.com/in/bartsmeding](https://www.linkedin.com/in/bartsmeding/) — collaboration, speaking, consultancy, or training  
+
+### Code & issues
+
+- **GitHub:** [github.com/bsmeding](https://github.com/bsmeding) — open-source repositories, issues, and contributions  
+
+*For tutorials and NetDevOps topics, use [NetDevOps.it](https://netdevops.it/) — comments and community context are there.*
