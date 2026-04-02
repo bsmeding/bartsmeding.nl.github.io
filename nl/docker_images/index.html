@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Netwerk- en infrastructuurautomatisering — Ansible-roles, Docker-images, profiel & contact">
+        <meta name="description" content="Advies en training netwerk- en infrastructuurautomatisering — Ansible, CI/CD, cloud en NetAIOps">
       
       
         <meta name="author" content="Bart Smeding — bartsmeding IT">
@@ -298,7 +298,7 @@
           
   
   
-  Ansible
+  Ansible-roles & -collections
 
         </a>
       </li>
@@ -320,30 +320,11 @@
           
   
   
-  Docker
+  Docker-images
 
         </a>
       </li>
     
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../ai/ai_in_networking/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  AI in netwerken
-
-      </a>
-    </li>
   
 
       
@@ -360,25 +341,6 @@
     
   
   Over
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../contact/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Contact
 
       </a>
     </li>
@@ -519,7 +481,7 @@
   <span class="md-ellipsis">
     
   
-    Ansible
+    Ansible-roles & -collections
   
 
     
@@ -535,7 +497,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Ansible
+    Ansible-roles & -collections
   
 
           </label>
@@ -555,7 +517,7 @@
   <span class="md-ellipsis">
     
   
-    Ansible-roles & -collections
+    Rolesoverzicht
   
 
     
@@ -1059,7 +1021,7 @@
   <span class="md-ellipsis">
     
   
-    Docker
+    Docker-images
   
 
     
@@ -1075,7 +1037,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Docker
+    Docker-images
   
 
           </label>
@@ -1104,7 +1066,7 @@
   <span class="md-ellipsis">
     
   
-    Docker-images (overzicht)
+    Docker-overzicht
   
 
     
@@ -1122,7 +1084,7 @@
   <span class="md-ellipsis">
     
   
-    Docker-images (overzicht)
+    Docker-overzicht
   
 
     
@@ -1220,33 +1182,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../ai/ai_in_networking/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AI in netwerken
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../about/" class="md-nav__link">
         
   
@@ -1255,33 +1190,6 @@
     
   
     Over
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../contact/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Contact
   
 
     
@@ -1363,7 +1271,8 @@
 
 
 <h1 id="docker-images">Docker-images</h1>
-<p><strong>bartsmeding IT</strong> onderhoudt meerdere Docker-images, vooral voor Ansible CI/CD-pipelines en netwerk-/infrastructuurapplicaties, met extra’s die passen bij dagelijks gebruik.</p>
+<p><strong>b@rtsmeding IT</strong> bouwt en onderhoudt deze <strong>Docker-images</strong> zodat teams <strong>consistente Ansible CI/CD</strong> kunnen draaien (Molecule, linting, device-bibliotheken) en <strong>doordachte applicatie-images</strong> (bijv. Nautobot met bruikbare defaults) zonder elke keer basislagen opnieuw uit te vinden.</p>
+<p>We gebruiken ze intern en bij <strong>automation delivery</strong>; voor <strong>images afgestemd op uw registry, securitybeleid of pipeline</strong> kunt u bij ons <strong>advies</strong> terecht — zie <a href="../about/">Over</a>.</p>
 <hr />
 <h2 id="docker-cicd-images">Docker CI/CD-images</h2>
 <p>Deze images zijn bedoeld om Ansible-playbooks, roles en meer te testen. Ze zijn gebaseerd op diverse Linux-distributies met Ansible en andere pakketten vooraf geïnstalleerd, vooral voor <strong>network automation</strong> (NetDevOps). Per distro is er een image zonder versienummer dat altijd de nieuwste release bevat (bijv. <code>ansible_cicd_debian</code> is gelijk aan <code>ansible_cicd_debian13</code>).</p>
