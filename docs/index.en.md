@@ -20,7 +20,7 @@ If you are looking for **network automation**, **CI/CD for infrastructure**, or 
 
 ## Depth you can rely on
 
-We bring long experience in **network design, engineering, and operations**, combined with a strong focus on **automation** (Ansible, Python, **AWX**, **GitLab CI/CD**, **Nautobot** as source of truth, device automation across major vendors). We help organisations **transform** from traditional networking to **fully automated** networks — without leaving operations behind.
+We bring long experience in **network design, engineering, and operations**, combined with a strong focus on **automation** (Ansible, Python, **AWX**, **Git**, **CI/CD**, **Nautobot** as source of truth, device automation across major vendors). We help organisations **transform** from traditional networking to **fully automated** networks — without leaving operations behind.
 
 ---
 
@@ -33,7 +33,7 @@ We bring long experience in **network design, engineering, and operations**, com
 | [Docker images](docker_images.md) | CI/CD images and application images we build and keep current. |
 | [About](about.md) | Background, competencies, **contact**, and how we work with clients. |
 
-**Articles, tutorials, and broader NetDevOps content** live on **[NetDevOps.it](https://netdevops.it/)** — this site is your **business card**: what **b@rtsmeding IT** can deliver, what we maintain, and how to **get in touch**.
+**Articles, tutorials, and broader NetDevOps content** live on **[NetDevOps.it](https://netdevops.it/)** 
 
 ---
 

@@ -1,29 +1,22 @@
-# Ansible-role: iptv_analyzer (`bsmeding.iptv_analyzer`)
+_De technische inhoud hieronder is hetzelfde als de Engelse README in de Git-repository._
 
-Ansible role to install IPTV Analyzer (https://github.com/bsmeding/IPTV-Analyzer) with Ansible. Original made by netoptimizer / Jesper Dangaard Brouer
+---
+
+# Ansible Role: `bsmeding.iptv_analyzer`
 
 - **GitHub:** [ansible_role_iptv_analyzer](https://github.com/bsmeding/ansible_role_iptv_analyzer)
 - **Ansible Galaxy:** [bsmeding.iptv_analyzer](https://galaxy.ansible.com/ui/standalone/roles/bsmeding/iptv_analyzer/)
 
----
-
-## Korte details
-- **Role-map:** `ansible_role_iptv_analyzer`
-- **Minimale Ansible-versie:** `2.9`
-- **Ondersteunde platformen:** Debian
-- **Galaxy-tags:** iptv, analyzer, multicast, drops, streams, netoptimizer
+The following documentation is taken from the repository **README**.
 
 ---
 
-## Voorbeeldgebruik
-```yaml
-- hosts: all
-  become: true
-  roles:
-    - role: bsmeding.iptv_analyzer
-```
+Ansible role to install IPTV multicast analyzer   WARNING! CURRENLY IN DEV STATE DO NOT USE
 
----
+Original version from Jesper Dangaard Brouer - https://github.com/netoptimizer/IPTV-Analyzer stripped down, updated and written as Ansible role.
 
-## Opmerking
-Deze pagina is opgebouwd op basis van role-metadata (`meta/main.yml`) en gelijkgetrokken met de repository-structuur.
+MySQL / MariaDB inspired by: https://github.com/bertvv/ansible-role-mariadb
+
+
+#Prerequistics
+We use Grafana as frontend instead of perl version because better graphs and alert possibilities. The installation of Grafana is out of scope of this role. I recommend of using the Ansible role cloudalchemy.grafana to install Grafana (ansible-galaxy install cloudalchemy.grafana)

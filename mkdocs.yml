@@ -54,7 +54,6 @@ nav:
       - 'bsmeding.ollama': ansible/ansible_role_ollama.md
       - 'bsmeding.openwebui_docker': ansible/ansible_role_openwebui_docker.md
       - 'bsmeding.swag_docker': ansible/ansible_role_swag_docker.md
-      - 'bsmeding.tickg_stack_docker': ansible/ansible_role_tickg_stack_containers.md
       - 'bsmeding.tig_stack_docker': ansible/ansible_role_tig_stack_containers.md
       - 'bsmeding.webmin': ansible/ansible-role-webmin.md
   - Docker images:

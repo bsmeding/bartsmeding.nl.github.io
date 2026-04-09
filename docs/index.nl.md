@@ -20,7 +20,7 @@ Zoekt u **netwerkautomatisering**, **CI/CD voor infrastructuur**, of **opleiding
 
 ## Ervaring om op te bouwen
 
-We combineren jarenlange ervaring in **netwerkontwerp, engineering en operatie** met een sterke focus op **automatisering** (Ansible, Python, **AWX**, **GitLab CI/CD**, **Nautobot** als source of truth, device-automatisering bij gangbare leveranciers). We helpen organisaties **transformeren** van traditioneel netwerkbeheer naar **volledig geautomatiseerde** netwerken — zonder de operatie los te laten.
+We combineren jarenlange ervaring in **netwerkontwerp, engineering en operatie** met een sterke focus op **automatisering** (Ansible, Python, **AWX**, **Git**, **CI/CD**, **Nautobot** als source of truth, device-automatisering bij gangbare leveranciers). We helpen organisaties **transformeren** van traditioneel netwerkbeheer naar **volledig geautomatiseerde** netwerken — zonder de operatie los te laten.
 
 ---
 
@@ -33,8 +33,7 @@ We combineren jarenlange ervaring in **netwerkontwerp, engineering en operatie**
 | [Docker-images](docker_images.md) | CI/CD-images en applicatie-images die we bouwen en actueel houden. |
 | [Over](about.md) | Achtergrond, competenties, **contact** en hoe we met klanten werken. |
 
-**Artikelen, tutorials en bredere NetDevOps-content** staan op **[NetDevOps.it](https://netdevops.it/)** — deze site is uw **visitekaartje**: wat **b@rtsmeding IT** kan leveren, wat we onderhouden, en hoe u **contact** opneemt.
-
+**Artikelen, tutorials en bredere NetDevOps-content** staan op **[NetDevOps.it](https://netdevops.it/)**
 ---
 
 *[Netwerk- en infrastructuurautomatisering — advies, training en platforms waar teams met vertrouwen op kunnen draaien.]*
