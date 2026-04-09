@@ -46,7 +46,6 @@ nav:
       - 'bsmeding.docker': ansible/ansible_role_docker.md
       - 'bsmeding.gitea_runner': ansible/ansible_role_gitea_runner.md
       - 'bsmeding.gitlab_docker': ansible/ansible_role_gitlab_ce_docker.md
-      - 'bsmeding.install_development_workstation': ansible/ansible_role_install_development_workstation.md
       - 'bsmeding.iptv_analyzer': ansible/ansible_role_iptv_analyzer.md
       - 'bsmeding.librechat_docker': ansible/ansible_role_librechat_docker.md
       - 'bsmeding.nautobot_docker': ansible/ansible_role_nautobot_docker.md
@@ -54,7 +53,7 @@ nav:
       - 'bsmeding.ollama': ansible/ansible_role_ollama.md
       - 'bsmeding.openwebui_docker': ansible/ansible_role_openwebui_docker.md
       - 'bsmeding.swag_docker': ansible/ansible_role_swag_docker.md
-      - 'bsmeding.tig_stack_docker': ansible/ansible_role_tig_stack_containers.md
+      # - 'bsmeding.tig_stack_docker': ansible/ansible_role_tig_stack_containers.md
       - 'bsmeding.webmin': ansible/ansible-role-webmin.md
   - Docker images:
       - Docker overview: docker_images.md
