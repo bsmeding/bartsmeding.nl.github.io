@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ansible-role-webmin-bsmedingwebmin" class="md-skip">
+        <a href="#ansible-role-bsmedingwebmin" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -907,34 +907,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../ansible_role_tickg_stack_containers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tickg_stack_docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../ansible_role_tig_stack_containers/" class="md-nav__link">
         
   
@@ -972,24 +944,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.webmin
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1006,58 +960,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhoudsopgave
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Korte details
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Voorbeeldgebruik
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Opmerking
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1233,47 +1135,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhoudsopgave
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Korte details
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Voorbeeldgebruik
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Opmerking
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1292,30 +1153,53 @@
   
 
 
-<h1 id="ansible-role-webmin-bsmedingwebmin">Ansible-role: webmin (<code>bsmeding.webmin</code>)</h1>
-<p>Ansible role to install and configure Webmin.</p>
+<p><em>De technische inhoud hieronder is hetzelfde als de Engelse README in de Git-repository.</em></p>
+<hr />
+<h1 id="ansible-role-bsmedingwebmin">Ansible Role: <code>bsmeding.webmin</code></h1>
 <ul>
 <li><strong>GitHub:</strong> <a href="https://github.com/bsmeding/ansible-role-webmin">ansible-role-webmin</a></li>
 <li><strong>Ansible Galaxy:</strong> <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/webmin/">bsmeding.webmin</a></li>
 </ul>
+<p>The following documentation is taken from the repository <strong>README</strong>.</p>
 <hr />
-<h2 id="korte-details">Korte details</h2>
+<h1 id="ansible-role-webmin">Ansible Role: Webmin</h1>
+<p>Install and configure Webmin for:</p>
 <ul>
-<li><strong>Role-map:</strong> <code>ansible-role-webmin</code></li>
-<li><strong>Minimale Ansible-versie:</strong> <code>2.15</code></li>
-<li><strong>Ondersteunde platformen:</strong> Debian, Ubuntu, EL</li>
-<li><strong>Galaxy-tags:</strong> webmin, administration, system</li>
+<li>Debian (12/13)</li>
+<li>Ubuntu (22.04/24.04)</li>
+<li>Rocky Linux (9)</li>
 </ul>
-<hr />
-<h2 id="voorbeeldgebruik">Voorbeeldgebruik</h2>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>Ansible 2.15 or newer</li>
+</ul>
+<h2 id="role-variables">Role Variables</h2>
+<p>Defaults from <code>defaults/main.yml</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">webmin_listen</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;10000&quot;</span>
+<span class="nt">webmin_port</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;10000&quot;</span>
+<span class="nt">webmin_ssl</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1&quot;</span>
+<span class="nt">webmin_reverse_proxy_referer</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&quot;</span>
+</code></pre></div>
+<ul>
+<li><code>webmin_listen</code>: Webmin listen socket value in <code>miniserv.conf</code>.</li>
+<li><code>webmin_port</code>: Webmin TCP port.</li>
+<li><code>webmin_ssl</code>: <code>1</code> to enable TLS, <code>0</code> to disable.</li>
+<li><code>webmin_reverse_proxy_referer</code>: optional trusted reverse-proxy referer.</li>
+</ul>
+<h2 id="example-playbook">Example Playbook</h2>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all</span>
 <span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.webmin</span>
+<span class="w">      </span><span class="nt">vars</span><span class="p">:</span>
+<span class="w">        </span><span class="nt">webmin_port</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;10000&quot;</span>
+<span class="w">        </span><span class="nt">webmin_ssl</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1&quot;</span>
 </code></pre></div>
-<hr />
-<h2 id="opmerking">Opmerking</h2>
-<p>Deze pagina is opgebouwd op basis van role-metadata (<code>meta/main.yml</code>) en gelijkgetrokken met de repository-structuur.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Debian/Ubuntu install uses the official Webmin <code>newkey</code> APT repository.</li>
+<li>Rocky Linux install uses the official Webmin YUM repository.</li>
+</ul>
 
 
 

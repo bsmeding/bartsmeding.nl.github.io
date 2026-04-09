@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ansible-role-openwebui_docker-bsmedingopenwebui_docker" class="md-skip">
+        <a href="#ansible-role-bsmedingopenwebui_docker" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -911,10 +911,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Korte details
+        Requirements
       
     </span>
   </a>
@@ -922,10 +922,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
+  <a href="#role-variables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voorbeeldgebruik
+        Role Variables
       
     </span>
   </a>
@@ -933,10 +933,154 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
+  <a href="#health-check" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Opmerking
+        Health Check
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpu-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GPU Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-backends-ollama-openai-compatible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Backends (Ollama, OpenAI-compatible)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Backends (Ollama, OpenAI-compatible)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ollama-local-same-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ollama (local, same host)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ollama-on-another-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ollama on another host
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openai-compatible-api-openai-vllm-etc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenAI-compatible API (OpenAI, vLLM, etc.)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-openwebui__env-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common openwebui__env options
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Playbook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-host_vars-ollama-open-webui-external-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example host_vars (Ollama + Open WebUI, external access)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#no-such-column-userprofile_banner_image_url-or-similar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        no such column: user.profile_banner_image_url (or similar)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-apiconfig-http11-500" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GET /api/config HTTP/1.1" 500
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
       
     </span>
   </a>
@@ -967,34 +1111,6 @@
     
   
     bsmeding.swag_docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ansible_role_tickg_stack_containers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tickg_stack_docker
   
 
     
@@ -1240,10 +1356,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Korte details
+        Requirements
       
     </span>
   </a>
@@ -1251,10 +1367,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
+  <a href="#role-variables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voorbeeldgebruik
+        Role Variables
       
     </span>
   </a>
@@ -1262,10 +1378,154 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
+  <a href="#health-check" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Opmerking
+        Health Check
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpu-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GPU Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-backends-ollama-openai-compatible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Backends (Ollama, OpenAI-compatible)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Backends (Ollama, OpenAI-compatible)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ollama-local-same-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ollama (local, same host)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ollama-on-another-host" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ollama on another host
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openai-compatible-api-openai-vllm-etc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenAI-compatible API (OpenAI, vLLM, etc.)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-openwebui__env-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common openwebui__env options
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Playbook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-host_vars-ollama-open-webui-external-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example host_vars (Ollama + Open WebUI, external access)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#no-such-column-userprofile_banner_image_url-or-similar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        no such column: user.profile_banner_image_url (or similar)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-apiconfig-http11-500" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GET /api/config HTTP/1.1" 500
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
       
     </span>
   </a>
@@ -1292,30 +1552,231 @@
   
 
 
-<h1 id="ansible-role-openwebui_docker-bsmedingopenwebui_docker">Ansible-role: openwebui_docker (<code>bsmeding.openwebui_docker</code>)</h1>
-<p>Deploy Open WebUI (web interface for Ollama) via Docker container</p>
+<p><em>De technische inhoud hieronder is hetzelfde als de Engelse README in de Git-repository.</em></p>
+<hr />
+<h1 id="ansible-role-bsmedingopenwebui_docker">Ansible Role: <code>bsmeding.openwebui_docker</code></h1>
 <ul>
 <li><strong>GitHub:</strong> <a href="https://github.com/bsmeding/ansible_role_openwebui_docker">ansible_role_openwebui_docker</a></li>
 <li><strong>Ansible Galaxy:</strong> <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/openwebui_docker/">bsmeding.openwebui_docker</a></li>
 </ul>
+<p>The following documentation is taken from the repository <strong>README</strong>.</p>
 <hr />
-<h2 id="korte-details">Korte details</h2>
+<p>Deploys <a href="https://docs.openwebui.com/">Open WebUI</a> (web interface for Ollama) via Docker. Requires <code>bsmeding.docker</code> role run first.</p>
+<p>Source repository: <a href="https://github.com/bsmeding/ansbile_role_openwebui_docker">github.com/bsmeding/ansbile_role_openwebui_docker</a>.</p>
+<p>See the <a href="https://docs.openwebui.com/">Open WebUI documentation</a> for full reference.</p>
+<h2 id="requirements">Requirements</h2>
 <ul>
-<li><strong>Role-map:</strong> <code>ansible_role_openwebui_docker</code></li>
-<li><strong>Minimale Ansible-versie:</strong> <code>2.10</code></li>
-<li><strong>Ondersteunde platformen:</strong> Debian, Ubuntu, Fedora, Archlinux</li>
-<li><strong>Galaxy-tags:</strong> openwebui, ollama, llm, ai, webui</li>
+<li>Ollama installed and running (e.g. via <code>bsmeding.ollama</code> role)</li>
+<li>Docker (via <code>bsmeding.docker</code> role)</li>
+<li><code>community.docker</code> and <code>community.general</code> collections</li>
 </ul>
-<hr />
-<h2 id="voorbeeldgebruik">Voorbeeldgebruik</h2>
-<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all</span>
-<span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.openwebui_docker</span>
+<h2 id="role-variables">Role Variables</h2>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>openwebui__name</code></td>
+<td><code>open-webui</code></td>
+<td>Container name.</td>
+</tr>
+<tr>
+<td><code>openwebui__image</code></td>
+<td><code>ghcr.io/open-webui/open-webui:main</code></td>
+<td>Docker image.</td>
+</tr>
+<tr>
+<td><code>openwebui__home</code></td>
+<td><code>/opt/{{ openwebui__name }}</code></td>
+<td>Persistent data directory.</td>
+</tr>
+<tr>
+<td><code>openwebui__port</code></td>
+<td><code>8080</code></td>
+<td>WebUI listen port.</td>
+</tr>
+<tr>
+<td><code>openwebui__ollama_port</code></td>
+<td><code>11434</code></td>
+<td>Ollama API port (same host).</td>
+</tr>
+<tr>
+<td><code>openwebui__ollama_base_url</code></td>
+<td><code>http://host.docker.internal:{{ openwebui__ollama_port }}</code></td>
+<td>Ollama backend URL. Override when Ollama is on another host.</td>
+</tr>
+<tr>
+<td><code>openwebui__enable_persistent_config</code></td>
+<td><code>true</code></td>
+<td>When <code>false</code>, env vars override DB on every restart. Use to fix "backend required" if DB has wrong config.</td>
+</tr>
+<tr>
+<td><code>openwebui__auth</code></td>
+<td><code>false</code></td>
+<td>Require login. Set <code>true</code> for multi-user.</td>
+</tr>
+<tr>
+<td><code>openwebui__webui_url</code></td>
+<td><code>""</code></td>
+<td>Access URL for external access (e.g. <code>http://192.168.210.38:8080</code>).</td>
+</tr>
+<tr>
+<td><code>openwebui__cors_allow_origin</code></td>
+<td><code>""</code></td>
+<td>Semicolon-separated CORS origins. Auto-set from webui_url when set.</td>
+</tr>
+<tr>
+<td><code>openwebui__firewall_allow</code></td>
+<td><code>false</code></td>
+<td>Allow port in ufw when true.</td>
+</tr>
+<tr>
+<td><code>openwebui__env</code></td>
+<td><code>{}</code></td>
+<td>Additional env vars (merged last, overrides defaults).</td>
+</tr>
+<tr>
+<td><code>openwebui__remove_existing_container</code></td>
+<td><code>false</code></td>
+<td>Remove container before create.</td>
+</tr>
+<tr>
+<td><code>openwebui__remove_existing_home_dir</code></td>
+<td><code>false</code></td>
+<td><strong>DANGER</strong> Remove data dir (for tests only).</td>
+</tr>
+<tr>
+<td><code>openwebui__gpu</code></td>
+<td><code>false</code></td>
+<td>When <code>true</code>: use <code>:cuda</code> image and <code>--gpus all</code>.</td>
+</tr>
+<tr>
+<td><code>openwebui__gpu_image</code></td>
+<td><code>ghcr.io/open-webui/open-webui:cuda</code></td>
+<td>Image used when <code>openwebui__gpu</code> is true.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="health-check">Health Check</h2>
+<p>The Open WebUI Docker image includes a built-in <code>HEALTHCHECK</code>. When the container is healthy, <code>docker ps</code> shows <code>(healthy)</code>. No extra configuration needed.</p>
+<h2 id="gpu-support">GPU Support</h2>
+<p>For NVIDIA GPU support (e.g. embedding models, hybrid search), set <code>openwebui__gpu: true</code>. This will:</p>
+<ul>
+<li>Use the <code>:cuda</code> image instead of <code>:main</code></li>
+<li>Pass <code>--gpus all</code> to the container</li>
+</ul>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li><a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html">NVIDIA Container Toolkit</a> installed on the host</li>
+<li>Docker Engine on Linux (Docker Desktop on Linux/macOS does not support GPUs)</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre><span></span><code><span class="nt">openwebui__gpu</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
-<hr />
-<h2 id="opmerking">Opmerking</h2>
-<p>Deze pagina is opgebouwd op basis van role-metadata (<code>meta/main.yml</code>) en gelijkgetrokken met de repository-structuur.</p>
+<p>For custom GPU configuration, override <code>openwebui__device_requests</code>. See <a href="https://docs.ansible.com/ansible/latest/collections/community/docker/docker_container_module.html#parameter-device_requests">community.docker.docker_container</a>.</p>
+<h2 id="adding-backends-ollama-openai-compatible">Adding Backends (Ollama, OpenAI-compatible)</h2>
+<h3 id="ollama-local-same-host">Ollama (local, same host)</h3>
+<p>Ollama on the same host is configured by default via <code>OLLAMA_BASE_URL</code> → <code>http://host.docker.internal:11434</code>. No extra configuration needed if Ollama runs on port 11434.</p>
+<p>If you see "Open WebUI Backend required" or "Serve the WebUI from the backend":</p>
+<ol>
+<li><strong>Clear browser cache</strong> – This fixes the error in most cases. Hard refresh (Ctrl+Shift+R / Cmd+Shift+R) or clear cache for the site. The frontend may be cached from a previous broken state.</li>
+<li><strong>Reset persisted config</strong> – Set <code>openwebui__enable_persistent_config: false</code>, then re-run the playbook. Env vars will be read on every start.</li>
+<li>
+<p><strong>Or clear data and recreate</strong> (deletes all data):
+   <div class="highlight"><pre><span></span><code><span class="nt">openwebui__remove_existing_container</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">openwebui__remove_existing_home_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Or configure in Admin UI</strong> – Open WebUI → Admin → Connections → add Ollama with URL <code>http://host.docker.internal:11434</code> (or your Ollama URL).</p>
+</li>
+</ol>
+<h3 id="ollama-on-another-host">Ollama on another host</h3>
+<div class="highlight"><pre><span></span><code><span class="nt">openwebui__ollama_base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://192.168.1.50:11434&quot;</span>
+</code></pre></div>
+<h3 id="openai-compatible-api-openai-vllm-etc">OpenAI-compatible API (OpenAI, vLLM, etc.)</h3>
+<p>Add via <code>openwebui__env</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">openwebui__env</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">OPENAI_API_BASE</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://api.openai.com/v1&quot;</span>
+<span class="w">  </span><span class="c1"># OPENAI_API_KEY: &quot;sk-...&quot;  # if required</span>
+</code></pre></div>
+<p>Or configure in Admin → Connections after first login.</p>
+<h3 id="common-openwebui__env-options">Common <code>openwebui__env</code> options</h3>
+<table>
+<thead>
+<tr>
+<th>Env var</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OLLAMA_BASE_URL</code></td>
+<td>Ollama backend URL (also set via <code>openwebui__ollama_base_url</code>).</td>
+</tr>
+<tr>
+<td><code>OPENAI_API_BASE</code></td>
+<td>OpenAI-compatible API base URL.</td>
+</tr>
+<tr>
+<td><code>OPENAI_API_KEY</code></td>
+<td>API key for OpenAI/compatible services.</td>
+</tr>
+<tr>
+<td><code>ENABLE_PERSISTENT_CONFIG</code></td>
+<td><code>false</code> to always use env vars.</td>
+</tr>
+<tr>
+<td><code>WEBUI_URL</code></td>
+<td>Set via <code>openwebui__webui_url</code>.</td>
+</tr>
+<tr>
+<td><code>HF_TOKEN</code></td>
+<td>Hugging Face token (higher rate limits).</td>
+</tr>
+</tbody>
+</table>
+<p>See <a href="https://docs.openwebui.com/reference/env-configuration/">Open WebUI env configuration</a> for the full list.</p>
+<h2 id="example-playbook">Example Playbook</h2>
+<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ollama_servers</span>
+<span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.ollama</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.docker</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.openwebui_docker</span>
+</code></pre></div>
+<h2 id="example-host_vars-ollama-open-webui-external-access">Example host_vars (Ollama + Open WebUI, external access)</h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Ollama</span>
+<span class="nt">ollama__port</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">11434</span>
+<span class="nt">ollama__host</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.0.0.0</span>
+
+<span class="c1"># Open WebUI</span>
+<span class="nt">openwebui__ollama_port</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;11434&quot;</span>
+<span class="nt">openwebui__webui_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://192.168.210.38:8080&quot;</span>
+<span class="nt">openwebui__firewall_allow</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="c1"># Fix &quot;backend required&quot; when DB has old config:</span>
+<span class="c1"># openwebui__enable_persistent_config: false</span>
+</code></pre></div>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="no-such-column-userprofile_banner_image_url-or-similar"><code>no such column: user.profile_banner_image_url</code> (or similar)</h3>
+<p>The SQLite database schema is outdated (created by an older Open WebUI). Reset the data to run migrations on a fresh DB:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># In host_vars - ONE-TIME reset (deletes all users, chats, settings)</span>
+<span class="nt">openwebui__remove_existing_container</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">openwebui__remove_existing_home_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</code></pre></div>
+<p>Run the playbook once, then set both back to <code>false</code>. Or manually on the host:</p>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>stop<span class="w"> </span>open-webui<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>docker<span class="w"> </span>rm<span class="w"> </span>open-webui
+rm<span class="w"> </span>-rf<span class="w"> </span>/opt/open-webui/*
+</code></pre></div>
+<p>Then re-run the playbook (without remove_existing, so it creates a fresh container).</p>
+<h3 id="get-apiconfig-http11-500"><code>GET /api/config HTTP/1.1" 500</code></h3>
+<p>Usually caused by the database schema mismatch above. Same fix: reset data directory.</p>
+<h2 id="license">License</h2>
+<p>MIT</p>
 
 
 

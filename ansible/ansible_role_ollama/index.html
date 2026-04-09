@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ansible-role-ollama-bsmedingollama" class="md-skip">
+        <a href="#ansible-role-bsmedingollama" class="md-skip">
           Skip to content
         </a>
       
@@ -883,10 +883,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-details" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick details
+        Requirements
       
     </span>
   </a>
@@ -894,10 +894,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-usage" class="md-nav__link">
+  <a href="#role-variables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example usage
+        Role Variables
       
     </span>
   </a>
@@ -905,10 +905,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#example-playbook" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        Example Playbook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpu-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GPU Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-Install
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Author Information
       
     </span>
   </a>
@@ -967,34 +1011,6 @@
     
   
     bsmeding.swag_docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ansible_role_tickg_stack_containers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tickg_stack_docker
   
 
     
@@ -1240,10 +1256,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-details" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick details
+        Requirements
       
     </span>
   </a>
@@ -1251,10 +1267,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-usage" class="md-nav__link">
+  <a href="#role-variables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example usage
+        Role Variables
       
     </span>
   </a>
@@ -1262,10 +1278,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#example-playbook" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        Example Playbook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpu-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GPU Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-Install
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Author Information
       
     </span>
   </a>
@@ -1292,30 +1352,104 @@
   
 
 
-<h1 id="ansible-role-ollama-bsmedingollama">Ansible Role: ollama (<code>bsmeding.ollama</code>)</h1>
-<p>Deploy Ollama on Linux (local LLM inference server)</p>
+<h1 id="ansible-role-bsmedingollama">Ansible Role: <code>bsmeding.ollama</code></h1>
 <ul>
 <li><strong>GitHub:</strong> <a href="https://github.com/bsmeding/ansible_role_ollama">ansible_role_ollama</a></li>
 <li><strong>Ansible Galaxy:</strong> <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/ollama/">bsmeding.ollama</a></li>
 </ul>
+<p>The following documentation is taken from the repository <strong>README</strong>.</p>
 <hr />
-<h2 id="quick-details">Quick details</h2>
+<p><img alt="test status" src="https://github.com/bsmeding/ansible_role_ollama/actions/workflows/ci.yml/badge.svg" /></p>
+<p>This role deploys <a href="https://ollama.com">Ollama</a> on a Linux server using the official installation script. Ollama runs local LLMs (Llama, Mistral, etc.) for inference.</p>
+<h2 id="requirements">Requirements</h2>
 <ul>
-<li><strong>Role directory:</strong> <code>ansible_role_ollama</code></li>
-<li><strong>Minimum Ansible version:</strong> <code>2.10</code></li>
-<li><strong>Supported platforms:</strong> Fedora, Debian, Ubuntu, EL</li>
-<li><strong>Galaxy tags:</strong> ollama, llm, ai, inference</li>
+<li>Linux (Debian, Ubuntu, RHEL, Fedora, Arch)</li>
+<li>systemd (for service management)</li>
+<li>curl, zstd (installed by the role when <code>ollama__install_prerequisites</code> is true)</li>
 </ul>
-<hr />
-<h2 id="example-usage">Example usage</h2>
-<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all</span>
-<span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<h2 id="role-variables">Role Variables</h2>
+<p>Available variables are listed below, along with default values (see <code>defaults/main.yml</code>):</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ollama__skip_setup</code></td>
+<td><code>false</code></td>
+<td>When true, setup is skipped.</td>
+</tr>
+<tr>
+<td><code>ollama__version</code></td>
+<td><code>''</code></td>
+<td>Pin Ollama version (e.g., <code>0.5.7</code>). Empty = latest.</td>
+</tr>
+<tr>
+<td><code>ollama__install_prerequisites</code></td>
+<td><code>true</code></td>
+<td>Install curl and zstd before running the install script.</td>
+</tr>
+<tr>
+<td><code>ollama__state</code></td>
+<td><code>started</code></td>
+<td>Service state: <code>started</code>, <code>stopped</code>, or <code>restarted</code>.</td>
+</tr>
+<tr>
+<td><code>ollama__enabled</code></td>
+<td><code>true</code></td>
+<td>Enable the ollama service at boot.</td>
+</tr>
+<tr>
+<td><code>ollama__host</code></td>
+<td><code>127.0.0.1</code></td>
+<td>Bind address (use <code>0.0.0.0</code> for remote access).</td>
+</tr>
+<tr>
+<td><code>ollama__port</code></td>
+<td><code>11434</code></td>
+<td>API listening port.</td>
+</tr>
+<tr>
+<td><code>ollama__models</code></td>
+<td><code>[]</code></td>
+<td>List of models to pull (e.g., <code>['llama3.2', 'mistral', 'codellama']</code>).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="example-playbook">Example Playbook</h2>
+<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ollama_servers</span>
 <span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.ollama</span>
+<span class="w">      </span><span class="nt">vars</span><span class="p">:</span>
+<span class="w">        </span><span class="nt">ollama__version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0.5.7&quot;</span><span class="w">  </span><span class="c1"># optional: pin version</span>
+<span class="w">        </span><span class="nt">ollama__enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">        </span><span class="nt">ollama__port</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">11435</span><span class="w">  </span><span class="c1"># optional: custom port</span>
+<span class="w">        </span><span class="nt">ollama__host</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.0.0.0</span><span class="w">  </span><span class="c1"># optional: bind to all interfaces for remote access</span>
+<span class="w">        </span><span class="nt">ollama__models</span><span class="p">:</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">llama3.2</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mistral</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">codellama</span>
 </code></pre></div>
-<hr />
-<h2 id="notes">Notes</h2>
-<p>This page is generated from role metadata (<code>meta/main.yml</code>) and kept in sync with the repository layout.</p>
+<p>For Open WebUI (web interface), use the separate <code>bsmeding.openwebui</code> role.</p>
+<h2 id="gpu-support">GPU Support</h2>
+<p>The official install script automatically detects and configures:</p>
+<ul>
+<li><strong>NVIDIA GPU</strong>: Installs CUDA drivers when detected.</li>
+<li><strong>AMD GPU</strong>: Downloads and installs ROCm-enabled Ollama build.</li>
+<li><strong>CPU-only</strong>: Runs in CPU mode when no GPU is detected.</li>
+</ul>
+<h2 id="post-install">Post-Install</h2>
+<p>After deployment, the Ollama API is available at <code>http://&lt;host&gt;:&lt;port&gt;</code> (default: <code>http://127.0.0.1:11434</code>). Use <code>ollama__host</code> and <code>ollama__port</code> to customize. Models listed in <code>ollama__models</code> are pulled automatically; you can also pull additional models manually:</p>
+<div class="highlight"><pre><span></span><code>ollama<span class="w"> </span>pull<span class="w"> </span>llama3.2
+</code></pre></div>
+<h2 id="license">License</h2>
+<p>MIT</p>
+<h2 id="author-information">Author Information</h2>
+<p>This role was created by Bart Smeding.</p>
 
 
 

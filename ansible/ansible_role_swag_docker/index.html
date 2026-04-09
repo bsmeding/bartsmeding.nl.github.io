@@ -18,7 +18,7 @@
         <link rel="prev" href="../ansible_role_openwebui_docker/">
       
       
-        <link rel="next" href="../ansible_role_tickg_stack_containers/">
+        <link rel="next" href="../ansible_role_tig_stack_containers/">
       
       
         
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ansible-role-swag_docker-bsmedingswag_docker" class="md-skip">
+        <a href="#ansible-role-bsmedingswag_docker" class="md-skip">
           Skip to content
         </a>
       
@@ -939,10 +939,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-details" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick details
+        Requirements
       
     </span>
   </a>
@@ -950,10 +950,104 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-usage" class="md-nav__link">
+  <a href="#role-variables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example usage
+        Role Variables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Role Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#container-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swag-letsencrypt-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SWAG / LetsEncrypt Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cloudflare-configuration-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloudflare Configuration (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tailscale-real-ip-configuration-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tailscale Real IP Configuration (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tailscale-device-persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tailscale Device Persistence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverse-proxy-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Proxy Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Playbook
       
     </span>
   </a>
@@ -961,10 +1055,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#license" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Author Information
       
     </span>
   </a>
@@ -975,34 +1080,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ansible_role_tickg_stack_containers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tickg_stack_docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1240,10 +1317,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-details" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick details
+        Requirements
       
     </span>
   </a>
@@ -1251,10 +1328,104 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-usage" class="md-nav__link">
+  <a href="#role-variables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example usage
+        Role Variables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Role Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#container-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swag-letsencrypt-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SWAG / LetsEncrypt Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cloudflare-configuration-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloudflare Configuration (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tailscale-real-ip-configuration-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tailscale Real IP Configuration (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tailscale-device-persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tailscale Device Persistence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverse-proxy-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Proxy Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Playbook
       
     </span>
   </a>
@@ -1262,10 +1433,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#license" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Author Information
       
     </span>
   </a>
@@ -1292,30 +1474,279 @@
   
 
 
-<h1 id="ansible-role-swag_docker-bsmedingswag_docker">Ansible Role: swag_docker (<code>bsmeding.swag_docker</code>)</h1>
-<p>Secure Web Application Gateway (SWAG) running in docker container</p>
+<h1 id="ansible-role-bsmedingswag_docker">Ansible Role: <code>bsmeding.swag_docker</code></h1>
 <ul>
 <li><strong>GitHub:</strong> <a href="https://github.com/bsmeding/ansible_role_swag_docker">ansible_role_swag_docker</a></li>
 <li><strong>Ansible Galaxy:</strong> <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/swag_docker/">bsmeding.swag_docker</a></li>
 </ul>
+<p>The following documentation is taken from the repository <strong>README</strong>.</p>
 <hr />
-<h2 id="quick-details">Quick details</h2>
+<p>This role sets up the <a href="https://docs.linuxserver.io/images/docker-swag">SWAG</a> (Secure Web Application Gateway) container using Ansible. SWAG is a full-fledged Nginx web server and reverse proxy with LetsEncrypt/ZeroSSL built-in, php8, fail2ban, and more.</p>
+<h2 id="requirements">Requirements</h2>
 <ul>
-<li><strong>Role directory:</strong> <code>ansible_role_swag_docker</code></li>
-<li><strong>Minimum Ansible version:</strong> <code>2.10</code></li>
-<li><strong>Supported platforms:</strong> Fedora, Debian, Ubuntu, Alpine, ArchLinux</li>
-<li><strong>Galaxy tags:</strong> web, system, nginx, letsencrypt, swag, docker</li>
+<li>Docker must be installed on the target host (see Ansible role <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/docker/">bsmeding.docker</a>).</li>
+<li><code>community.docker</code> Ansible collection.</li>
 </ul>
-<hr />
-<h2 id="example-usage">Example usage</h2>
-<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all</span>
-<span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<h2 id="role-variables">Role Variables</h2>
+<p>Available variables are listed below, along with default values (see <code>defaults/main.yml</code>):</p>
+<h3 id="container-configuration">Container Configuration</h3>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>swag__name</code></td>
+<td><code>swag</code></td>
+<td>Name of the container.</td>
+</tr>
+<tr>
+<td><code>swag__image</code></td>
+<td><code>lscr.io/linuxserver/swag</code></td>
+<td>Docker image to use.</td>
+</tr>
+<tr>
+<td><code>swag__pull_image</code></td>
+<td><code>true</code></td>
+<td>Pull the image before creating the container.</td>
+</tr>
+<tr>
+<td><code>swag__port_http</code></td>
+<td><code>80</code></td>
+<td>Host port to map to container port 80.</td>
+</tr>
+<tr>
+<td><code>swag__port_https</code></td>
+<td><code>443</code></td>
+<td>Host port to map to container port 443.</td>
+</tr>
+<tr>
+<td><code>swag__network</code></td>
+<td><code>proxy</code></td>
+<td>Name of the Docker network for SWAG.</td>
+</tr>
+<tr>
+<td><code>swag__network_cidr</code></td>
+<td><code>172.16.81.0/26</code></td>
+<td>CIDR for the SWAG network.</td>
+</tr>
+<tr>
+<td><code>swag__network_mode</code></td>
+<td><code>default</code></td>
+<td>Docker network mode (<code>default</code>, <code>bridge</code>, <code>host</code>, etc.).</td>
+</tr>
+<tr>
+<td><code>swag__home</code></td>
+<td><code>/opt/{{ swag__name }}</code></td>
+<td>Host directory for persistent data.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="swag-letsencrypt-configuration">SWAG / LetsEncrypt Configuration</h3>
+<p><strong>Note:</strong> By default, this role configures SWAG in <strong>Staging</strong> mode with <strong>No Validation</strong> (no SSL/ACME) to prevent accidental rate-limiting during testing. You <strong>must</strong> set <code>swag__email</code> and <code>swag__validation</code> (and set <code>swag__staging: false</code>) for production use.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>swag__url</code></td>
+<td><code>example.com</code></td>
+<td>The top-level domain for your server.</td>
+</tr>
+<tr>
+<td><code>swag__subdomains</code></td>
+<td><code>www</code></td>
+<td>Subdomains to include in the cert.</td>
+</tr>
+<tr>
+<td><code>swag__validation</code></td>
+<td><code>''</code> (Empty)</td>
+<td>Validation method (<code>http</code>, <code>dns</code>, <code>duckdns</code>). Leave empty to disable ACME.</td>
+</tr>
+<tr>
+<td><code>swag__email</code></td>
+<td><code>''</code> (Empty)</td>
+<td>Email address for LetsEncrypt registration. Leave empty to disable ACME.</td>
+</tr>
+<tr>
+<td><code>swag__staging</code></td>
+<td><code>true</code></td>
+<td>Use LetsEncrypt staging server. Set to <code>false</code> for production.</td>
+</tr>
+<tr>
+<td><code>swag__only_subdomains</code></td>
+<td><code>false</code></td>
+<td>If true, the root domain will not be included in the cert.</td>
+</tr>
+<tr>
+<td><code>swag__certprovider</code></td>
+<td><code>omit</code></td>
+<td>Certificate provider (<code>letsencrypt</code> or <code>zerossl</code>).</td>
+</tr>
+<tr>
+<td><code>swag__dnsplugin</code></td>
+<td><code>omit</code></td>
+<td>DNS plugin for DNS validation (e.g., <code>cloudflare</code>).</td>
+</tr>
+<tr>
+<td><code>swag__docker_mods</code></td>
+<td><code>linuxserver/mods:swag-cloudflare-real-ip</code></td>
+<td>Docker mods to apply (e.g., for Cloudflare real IP).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cloudflare-configuration-optional">Cloudflare Configuration (Optional)</h3>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>swag__cloudflare_api_token</code></td>
+<td><code>omit</code></td>
+<td>API Token for Cloudflare DNS validation.</td>
+</tr>
+<tr>
+<td><code>swag__cloudflare_zone_id</code></td>
+<td><code>omit</code></td>
+<td>Cloudflare Zone ID.</td>
+</tr>
+<tr>
+<td><code>swag__cloudflare_account_id</code></td>
+<td><code>omit</code></td>
+<td>Cloudflare Account ID.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tailscale-real-ip-configuration-optional">Tailscale Real IP Configuration (Optional)</h3>
+<p>When accessing SWAG through Tailscale, nginx may see all requests as coming from <code>127.0.0.1</code> instead of the real Tailscale client IP. This causes ACL (access control list) rules to fail. Enable Tailscale real IP support to extract the real client IP from Tailscale traffic.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>swag__enable_tailscale_real_ip</code></td>
+<td><code>false</code></td>
+<td>Enable Tailscale real IP extraction. When enabled, automatically includes Tailscale real IP configuration in all generated proxy configs.</td>
+</tr>
+<tr>
+<td><code>swag__tailscale_network_cidr</code></td>
+<td><code>100.0.0.0/8</code></td>
+<td>Tailscale network CIDR range. Change only if using a custom Tailscale network range.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> When <code>swag__enable_tailscale_real_ip</code> is set to <code>true</code>:
+- <strong>Template-generated configs</strong>: All proxy configs generated from <code>swag__proxy_confs_subdomain</code> using the <code>template_subdomain.conf.j2</code> template will automatically include the Tailscale real IP configuration. No manual intervention needed.
+- <strong>Static/manual config files</strong>: Proxy config files that are manually created or copied from <code>files/nginx/proxy-confs/</code> (not generated from the template) must be manually updated to include the Tailscale real IP configuration. Add the following lines to each server block, right after the <code>server_name</code> directive:
+  <div class="highlight"><pre><span></span><code><span class="k">server_name</span><span class="w"> </span><span class="s">your-domain.com</span><span class="p">;</span>
+
+<span class="c1"># Tailscale Real IP Configuration</span>
+<span class="k">include</span><span class="w"> </span><span class="n">/config/nginx/tailscale-real-ip.conf</span>;
+
+<span class="c1"># ... rest of config</span>
+</code></pre></div></p>
+<p><strong>Important:</strong> The Tailscale real IP configuration trusts both the Tailscale network (<code>100.0.0.0/8</code>) and localhost (<code>127.0.0.1</code>) to extract the real client IP from the <code>X-Forwarded-For</code> header. However, if Tailscale's docker mod doesn't set the <code>X-Forwarded-For</code> header, you may still see <code>127.0.0.1</code> in logs. In that case, you may need to:</p>
+<ol>
+<li>Check if traffic is actually coming from a Tailscale IP (<code>100.x.x.x</code>) by examining nginx access logs with <code>$remote_addr</code></li>
+<li>Ensure your ACL rules include <code>allow 127.0.0.1/32;</code> if Tailscale forwards traffic via localhost</li>
+<li>Consider using Tailscale's <code>TAILSCALE_SERVE_MODE</code> and <code>TAILSCALE_SERVE_PORT</code> environment variables to configure how Tailscale forwards traffic</li>
+</ol>
+<p>This allows nginx to extract the real client IP from the <code>X-Forwarded-For</code> header for Tailscale traffic, enabling ACL rules to work correctly.</p>
+<h3 id="tailscale-device-persistence">Tailscale Device Persistence</h3>
+<p>To prevent Tailscale from creating a new device entry every time the SWAG container is redeployed:</p>
+<ol>
+<li><strong>Use a Reusable Auth Key</strong> (CRITICAL): This is the most important step. Create a reusable auth key in the Tailscale admin console:</li>
+<li>Go to <a href="https://login.tailscale.com/admin/settings/keys">Tailscale Admin Console</a></li>
+<li>Click "Generate auth key"</li>
+<li><strong>Check the "Reusable" checkbox</strong> (this is essential!)</li>
+<li>Optionally check "Preauthorized" to skip manual approval</li>
+<li>Copy the key and update <code>TAILSCALE_AUTHKEY</code> in <code>swag__env</code></li>
+</ol>
+<p><strong>Warning</strong>: Ephemeral (one-time) keys will cause a new device to be created on each container restart, even if the state directory is persisted.</p>
+<ol>
+<li>
+<p><strong>Set Consistent Hostname</strong>: Ensure <code>TAILSCALE_HOSTNAME</code> is set to a consistent value (e.g., <code>proxy</code>) in <code>swag__env</code>:
+   <div class="highlight"><pre><span></span><code><span class="nt">swag__env</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">TAILSCALE_HOSTNAME</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">proxy</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Persist Tailscale State</strong>: The role automatically creates <code>{{ swag__home }}/tailscale</code> directory and mounts it to <code>/var/lib/tailscale</code> in the container. Ensure this volume is included in <code>swag__directory_volumes</code>:
+   <div class="highlight"><pre><span></span><code><span class="nt">swag__directory_volumes</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;{{</span><span class="nv"> </span><span class="s">swag__home</span><span class="nv"> </span><span class="s">}}/config:/config&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;{{</span><span class="nv"> </span><span class="s">swag__home</span><span class="nv"> </span><span class="s">}}/tailscale:/var/lib/tailscale&quot;</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Verify State Persistence</strong>: After the first container start, verify that Tailscale state files are created:
+   <div class="highlight"><pre><span></span><code>ls<span class="w"> </span>-la<span class="w"> </span>/opt/swag/tailscale/
+</code></pre></div>
+   You should see files like <code>tailscaled.state</code> and other state files. If the directory is empty after the first run, check container logs for Tailscale errors.</p>
+</li>
+</ol>
+<p><strong>Troubleshooting Device Re-registration:</strong></p>
+<p>If a new device is still created on each redeploy:
+- Verify the auth key is reusable: Check in Tailscale admin console under Settings → Keys
+- Check that <code>/opt/swag/tailscale/</code> contains state files (especially <code>tailscaled.state</code>)
+- Ensure the volume mount is working: <code>docker inspect swag | grep -A 10 Mounts</code>
+- Check Tailscale logs: <code>docker logs swag | grep -i tailscale</code>
+- Delete old device entries in Tailscale admin console to avoid clutter</p>
+<p>The Tailscale state directory (<code>{{ swag__home }}/tailscale</code>) is automatically created by the role to ensure state persistence across container redeployments.</p>
+<h3 id="reverse-proxy-configuration">Reverse Proxy Configuration</h3>
+<p>This role can automatically create Nginx proxy configuration files for subdomains.</p>
+<p><code>swag__proxy_confs_subdomain</code> is a list of dictionaries:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">swag__proxy_confs_subdomain</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">server_name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;plex&quot;</span>
+<span class="w">    </span><span class="c1"># Additional template variables if needed</span>
+</code></pre></div>
+<p>This will create <code>plex.subdomain.conf</code> in the <code>proxy-confs</code> directory using the template.</p>
+<h3 id="advanced-configuration">Advanced Configuration</h3>
+<ul>
+<li><code>swag__default_env</code>: Default environment variables (PUID/PGID, TZ, etc.).</li>
+<li><code>swag__env</code>: Custom environment variables to merge/override.</li>
+<li><code>docker_uid</code>: UID for the user inside the container (default: 1040).</li>
+<li><code>docker_gid</code>: GID for the group inside the container (default: 1001).</li>
+</ul>
+<h2 id="example-playbook">Example Playbook</h2>
+<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">servers</span>
 <span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.swag_docker</span>
+<span class="w">      </span><span class="nt">vars</span><span class="p">:</span>
+<span class="w">        </span><span class="nt">swag__url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;mydomain.com&quot;</span>
+<span class="w">        </span><span class="nt">swag__validation</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http&quot;</span>
+<span class="w">        </span><span class="nt">swag__email</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;admin@mydomain.com&quot;</span>
+<span class="w">        </span><span class="nt">swag__staging</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">        </span><span class="nt">swag__enable_tailscale_real_ip</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">  </span><span class="c1"># Enable Tailscale real IP support</span>
+<span class="w">        </span><span class="nt">swag__proxy_confs_subdomain</span><span class="p">:</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">server_name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;whoami&quot;</span>
+<span class="w">            </span><span class="nt">listen</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">443</span>
+<span class="w">            </span><span class="nt">acl</span><span class="p">:</span>
+<span class="w">              </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;allow</span><span class="nv"> </span><span class="s">100.0.0.0/8&#39;</span><span class="w">  </span><span class="c1"># Tailscale network</span>
+<span class="w">              </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;deny</span><span class="nv"> </span><span class="s">all&#39;</span>
 </code></pre></div>
-<hr />
-<h2 id="notes">Notes</h2>
-<p>This page is generated from role metadata (<code>meta/main.yml</code>) and kept in sync with the repository layout.</p>
+<h2 id="license">License</h2>
+<p>MIT</p>
+<h2 id="author-information">Author Information</h2>
+<p>This role was created by Bart Smeding.</p>
 
 
 

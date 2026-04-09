@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ansible-role-install_development_workstation-bsmedinginstall_development_workstation" class="md-skip">
+        <a href="#ansible-role-bsmedinginstall_development_workstation" class="md-skip">
           Skip to content
         </a>
       
@@ -743,10 +743,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-details" class="md-nav__link">
+  <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick details
+        Features
       
     </span>
   </a>
@@ -754,10 +754,443 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-usage" class="md-nav__link">
+  <a href="#what-gets-installed" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example usage
+        What Gets Installed
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Gets Installed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-both-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common (Both Platforms)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-the-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install the Role
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-your-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Your Playbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-the-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run the Playbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-run-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Run Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Customization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#method-1-variables-in-your-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 1: Variables in Your Playbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-2-using-host_vars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 2: Using host_vars
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-3-using-group_vars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 3: Using group_vars
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-your-preferred-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choosing Your Preferred Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terminal-emulators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminal Emulators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editor-extensions-vscode-cursor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editor Extensions (VSCode &amp; Cursor)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shell-aliases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shell Aliases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos-dock-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS Dock Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-etchosts-entries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing /etc/hosts Entries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-adding-a-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example: Adding a Package
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example: Adding a Package">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos-homebrew" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS (Homebrew)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu-apt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu (APT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#testing-without-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing Without Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-specific-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running Specific Tasks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verbose-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verbose Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-Installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Post-Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project Structure
       
     </span>
   </a>
@@ -765,10 +1198,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#contributing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        Contributing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Author
       
     </span>
   </a>
@@ -967,34 +1455,6 @@
     
   
     bsmeding.swag_docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ansible_role_tickg_stack_containers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tickg_stack_docker
   
 
     
@@ -1240,10 +1700,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-details" class="md-nav__link">
+  <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick details
+        Features
       
     </span>
   </a>
@@ -1251,10 +1711,443 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-usage" class="md-nav__link">
+  <a href="#what-gets-installed" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example usage
+        What Gets Installed
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Gets Installed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-both-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common (Both Platforms)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-the-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install the Role
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-your-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Your Playbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-the-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run the Playbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-run-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Run Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Customization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#method-1-variables-in-your-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 1: Variables in Your Playbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-2-using-host_vars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 2: Using host_vars
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-3-using-group_vars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 3: Using group_vars
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-your-preferred-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choosing Your Preferred Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terminal-emulators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminal Emulators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editor-extensions-vscode-cursor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editor Extensions (VSCode &amp; Cursor)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shell-aliases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shell Aliases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos-dock-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS Dock Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-etchosts-entries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing /etc/hosts Entries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-adding-a-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example: Adding a Package
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example: Adding a Package">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos-homebrew" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS (Homebrew)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu-apt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu (APT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#testing-without-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing Without Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-specific-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running Specific Tasks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verbose-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verbose Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-Installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Post-Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#macos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        macOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubuntu_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubuntu
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project Structure
       
     </span>
   </a>
@@ -1262,10 +2155,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#contributing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        Contributing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#author" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Author
       
     </span>
   </a>
@@ -1292,30 +2240,472 @@
   
 
 
-<h1 id="ansible-role-install_development_workstation-bsmedinginstall_development_workstation">Ansible Role: install_development_workstation (<code>bsmeding.install_development_workstation</code>)</h1>
-<p>Set up a development workstation on macOS and Ubuntu with comprehensive development tools</p>
+<h1 id="ansible-role-bsmedinginstall_development_workstation">Ansible Role: <code>bsmeding.install_development_workstation</code></h1>
 <ul>
 <li><strong>GitHub:</strong> <a href="https://github.com/bsmeding/ansible_role_install_development_workstation">ansible_role_install_development_workstation</a></li>
 <li><strong>Ansible Galaxy:</strong> <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/install_development_workstation/">bsmeding.install_development_workstation</a></li>
 </ul>
+<p>The following documentation is taken from the repository <strong>README</strong>.</p>
 <hr />
-<h2 id="quick-details">Quick details</h2>
+<p>An Ansible playbook to set up a development workstation on both <strong>macOS</strong> and <strong>Ubuntu</strong> systems with comprehensive development tools and packages.</p>
+<p>Inspired by <a href="https://github.com/geerlingguy/mac-dev-playbook">Jeff Geerling's mac-dev-playbook</a>. But as I use a Mac AND Ubuntu for development I want to have same setup on both machines. This Ansilbe Role will install and setup those systems almost the same.</p>
+<h2 id="features">Features</h2>
+<p>✅ <strong>Cross-Platform</strong>: Works on macOS (Intel &amp; Apple Silicon) and Ubuntu<br />
+✅ <strong>Comprehensive</strong>: Installs essential development tools, languages, and utilities<br />
+✅ <strong>Modular</strong>: OS-specific tasks separated for easy maintenance<br />
+✅ <strong>Customizable</strong>: Easy to add/remove packages via configuration files<br />
+✅ <strong>Automated</strong>: Minimal manual intervention required  </p>
+<h2 id="what-gets-installed">What Gets Installed</h2>
+<h3 id="macos">macOS</h3>
 <ul>
-<li><strong>Role directory:</strong> <code>ansible_role_install_development_workstation</code></li>
-<li><strong>Minimum Ansible version:</strong> <code>2.9</code></li>
-<li><strong>Supported platforms:</strong> MacOSX, Ubuntu, Debian</li>
-<li><strong>Galaxy tags:</strong> development, workstation, macos, ubuntu, docker, python, nodejs, vscode, cursor, homebrew, setup, devops, containers</li>
+<li><strong>Package Manager</strong>: Homebrew (auto-installed)</li>
+<li><strong>Languages</strong>: Python, Node.js, Go, Ruby</li>
+<li><strong>Cloud Tools</strong>: OpenTofu, AWS CLI, Azure CLI</li>
+<li><strong>Containers</strong>: Docker Desktop, Docker Compose, Kubernetes CLI, Containerlab</li>
+<li><strong>Databases</strong>: PostgreSQL, MySQL clients</li>
+<li><strong>Editors</strong>: VSCode (with extensions), Cursor AI, Vim, Nano, Neovim, Emacs</li>
+<li><strong>Terminal Emulators</strong>: iTerm2 (with SSH handler), Ghostty</li>
+<li><strong>Utilities</strong>: git, tmux, jq, fzf, ripgrep, htop, and many more</li>
+<li><strong>Applications</strong>: Postman, GitHub Desktop, Slack, Chrome, Firefox</li>
+<li><strong>Dock Management</strong>: Automatically configure macOS Dock with your preferred apps</li>
 </ul>
-<hr />
-<h2 id="example-usage">Example usage</h2>
-<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all</span>
-<span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.install_development_workstation</span>
+<blockquote>
+<p><strong>Note:</strong> Some apps (OneDrive, TeamViewer) require manual installation due to system-level permissions. These are commented out in defaults but can be installed afterward with <code>brew install --cask &lt;app&gt;</code>.</p>
+</blockquote>
+<h3 id="ubuntu">Ubuntu</h3>
+<ul>
+<li><strong>Languages</strong>: Python 3, Node.js 20.x</li>
+<li><strong>Containers</strong>: Docker CE, Docker Compose, Containerlab</li>
+<li><strong>Cloud Storage</strong>: rclone (supports OneDrive, Google Drive, Dropbox, S3, and 40+ providers)</li>
+<li><strong>Databases</strong>: PostgreSQL, MySQL clients</li>
+<li><strong>Build Tools</strong>: gcc, g++, make, cmake, build-essential</li>
+<li><strong>Editors</strong>: VSCode (with extensions), Vim, Nano, Neovim, Emacs</li>
+<li><strong>Terminal Emulators</strong>: Terminator, Tilix</li>
+<li><strong>Utilities</strong>: git, tmux, jq, ripgrep, bat, htop, and many more</li>
+</ul>
+<h3 id="common-both-platforms">Common (Both Platforms)</h3>
+<ul>
+<li><strong>Python Packages</strong>: ansible, boto3, pytest, black, flake8, pylint, and more</li>
+<li><strong>Editor Extensions</strong>: Installed to both VSCode and Cursor</li>
+<li>Python, Black Formatter, Docker, Remote SSH, Kubernetes, GitLens, Prettier, ESLint, and more</li>
+<li><strong>Shell</strong>: zsh configured as default with custom configuration</li>
+<li><strong>Shell Aliases</strong>: 60+ productivity aliases for git, docker, kubernetes, and more</li>
+<li><strong>Ansible Configuration</strong>: User-level ansible.cfg with best practices</li>
+<li><strong>/etc/hosts Management</strong>: Custom host entries for development</li>
+<li><strong>Customizable</strong>: Override any setting via variables in your playbook</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<h4 id="macos_1">macOS</h4>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. Install Xcode Command Line Tools</span>
+xcode-select<span class="w"> </span>--install
+
+<span class="c1"># 2. Install Ansible</span>
+pip3<span class="w"> </span>install<span class="w"> </span>ansible
 </code></pre></div>
-<hr />
-<h2 id="notes">Notes</h2>
-<p>This page is generated from role metadata (<code>meta/main.yml</code>) and kept in sync with the repository layout.</p>
+<h4 id="ubuntu_1">Ubuntu</h4>
+<div class="highlight"><pre><span></span><code><span class="c1"># Install Ansible</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>ansible<span class="w"> </span>python3-pip
+</code></pre></div>
+<h3 id="install-the-role">Install the Role</h3>
+<p><strong>Option 1: Install from Ansible Galaxy</strong> (Recommended)
+<div class="highlight"><pre><span></span><code>ansible-galaxy<span class="w"> </span>role<span class="w"> </span>install<span class="w"> </span>bsmeding.install_development_workstation
+</code></pre></div></p>
+<p><strong>Option 2: Install from GitHub</strong>
+<div class="highlight"><pre><span></span><code>ansible-galaxy<span class="w"> </span>role<span class="w"> </span>install<span class="w"> </span>git+https://github.com/bsmeding/ansible_role_install_development_workstation.git
+</code></pre></div></p>
+<h3 id="create-your-playbook">Create Your Playbook</h3>
+<p>Create a playbook file (e.g., <code>setup.yml</code>):</p>
+<div class="highlight"><pre><span></span><code><span class="nn">---</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Setup Development Workstation</span>
+<span class="w">  </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">localhost</span>
+<span class="w">  </span><span class="nt">connection</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">local</span>
+<span class="w">  </span><span class="nt">gather_facts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+
+<span class="w">  </span><span class="nt">vars</span><span class="p">:</span>
+<span class="w">    </span><span class="c1"># Customize your settings here</span>
+<span class="w">    </span><span class="nt">preferred_editor</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;nano&quot;</span>
+<span class="w">    </span><span class="nt">manage_custom_hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">    </span><span class="nt">custom_hosts_entries</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> ip</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;127.0.0.1&quot;</span><span class="p p-Indicator">,</span><span class="nt"> hostname</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;local.dev&quot;</span><span class="p p-Indicator">,</span><span class="nt"> comment</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Local</span><span class="nv"> </span><span class="s">dev&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+
+<span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.install_development_workstation</span>
+</code></pre></div>
+<h3 id="run-the-playbook">Run the Playbook</h3>
+<div class="highlight"><pre><span></span><code>ansible-playbook<span class="w"> </span>setup.yml<span class="w"> </span>-K
+</code></pre></div>
+<p>The <code>-K</code> flag prompts for your sudo password (needed for system-level installations).</p>
+<h3 id="first-run-tips">First Run Tips</h3>
+<ul>
+<li>On <strong>macOS</strong>, the first run will install Homebrew, which requires sudo access</li>
+<li>On <strong>Ubuntu</strong>, Docker installation adds your user to the docker group (requires logout/login)</li>
+<li>The playbook takes 15-30 minutes depending on your internet speed</li>
+<li>Some tasks may require manual approval (macOS security prompts)</li>
+</ul>
+<h2 id="customization">Customization</h2>
+<blockquote>
+<p><strong>⚠️ IMPORTANT: Never edit role files directly!</strong><br />
+When you install this role via <code>ansible-galaxy</code>, always override variables in your playbook, <code>host_vars</code>, or <code>group_vars</code>.<br />
+This keeps the role intact and your customizations separate.</p>
+</blockquote>
+<h3 id="method-1-variables-in-your-playbook">Method 1: Variables in Your Playbook</h3>
+<p>The simplest way - define variables directly in your playbook:</p>
+<div class="highlight"><pre><span></span><code><span class="nn">---</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Setup Development Workstation</span>
+<span class="w">  </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">localhost</span>
+<span class="w">  </span><span class="nt">connection</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">local</span>
+<span class="w">  </span><span class="nt">gather_facts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+
+<span class="w">  </span><span class="nt">vars</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">preferred_editor</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;vim&quot;</span>
+<span class="w">    </span><span class="nt">manage_custom_hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+
+<span class="w">    </span><span class="nt">common_tools</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">pip</span><span class="p">:</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ansible</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">boto3</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-custom-package</span>
+
+<span class="w">      </span><span class="nt">vscode_extensions</span><span class="p">:</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ms-python.python</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-custom-extension</span>
+
+<span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.install_development_workstation</span>
+</code></pre></div>
+<h3 id="method-2-using-host_vars">Method 2: Using host_vars</h3>
+<p>Create <code>host_vars/localhost.yml</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="nn">---</span>
+<span class="c1"># Override settings for localhost</span>
+<span class="nt">preferred_editor</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;nano&quot;</span>
+
+<span class="nt">custom_hosts_entries</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> ip</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;192.168.1.100&quot;</span><span class="p p-Indicator">,</span><span class="nt"> hostname</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;dev.server&quot;</span><span class="p p-Indicator">,</span><span class="nt"> comment</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Dev</span><span class="nv"> </span><span class="s">server&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+
+<span class="nt">common_tools</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">pip</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ansible</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">boto3</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-custom-package</span>
+</code></pre></div>
+<h3 id="method-3-using-group_vars">Method 3: Using group_vars</h3>
+<p>Create <code>group_vars/all.yml</code> for settings that apply to all hosts:</p>
+<div class="highlight"><pre><span></span><code><span class="nn">---</span>
+<span class="c1"># Global settings</span>
+<span class="nt">preferred_editor</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;vim&quot;</span>
+
+<span class="nt">common_tools</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">git_config</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;user.name&quot;</span><span class="p p-Indicator">,</span><span class="nt"> value</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Your</span><span class="nv"> </span><span class="s">Name&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;user.email&quot;</span><span class="p p-Indicator">,</span><span class="nt"> value</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;you@example.com&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;core.editor&quot;</span><span class="p p-Indicator">,</span><span class="nt"> value</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;{{</span><span class="nv"> </span><span class="s">preferred_editor</span><span class="nv"> </span><span class="s">}}&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+</code></pre></div>
+<h3 id="choosing-your-preferred-editor">Choosing Your Preferred Editor</h3>
+<p>The playbook installs multiple text editors (vim, nano, neovim) and allows you to choose your preferred default editor.</p>
+<p><strong>Set your preferred editor:</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># In defaults/main.yml</span>
+<span class="nt">preferred_editor</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;nano&quot;</span><span class="w">  </span><span class="c1"># Options: vim, nano, nvim, emacs, code, cursor</span>
+</code></pre></div></p>
+<p>This will configure:
+- <code>EDITOR</code> environment variable in your shell
+- <code>VISUAL</code> environment variable in your shell
+- Git's <code>core.editor</code> configuration
+- All shell profiles (.zshrc, .bashrc)</p>
+<p><strong>Available editors:</strong>
+- <code>nano</code> - Simple, user-friendly (default)
+- <code>vim</code> - Powerful modal editor
+- <code>nvim</code> - Modern Neovim
+- <code>code</code> - VSCode
+- <code>cursor</code> - Cursor AI editor
+- <code>emacs</code> - Extensible editor</p>
+<h3 id="terminal-emulators">Terminal Emulators</h3>
+<p><strong>macOS:</strong>
+- <strong>iTerm2</strong>: Full-featured terminal with advanced features
+  - Automatically set as default SSH:// URL handler
+  - Pre-configured development profile included
+  - Split panes, search, autocomplete
+- <strong>Ghostty</strong>: Modern, GPU-accelerated terminal
+  - Pre-configured with sensible defaults
+  - Config file deployed to <code>~/.config/ghostty/config</code>
+  - Shell integration, clipboard support, keybindings</p>
+<p><strong>Ubuntu:</strong>
+- <strong>Terminator</strong>: Feature-rich terminal with split panes
+- <strong>Tilix</strong>: Tiling terminal emulator
+- <strong>GNOME Terminal</strong>: Default terminal (pre-installed)
+- <strong>Ghostty</strong>: (If installed manually) Config will be deployed automatically</p>
+<blockquote>
+<p><strong>Note for Ubuntu:</strong> Ghostty is not in standard Ubuntu repositories. If you install it manually, the role will automatically deploy the configuration file.</p>
+</blockquote>
+<h3 id="editor-extensions-vscode-cursor">Editor Extensions (VSCode &amp; Cursor)</h3>
+<p>Extensions are automatically installed to <strong>both</strong> VSCode and Cursor. This means:
+- ✅ Same extensions in both editors
+- ✅ No manual installation needed
+- ✅ Easy to maintain one extension list</p>
+<p><strong>To customize extensions</strong>, edit <code>defaults/main.yml</code>:
+<div class="highlight"><pre><span></span><code><span class="nt">vscode_extensions</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ms-python.python</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ms-python.vscode-pylance</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">eamodio.gitlens</span>
+<span class="w">  </span><span class="c1"># Add your extensions here</span>
+</code></pre></div></p>
+<p>Both <code>code --install-extension</code> and <code>cursor --install-extension</code> commands are used, so extensions work in both editors seamlessly.</p>
+<h3 id="shell-aliases">Shell Aliases</h3>
+<p>The playbook configures 60+ productivity-boosting aliases in your shell:</p>
+<p><strong>Git Shortcuts:</strong>
+<div class="highlight"><pre><span></span><code>gs<span class="w">      </span><span class="c1"># git status</span>
+ga<span class="w">      </span><span class="c1"># git add</span>
+gaa<span class="w">     </span><span class="c1"># git add --all</span>
+gc<span class="w">      </span><span class="c1"># git commit</span>
+gcm<span class="w">     </span><span class="c1"># git commit -m</span>
+gp<span class="w">      </span><span class="c1"># git push</span>
+gpl<span class="w">     </span><span class="c1"># git pull</span>
+gb<span class="w">      </span><span class="c1"># git branch</span>
+gco<span class="w">     </span><span class="c1"># git checkout</span>
+gcb<span class="w">     </span><span class="c1"># git checkout -b (new branch)</span>
+gd<span class="w">      </span><span class="c1"># git diff</span>
+gl<span class="w">      </span><span class="c1"># git log (graph)</span>
+glog<span class="w">    </span><span class="c1"># git log --all (graph)</span>
+gst<span class="w">     </span><span class="c1"># git stash</span>
+gstp<span class="w">    </span><span class="c1"># git stash pop</span>
+</code></pre></div></p>
+<p><strong>Docker Shortcuts:</strong>
+<div class="highlight"><pre><span></span><code>d<span class="w">       </span><span class="c1"># docker</span>
+dc<span class="w">      </span><span class="c1"># docker compose</span>
+dps<span class="w">     </span><span class="c1"># docker ps</span>
+dpsa<span class="w">    </span><span class="c1"># docker ps -a</span>
+di<span class="w">      </span><span class="c1"># docker images</span>
+dex<span class="w">     </span><span class="c1"># docker exec -it</span>
+dlogs<span class="w">   </span><span class="c1"># docker logs -f</span>
+dprune<span class="w">  </span><span class="c1"># docker system prune -a</span>
+</code></pre></div></p>
+<p><strong>Kubernetes Shortcuts:</strong>
+<div class="highlight"><pre><span></span><code>k<span class="w">       </span><span class="c1"># kubectl</span>
+kgp<span class="w">     </span><span class="c1"># kubectl get pods</span>
+kgs<span class="w">     </span><span class="c1"># kubectl get services</span>
+kgd<span class="w">     </span><span class="c1"># kubectl get deployments</span>
+klogs<span class="w">   </span><span class="c1"># kubectl logs -f</span>
+kexec<span class="w">   </span><span class="c1"># kubectl exec -it</span>
+</code></pre></div></p>
+<p><strong>Ansible Shortcuts:</strong>
+<div class="highlight"><pre><span></span><code>ap<span class="w">      </span><span class="c1"># ansible-playbook</span>
+av<span class="w">      </span><span class="c1"># ansible-vault</span>
+ag<span class="w">      </span><span class="c1"># ansible-galaxy</span>
+</code></pre></div></p>
+<p><strong>System Shortcuts:</strong>
+<div class="highlight"><pre><span></span><code>ll<span class="w">      </span><span class="c1"># ls -lh (list detailed)</span>
+la<span class="w">      </span><span class="c1"># ls -lah (list all)</span>
+..<span class="w">      </span><span class="c1"># cd ..</span>
+...<span class="w">     </span><span class="c1"># cd ../..</span>
+c<span class="w">       </span><span class="c1"># clear</span>
+reload<span class="w">  </span><span class="c1"># restart shell</span>
+myip<span class="w">    </span><span class="c1"># show public IP</span>
+</code></pre></div></p>
+<p>All aliases are defined in the shell templates and can be customized by overriding the templates in your playbook.</p>
+<h3 id="macos-dock-configuration">macOS Dock Configuration</h3>
+<p>The playbook can automatically configure your macOS Dock, removing unwanted apps and adding your preferred development tools.</p>
+<p><strong>Enable/Disable:</strong>
+<div class="highlight"><pre><span></span><code><span class="nt">configure_dock</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">  </span><span class="c1"># Set to false to skip Dock configuration</span>
+</code></pre></div></p>
+<p><strong>Remove Apps from Dock:</strong>
+<div class="highlight"><pre><span></span><code><span class="nt">dockitems_remove</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Launchpad</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TV</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Music</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Maps</span>
+<span class="w">  </span><span class="c1"># Add more apps to remove</span>
+</code></pre></div></p>
+<p><strong>Add Apps to Dock:</strong>
+<div class="highlight"><pre><span></span><code><span class="nt">dockitems_persist</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Google</span><span class="nv"> </span><span class="s">Chrome&quot;</span>
+<span class="w">    </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/Applications/Google</span><span class="nv"> </span><span class="s">Chrome.app/&quot;</span>
+<span class="w">    </span><span class="nt">pos</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;iTerm&quot;</span>
+<span class="w">    </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/Applications/iTerm.app/&quot;</span>
+<span class="w">    </span><span class="nt">pos</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Visual</span><span class="nv"> </span><span class="s">Studio</span><span class="nv"> </span><span class="s">Code&quot;</span>
+<span class="w">    </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/Applications/Visual</span><span class="nv"> </span><span class="s">Studio</span><span class="nv"> </span><span class="s">Code.app/&quot;</span>
+<span class="w">    </span><span class="nt">pos</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
+<span class="w">  </span><span class="c1"># Add your apps here</span>
+</code></pre></div></p>
+<p><strong>How it works:</strong>
+- Uses <code>dockutil</code> (installed via Homebrew) to manage Dock items
+- Removes unwanted default macOS apps
+- Adds your development tools in your preferred order
+- Automatically restarts the Dock to apply changes</p>
+<h3 id="managing-etchosts-entries">Managing /etc/hosts Entries</h3>
+<p>The playbook can automatically manage custom host entries in <code>/etc/hosts</code> for your development environment.</p>
+<p><strong>Enable/Disable:</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># In defaults/main.yml</span>
+<span class="nt">manage_custom_hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">  </span><span class="c1"># Set to false to disable</span>
+</code></pre></div></p>
+<p><strong>Add Custom Hosts:</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># In defaults/main.yml</span>
+<span class="nt">custom_hosts_entries</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> ip</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;127.0.0.1&quot;</span><span class="p p-Indicator">,</span><span class="nt"> hostname</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;local.dev&quot;</span><span class="p p-Indicator">,</span><span class="nt"> comment</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Local</span><span class="nv"> </span><span class="s">development&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> ip</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;127.0.0.1&quot;</span><span class="p p-Indicator">,</span><span class="nt"> hostname</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;app.local&quot;</span><span class="p p-Indicator">,</span><span class="nt"> comment</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Local</span><span class="nv"> </span><span class="s">app&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> ip</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;192.168.1.100&quot;</span><span class="p p-Indicator">,</span><span class="nt"> hostname</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;dev.example.com&quot;</span><span class="p p-Indicator">,</span><span class="nt"> comment</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Development</span><span class="nv"> </span><span class="s">server&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> ip</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;10.0.0.50&quot;</span><span class="p p-Indicator">,</span><span class="nt"> hostname</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;staging.example.com&quot;</span><span class="p p-Indicator">,</span><span class="nt"> comment</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Staging</span><span class="nv"> </span><span class="s">server&quot;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+</code></pre></div></p>
+<p><strong>Example /etc/hosts entries created:</strong>
+<div class="highlight"><pre><span></span><code>127.0.0.1   local.dev   # Local development
+127.0.0.1   app.local   # Local app
+192.168.1.100   dev.example.com # Development server
+10.0.0.50   staging.example.com # Staging server
+</code></pre></div></p>
+<p><strong>Notes:</strong>
+- Original <code>/etc/hosts</code> is backed up to <code>/etc/hosts.backup</code>
+- Each change creates an automatic backup with timestamp
+- Entries are managed idempotently (won't duplicate)</p>
+<h3 id="example-adding-a-package">Example: Adding a Package</h3>
+<h4 id="macos-homebrew">macOS (Homebrew)</h4>
+<p>Add to <code>vars/mac.yml</code>:
+<div class="highlight"><pre><span></span><code><span class="nt">brew_packages</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">git</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-new-package</span><span class="w">  </span><span class="c1"># Add here</span>
+
+<span class="nt">brew_cask_packages</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">visual-studio-code</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-new-app</span><span class="w">  </span><span class="c1"># Add GUI apps here</span>
+</code></pre></div></p>
+<h4 id="ubuntu-apt">Ubuntu (APT)</h4>
+<p>Add to <code>vars/debian.yml</code>:
+<div class="highlight"><pre><span></span><code><span class="nt">debian_packages</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">git</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-new-package</span><span class="w">  </span><span class="c1"># Add here</span>
+</code></pre></div></p>
+<h2 id="advanced-usage">Advanced Usage</h2>
+<h3 id="testing-without-changes">Testing Without Changes</h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Dry run to see what would change</span>
+ansible-playbook<span class="w"> </span>main.yml<span class="w"> </span>--check<span class="w"> </span>-K
+</code></pre></div>
+<h3 id="running-specific-tasks">Running Specific Tasks</h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Only install packages (skip configuration)</span>
+ansible-playbook<span class="w"> </span>main.yml<span class="w"> </span>-K<span class="w"> </span>--tags<span class="w"> </span>packages
+
+<span class="c1"># Only configure shell</span>
+ansible-playbook<span class="w"> </span>main.yml<span class="w"> </span>-K<span class="w"> </span>--tags<span class="w"> </span>shell
+</code></pre></div>
+<h3 id="verbose-output">Verbose Output</h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Debug mode</span>
+ansible-playbook<span class="w"> </span>main.yml<span class="w"> </span>-K<span class="w"> </span>-vvv
+</code></pre></div>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="macos-issues">macOS Issues</h3>
+<p><strong>Homebrew installation fails with "Need sudo access":</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># Ensure you&#39;re using the -K flag</span>
+ansible-playbook<span class="w"> </span>main.yml<span class="w"> </span>-K
+
+<span class="c1"># Or manually install Homebrew first:</span>
+/bin/bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&quot;</span>
+</code></pre></div></p>
+<p><strong>"command not found: brew" after installation:</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># Restart your terminal or run:</span>
+<span class="nb">exec</span><span class="w"> </span>zsh
+
+<span class="c1"># Add to your PATH manually:</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.zprofile
+<span class="nb">eval</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>/opt/homebrew/bin/brew<span class="w"> </span>shellenv<span class="k">)</span><span class="s2">&quot;</span>
+</code></pre></div></p>
+<p><strong>VSCode extensions fail to install:</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># Install VSCode first, then run:</span>
+code<span class="w"> </span>--version
+
+<span class="c1"># Re-run the playbook</span>
+ansible-playbook<span class="w"> </span>main.yml<span class="w"> </span>-K
+</code></pre></div></p>
+<h3 id="ubuntu-issues">Ubuntu Issues</h3>
+<p><strong>Docker permission denied:</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># Log out and back in to apply docker group membership</span>
+<span class="c1"># Or run:</span>
+newgrp<span class="w"> </span>docker
+
+<span class="c1"># Test Docker:</span>
+docker<span class="w"> </span>run<span class="w"> </span>hello-world
+</code></pre></div></p>
+<p><strong>Node.js not found:</strong>
+<div class="highlight"><pre><span></span><code><span class="c1"># Verify Node.js installation</span>
+node<span class="w"> </span>--version
+npm<span class="w"> </span>--version
+
+<span class="c1"># If missing, manually add NodeSource repository:</span>
+curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.com/setup_20.x<span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>-E<span class="w"> </span>bash<span class="w"> </span>-
+sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>nodejs
+</code></pre></div></p>
+<h2 id="post-installation">Post-Installation</h2>
+<h3 id="macos_2">macOS</h3>
+<ol>
+<li><strong>Restart terminal</strong> to load new shell configuration</li>
+<li><strong>Open Docker Desktop</strong> and complete initial setup</li>
+<li><strong>Verify installations</strong>:
+   <div class="highlight"><pre><span></span><code>brew<span class="w"> </span>--version
+git<span class="w"> </span>--version
+python3<span class="w"> </span>--version
+node<span class="w"> </span>--version
+docker<span class="w"> </span>--version
+</code></pre></div></li>
+</ol>
+<h3 id="ubuntu_2">Ubuntu</h3>
+<ol>
+<li><strong>Log out and back in</strong> (for Docker group to take effect)</li>
+<li><strong>Restart terminal</strong>: <code>exec zsh</code></li>
+<li><strong>Verify installations</strong>:
+   <div class="highlight"><pre><span></span><code>git<span class="w"> </span>--version
+python3<span class="w"> </span>--version
+node<span class="w"> </span>--version
+docker<span class="w"> </span>--version
+code<span class="w"> </span>--version
+</code></pre></div></li>
+</ol>
+<h2 id="project-structure">Project Structure</h2>
+<div class="highlight"><pre><span></span><code>mac_install_role/
+├── README.md                         # This file
+├── QUICKSTART.md                     # Quick reference guide
+├── main.yml                          # Main playbook
+├── requirements.yml                  # Ansible Galaxy dependencies
+├── ansible.cfg                       # Ansible configuration
+├── inventory                         # Inventory file
+└── roles/
+    └── preflight_dev_workstation/
+        ├── README.md                 # Role documentation
+        ├── defaults/main.yml         # Default variables
+        ├── vars/
+        │   ├── mac.yml              # macOS packages
+        │   └── debian.yml           # Ubuntu packages
+        ├── tasks/
+        │   ├── main.yml             # Main entry point
+        │   ├── osx/main.yml         # macOS-specific tasks
+        │   └── ubuntu/main.yml      # Ubuntu-specific tasks
+        └── templates/
+            ├── bashrc.j2            # Bash configuration template
+            └── zshrc.j2             # Zsh configuration template
+</code></pre></div>
+<h2 id="contributing">Contributing</h2>
+<p>Feel free to fork and customize for your needs! Some ideas:
+- Add more languages (Rust, Java, PHP, etc.)
+- Add IDE configurations (IntelliJ, PyCharm)
+- Add more development tools
+- Improve shell configurations</p>
+<h2 id="contributing_1">Contributing</h2>
+<p>Found a bug or have a feature request? Please open an issue on <a href="https://github.com/bsmeding/ansible_role_install_development_workstation/issues">GitHub</a>.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://github.com/geerlingguy/mac-dev-playbook">Jeff Geerling's mac-dev-playbook</a> - Excellent macOS setup playbook</li>
+<li><a href="https://docs.ansible.com/">Ansible Documentation</a></li>
+<li><a href="https://brew.sh/">Homebrew</a> - macOS package manager</li>
+</ul>
+<h2 id="links">Links</h2>
+<ul>
+<li><strong>GitHub Repository:</strong> https://github.com/bsmeding/ansible_role_install_development_workstation</li>
+<li><strong>Ansible Galaxy:</strong> https://galaxy.ansible.com/bsmeding/install_development_workstation</li>
+<li><strong>Issue Tracker:</strong> https://github.com/bsmeding/ansible_role_install_development_workstation/issues</li>
+</ul>
+<h2 id="license">License</h2>
+<p>MIT</p>
+<h2 id="author">Author</h2>
+<p><strong>Bart Smeding</strong> (<a href="https://github.com/bsmeding">@bsmeding</a>)</p>
+<p>Based on best practices from the Ansible and DevOps community.</p>
 
 
 

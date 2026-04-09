@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://bartsmeding.nl/nl/ansible/ansible_role_tig_stack_containers/">
       
       
-        <link rel="prev" href="../ansible_role_tickg_stack_containers/">
+        <link rel="prev" href="../ansible_role_swag_docker/">
       
       
         <link rel="next" href="../ansible-role-webmin/">
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ansible-role-tig_stack_docker-bsmedingtig_stack_docker" class="md-skip">
+        <a href="#ansible-role-bsmedingtig_stack_docker" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -904,34 +904,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../ansible_role_tickg_stack_containers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tickg_stack_docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -943,24 +915,6 @@
       
         
       
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tig_stack_docker
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -978,58 +932,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhoudsopgave
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Korte details
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Voorbeeldgebruik
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Opmerking
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1233,47 +1135,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhoudsopgave
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Korte details
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Voorbeeldgebruik
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Opmerking
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1292,30 +1153,72 @@
   
 
 
-<h1 id="ansible-role-tig_stack_docker-bsmedingtig_stack_docker">Ansible-role: tig_stack_docker (<code>bsmeding.tig_stack_docker</code>)</h1>
-<p>Ansible Role to install Telegraf, InfluxDB and Grafana (TIG) as docker containers</p>
+<p><em>De technische inhoud hieronder is hetzelfde als de Engelse README in de Git-repository.</em></p>
+<hr />
+<h1 id="ansible-role-bsmedingtig_stack_docker">Ansible Role: <code>bsmeding.tig_stack_docker</code></h1>
 <ul>
 <li><strong>GitHub:</strong> <a href="https://github.com/bsmeding/ansible_role_tig_stack_containers">ansible_role_tig_stack_containers</a></li>
 <li><strong>Ansible Galaxy:</strong> <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/tig_stack_docker/">bsmeding.tig_stack_docker</a></li>
 </ul>
+<p>The following documentation is taken from the repository <strong>README</strong>.</p>
 <hr />
-<h2 id="korte-details">Korte details</h2>
+<h1 id="role-name">Role Name</h1>
+<p>Ansible role to install TIG stack, Telegraf, InfluxDB and Grafana in docker containers</p>
+<h2 id="requirements">Requirements</h2>
+<p>Docker installed on target machine see Dependencies</p>
+<h2 id="role-variables">Role Variables</h2>
+<p>A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.</p>
+<p>PLEASE NOTE: there are use settings as login names and password, please use host_vars or group_vars for override and encrypt these variable files with ansible-vault</p>
+<h2 id="mibs">MIBs</h2>
+<p>With Telegraf there are several SNMP mibs shipped (see Docker used default: )
+If you need extra / custom mibs place theme on /usr/share/mibs/netsnmp on the target host running the Telegraf container (only working with local_mounts version)</p>
+<h2 id="dependencies">Dependencies</h2>
+<p>ansible-galaxy install geerlingguy.docker geerlingguy.pip</p>
+<h2 id="_1">'''</h2>
 <ul>
-<li><strong>Role-map:</strong> <code>ansible_role_tig_stack_containers</code></li>
-<li><strong>Minimale Ansible-versie:</strong> <code>2.9</code></li>
-<li><strong>Ondersteunde platformen:</strong> Debian, Ubuntu</li>
-<li><strong>Galaxy-tags:</strong> system, telegraf, influxdb, grafana, monitoring, snmp</li>
+<li>hosts: [tig_stack]
+  vars:
+    pip_package: python3-pip
+    pip_install_packages:<ul>
+<li>name: docker</li>
+<li>name: influxdb
+docker_users:</li>
+<li><YOUR USERNAME>
+  roles:
+  roles:</li>
+<li>name: geerlingguy.pip</li>
+<li>name: geerlingguy.docker
+  become: true
+'''
+EDIT the: <YOUR USERNAME> with your ownd account logging in to the tig-stack server</li>
 </ul>
+</li>
+</ul>
+<h2 id="example-playbook">Example Playbook</h2>
+<p>Install TIG stack role: ansible-galaxy install bsmeding.tig_stack_docker</p>
 <hr />
-<h2 id="voorbeeldgebruik">Voorbeeldgebruik</h2>
-<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all</span>
-<span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.tig_stack_docker</span>
-</code></pre></div>
-<hr />
-<h2 id="opmerking">Opmerking</h2>
-<p>Deze pagina is opgebouwd op basis van role-metadata (<code>meta/main.yml</code>) en gelijkgetrokken met de repository-structuur.</p>
+<ul>
+<li>name: Install TIG stack
+  hosts: localhost
+  gather_facts: true
+  become: yes
+  vars:
+    show_debug: true
+    tig_distributed: false
+    influx_reinitialize_database: true
+  tasks:<ul>
+<li>name: Include role for TIG stack
+  include_role:
+    name: bsmeding.tig_stack_docker</li>
+</ul>
+</li>
+</ul>
+<p>EDIT the: <YOUR USERNAME> with your ownd account logging in to the tig-stack server</p>
+<p>If you have problems after multiple play runs and changes in docker, please try to restart the docker service on the target</p>
+<h2 id="license">License</h2>
+<p>BSD</p>
+<h2 id="author-information">Author Information</h2>
+<p>Created by Bart Smeding bartsmeding@yaworks.com / mail@bartsmeding.nl / https://github.com/bsmeding</p>
 
 
 

@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ansible-role-nginx_docker-bsmedingnginx_docker" class="md-skip">
+        <a href="#ansible-role-bsmedingnginx_docker" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -855,10 +855,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
+  <a href="#reverse-proxy-config" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Korte details
+        Reverse proxy config
       
     </span>
   </a>
@@ -866,10 +866,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
+  <a href="#site-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voorbeeldgebruik
+        Site files
       
     </span>
   </a>
@@ -877,10 +877,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
+  <a href="#site-conf-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Opmerking
+        Site-conf files
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#https-ssl-certificate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        https / ssl / Certificate
       
     </span>
   </a>
@@ -967,34 +978,6 @@
     
   
     bsmeding.swag_docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ansible_role_tickg_stack_containers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    bsmeding.tickg_stack_docker
   
 
     
@@ -1240,10 +1223,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#korte-details" class="md-nav__link">
+  <a href="#reverse-proxy-config" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Korte details
+        Reverse proxy config
       
     </span>
   </a>
@@ -1251,10 +1234,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voorbeeldgebruik" class="md-nav__link">
+  <a href="#site-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voorbeeldgebruik
+        Site files
       
     </span>
   </a>
@@ -1262,10 +1245,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#opmerking" class="md-nav__link">
+  <a href="#site-conf-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Opmerking
+        Site-conf files
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#https-ssl-certificate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        https / ssl / Certificate
       
     </span>
   </a>
@@ -1292,30 +1286,53 @@
   
 
 
-<h1 id="ansible-role-nginx_docker-bsmedingnginx_docker">Ansible-role: nginx_docker (<code>bsmeding.nginx_docker</code>)</h1>
-<p>NGINX webserver running in docker container</p>
+<p><em>De technische inhoud hieronder is hetzelfde als de Engelse README in de Git-repository.</em></p>
+<hr />
+<h1 id="ansible-role-bsmedingnginx_docker">Ansible Role: <code>bsmeding.nginx_docker</code></h1>
 <ul>
 <li><strong>GitHub:</strong> <a href="https://github.com/bsmeding/ansible_role_nginx_docker">ansible_role_nginx_docker</a></li>
 <li><strong>Ansible Galaxy:</strong> <a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/nginx_docker/">bsmeding.nginx_docker</a></li>
 </ul>
+<p>The following documentation is taken from the repository <strong>README</strong>.</p>
 <hr />
-<h2 id="korte-details">Korte details</h2>
-<ul>
-<li><strong>Role-map:</strong> <code>ansible_role_nginx_docker</code></li>
-<li><strong>Minimale Ansible-versie:</strong> <code>2.10</code></li>
-<li><strong>Ondersteunde platformen:</strong> Fedora, Debian, Ubuntu, Alpine, ArchLinux</li>
-<li><strong>Galaxy-tags:</strong> web, system, nginx</li>
-</ul>
-<hr />
-<h2 id="voorbeeldgebruik">Voorbeeldgebruik</h2>
-<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">hosts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all</span>
-<span class="w">  </span><span class="nt">become</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">roles</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bsmeding.nginx_docker</span>
+<p>NGINX reverse proxy server</p>
+<p><img alt="test status" src="https://github.com/bsmeding/ansible_role_nginx_docker/actions/workflows/ci.yml/badge.svg" /> 
+Role is tested on, Ubuntu with Docker installed via my role bsmeding.docker on Linux distribution.</p>
+<p>Used to be the frontend when deploying Docker containers on platforms
+Default image is from Linuxserver: https://docs.linuxserver.io/images/docker-nginx</p>
+<p>At this moment, a limited set of config options are available. They will be added later.</p>
+<h2 id="reverse-proxy-config">Reverse proxy config</h2>
+<p>For every container (or other service/server) you can add a proxy config with the variable list <code>nginx__proxy_confs_subdomain</code>. If you forward to containers, connect the to the same docker network for easy name resolution and security.</p>
+<p>This example will forward incoming requests for <code>dash.example.com</code> on port 80 to the container named <code>dashboard</code> on port 9090, port 80 (http)
+<div class="highlight"><pre><span></span><code>nginx__proxy_confs_subdomain:
+ - server_name: dash.example.com
+   listen: 80
+   enable_ldap: false
+   enable_authelia: false
+   default_upstream_proto: http
+   default_upstream_url: dashboard
+   default_upstream_port: 9090
+</code></pre></div></p>
+<h2 id="site-files">Site files</h2>
+<p>If you wnat to copy a website directory, place them in <code>/files/nginx/sites/&lt;site_directory&gt;</code>
+or <code>/files/nginx/&lt;inventory_hostname/sites/&lt;site_directory&gt;</code> when you deploy multiple servers with different sites</p>
+<h2 id="site-conf-files">Site-conf files</h2>
+<p>If you want specific site-config files to be copied, place them in you're playbook dir <code>/files/nginx/site-confs/</code> they must be in nginx site config file <site.conf>
+Or in <code>/files/nginx/&lt;inventory_hostname/site-confs/</code> to seperate hosts configs</p>
+<h2 id="https-ssl-certificate">https / ssl / Certificate</h2>
+<p>Is you need certificates, plase them in your playbook directory under <code>files/nginx/certs/</code> name them as <code>website_url.crt</code> and <code>website_url.key</code>
+When the key file is secured by a passphrase, ad this to you're subdomain variable, so it can be secured by ansible-vault</p>
+<div class="highlight"><pre><span></span><code>nginx__proxy_confs_subdomain:
+ - server_name: dash.example.com
+   listen: 80
+   listen_https: 443 # need to enable https
+   cert_key_passphrase: &#39;sbsta261da&#39; # exampe off passhrase of cert.key file if set. Otherwise don&#39;t set this variable
+   enable_ldap: false
+   enable_authelia: false
+   default_upstream_proto: http
+   default_upstream_url: dashboard
+   default_upstream_port: 9090
 </code></pre></div>
-<hr />
-<h2 id="opmerking">Opmerking</h2>
-<p>Deze pagina is opgebouwd op basis van role-metadata (<code>meta/main.yml</code>) en gelijkgetrokken met de repository-structuur.</p>
 
 
 
