@@ -9,6 +9,8 @@ _De technische inhoud hieronder is hetzelfde als de Engelse README in de Git-rep
 
 The following documentation is taken from the repository **README**.
 
+DEZE ROL WORDT NIET MEER ONDERHOUDEN GEZIEN ER GEEN BEVEILIGINGS UPDATES MEER WORDEN UITGEGEVEN AAN AWX
+
 ---
 
 ![test status](https://github.com/bsmeding/ansible_role_awx_docker/actions/workflows/ci.yml/badge.svg) 

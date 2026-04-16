@@ -22,7 +22,7 @@ Hieronder een bijgewerkt overzicht van actieve roles (roles met een echte `tasks
 
 | Role | Omschrijving | CI-status | Downloads |
 | ---- | ----------- | --------- | --------- |
-| [bsmeding.awx_docker](ansible/ansible_role_awx_docker.md) | Role to Install Ansible AWX (opensource Tower) in Docker container | ![CI Status](https://github.com/bsmeding/ansible_role_awx_docker/actions/workflows/ci.yml/badge.svg) | ![Ansible Role](https://img.shields.io/ansible/role/d/bsmeding/awx_docker) |
+| [bsmeding.awx_docker](ansible/ansible_role_awx_docker.md) | Role to Install Ansible AWX (opensource Tower) in Docker container (DISCONTINUED!) | ![CI Status](https://github.com/bsmeding/ansible_role_awx_docker/actions/workflows/ci.yml/badge.svg) | ![Ansible Role](https://img.shields.io/ansible/role/d/bsmeding/awx_docker) |
 | [bsmeding.container_lab_docker](ansible/ansible_role_container_lab_docker.md) | Role to install container_lab in Docker container | ![CI Status](https://github.com/bsmeding/ansible_role_container_lab_docker/actions/workflows/ci.yml/badge.svg) | ![Ansible Role](https://img.shields.io/ansible/role/d/bsmeding/container_lab_docker) |
 | [bsmeding.docker](ansible/ansible_role_docker.md) | Docker for Linux, Forked from geerlingguy.docker. | ![CI Status](https://github.com/bsmeding/ansible_role_docker/actions/workflows/ci.yml/badge.svg) | ![Ansible Role](https://img.shields.io/ansible/role/d/bsmeding/docker) |
 | [bsmeding.gitea_runner](ansible/ansible_role_gitea_runner.md) | Gitea ACT Runner running in docker container | ![CI Status](https://github.com/bsmeding/ansible_role_gitea_runner/actions/workflows/ci.yml/badge.svg) | ![Ansible Role](https://img.shields.io/ansible/role/d/bsmeding/gitea_runner) |

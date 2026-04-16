@@ -5,6 +5,8 @@
 
 The following documentation is taken from the repository **README**.
 
+PLEASE NOTE THAT THIS ROLE IS DISCONTINUED DUE TO NO SECURITY UPDATES ARE DELIVERED TO AWX PLATFORM
+
 ---
 
 ![test status](https://github.com/bsmeding/ansible_role_awx_docker/actions/workflows/ci.yml/badge.svg) 
