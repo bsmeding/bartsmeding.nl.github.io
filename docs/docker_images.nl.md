@@ -84,4 +84,5 @@ Deze images draaien specifieke applicaties met extra’s voor netwerkautomatiser
 | Container | Omschrijving | CI-status | Downloads |
 | --------- | ----------- | --------- | --------- |
 | [nautobot](https://hub.docker.com/repository/docker/bsmeding/nautobot/general) | Nautobot inclusief plugins en apps | ![Build](https://github.com/bsmeding/docker_container_nautobot/actions/workflows/build.yml/badge.svg) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/nautobot) |
+| [gitea-act-runner-ansible](https://hub.docker.com/repository/docker/bsmeding/gitea-act-runner-ansible/general) | Gitea Act Runner met Ansible en Python-automatiseringsdependencies | ![Build](https://github.com/bsmeding/docker_container_gitea_runner_ansible/actions/workflows/build.yml/badge.svg) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/gitea-act-runner-ansible) |
 
