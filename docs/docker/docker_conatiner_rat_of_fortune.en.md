@@ -10,6 +10,7 @@ It is useful for lightweight demos, team games, random assignment, or any situat
 
 - Docker Hub: [bsmeding/rat-of-fortune](https://hub.docker.com/repository/docker/bsmeding/rat-of-fortune/general)
 - Source: [docker_container_rat-of-fortune](https://github.com/bsmeding/docker_container_rat-of-fortune)
+- Demo: [Rat of Fortune](https://netdevops.it/wheel/)
 - Port: `5000`
 
 ## Features

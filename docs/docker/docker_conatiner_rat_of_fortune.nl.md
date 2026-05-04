@@ -10,6 +10,7 @@ De image is handig voor demo's, teamspellen, willekeurige toewijzing of situatie
 
 - Docker Hub: [bsmeding/rat-of-fortune](https://hub.docker.com/repository/docker/bsmeding/rat-of-fortune/general)
 - Broncode: [docker_container_rat-of-fortune](https://github.com/bsmeding/docker_container_rat-of-fortune)
+- Demo: [Rat of Fortune](https://netdevops.it/wheel/)
 - Poort: `5000`
 
 ## Features
