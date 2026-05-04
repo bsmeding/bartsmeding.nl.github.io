@@ -211,11 +211,25 @@
         <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/ansible/ansible_role_tig_stack_containers/"/>
     </url>
     <url>
+        <loc>https://bartsmeding.nl/docker/docker_conatiner_gitea_runner/</loc>
+        <lastmod>2026-05-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_gitea_runner/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_gitea_runner/"/>
+    </url>
+    <url>
         <loc>https://bartsmeding.nl/docker/docker_conatiner_nautobot/</loc>
         <lastmod>2026-05-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_nautobot/"/>
         <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_nautobot/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/docker/docker_conatiner_rat_of_fortune/</loc>
+        <lastmod>2026-05-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_rat_of_fortune/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_rat_of_fortune/"/>
     </url>
     <url>
         <loc>https://bartsmeding.nl/nl/about/</loc>
@@ -428,10 +442,24 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/ansible/ansible_role_tig_stack_containers/"/>
     </url>
     <url>
+        <loc>https://bartsmeding.nl/nl/docker/docker_conatiner_gitea_runner/</loc>
+        <lastmod>2026-05-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_gitea_runner/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_gitea_runner/"/>
+    </url>
+    <url>
         <loc>https://bartsmeding.nl/nl/docker/docker_conatiner_nautobot/</loc>
         <lastmod>2026-05-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_nautobot/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_nautobot/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/docker/docker_conatiner_rat_of_fortune/</loc>
+        <lastmod>2026-05-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_rat_of_fortune/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_rat_of_fortune/"/>
     </url>
 </urlset>
