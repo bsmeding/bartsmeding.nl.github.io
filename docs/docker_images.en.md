@@ -85,5 +85,6 @@ These images are for running specific applications with enhancements for network
 | --------- | ----------- | --------- | --------- |
 | [nautobot](https://hub.docker.com/repository/docker/bsmeding/nautobot/general) | Nautobot including plugins and apps | ![Build](https://github.com/bsmeding/docker_container_nautobot/actions/workflows/build.yml/badge.svg) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/nautobot) |
 | [gitea-act-runner-ansible](https://hub.docker.com/repository/docker/bsmeding/gitea-act-runner-ansible/general) | Gitea Act Runner with Ansible and Python automation dependencies | ![Build](https://github.com/bsmeding/docker_container_gitea_runner_ansible/actions/workflows/build.yml/badge.svg) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/gitea-act-runner-ansible) |
+| [rat-of-fortune](https://hub.docker.com/repository/docker/bsmeding/rat-of-fortune/general) | Browser-based graphical wheel for randomly selecting a name from a list | ![Build](https://github.com/bsmeding/docker_container_rat-of-fortune/actions/workflows/docker-publish.yml/badge.svg) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/rat-of-fortune) |
 
 
