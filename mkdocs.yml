@@ -32,8 +32,9 @@ plugins:
             'Docker overview': Docker-overzicht
             'Ansible roles & collections': Ansible-roles & -collections
             'Docker images': Docker-images
-            'Docker overview': Docker-overzicht
             'Nautobot container image': Nautobot-containerimage
+            'Gitea runner container image': Gitea runner-containerimage
+            'Rat of Fortune container image': Rat of Fortune-containerimage
             'AI in networking': AI in netwerken
 
 nav:
@@ -58,6 +59,8 @@ nav:
   - Docker images:
       - Docker overview: docker_images.md
       - 'Nautobot container image': docker/docker_conatiner_nautobot.md
+      - 'Gitea runner container image': docker/docker_conatiner_gitea_runner.md
+      - 'Rat of Fortune container image': docker/docker_conatiner_rat_of_fortune.md
   - About: about.md
 
 theme:
