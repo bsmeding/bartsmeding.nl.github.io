@@ -1247,30 +1247,231 @@
 <p>Deze pagina is het compacte statusoverzicht. Gedetailleerde pakketlijsten, ondersteunde distro-tags en gebruiksvoorbeelden staan op de gelinkte image-pagina's.</p>
 <hr />
 <h2 id="cicd-imagefamilies">CI/CD-imagefamilies</h2>
-<p>Menu: <a href="../docker/docker_container_ansible_cicd/">ansible_cicd</a> | <a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd</a> | <a href="../docker/docker_container_aiops_cicd/">aiops_cicd</a></p>
 <table>
 <thead>
 <tr>
-<th>Container</th>
+<th>Naam</th>
 <th>Omschrijving</th>
 <th>CI-status</th>
+<th>Downloads</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd</a></td>
-<td>Images met Ansible, Molecule, ansible-lint, netwerkautomatisering en CMDB-tests</td>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_ubuntu2404</a></td>
+<td>Ansible CI/CD-image gebaseerd op Ubuntu 24.04</td>
 <td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2404" /></td>
 </tr>
 <tr>
-<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd</a></td>
-<td>Python NetDevOps-images met Netmiko, Scrapli, Nornir, NAPALM, API- en configuratievalidatie</td>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_ubuntu2604</a></td>
+<td>Ansible CI/CD-image gebaseerd op Ubuntu 26.04</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2604" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_ubuntu</a></td>
+<td>Ansible CI/CD Ubuntu alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_debian12</a></td>
+<td>Ansible CI/CD-image gebaseerd op Debian 12</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian12" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_debian13</a></td>
+<td>Ansible CI/CD-image gebaseerd op Debian 13</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian13" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_debian</a></td>
+<td>Ansible CI/CD Debian alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_rockylinux8</a></td>
+<td>Ansible CI/CD-image gebaseerd op Rocky Linux 8</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux8" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_rockylinux9</a></td>
+<td>Ansible CI/CD-image gebaseerd op Rocky Linux 9</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux9" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_rockylinux</a></td>
+<td>Ansible CI/CD Rocky Linux alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_alpine3.22</a></td>
+<td>Ansible CI/CD-image gebaseerd op Alpine 3.22</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.22" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_alpine3.23</a></td>
+<td>Ansible CI/CD-image gebaseerd op Alpine 3.23</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.23" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd_alpine3</a></td>
+<td>Ansible CI/CD Alpine 3 alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_ubuntu2404</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Ubuntu 24.04</td>
 <td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu2404" /></td>
 </tr>
 <tr>
-<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd</a></td>
-<td>AIOps-evaluatie-images voor LLM-clients, prompttests, agenttests, RAG-evaluatie en operationele replay</td>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_ubuntu2604</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Ubuntu 26.04</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu2604" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_ubuntu</a></td>
+<td>NetDevOps CI/CD Ubuntu alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_debian12</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Debian 12</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_debian12" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_debian13</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Debian 13</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_debian13" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_debian</a></td>
+<td>NetDevOps CI/CD Debian alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_debian" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_rockylinux8</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Rocky Linux 8</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_rockylinux8" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_rockylinux9</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Rocky Linux 9</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_rockylinux9" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_rockylinux</a></td>
+<td>NetDevOps CI/CD Rocky Linux alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_rockylinux" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_alpine3.22</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Alpine 3.22</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_alpine3.22" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_alpine3.23</a></td>
+<td>NetDevOps CI/CD-image gebaseerd op Alpine 3.23</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_alpine3.23" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd_alpine3</a></td>
+<td>NetDevOps CI/CD Alpine 3 alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_alpine3" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_ubuntu2404</a></td>
+<td>AIOps CI/CD-image gebaseerd op Ubuntu 24.04</td>
 <td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu2404" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_ubuntu2604</a></td>
+<td>AIOps CI/CD-image gebaseerd op Ubuntu 26.04</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu2604" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_ubuntu</a></td>
+<td>AIOps CI/CD Ubuntu alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_debian12</a></td>
+<td>AIOps CI/CD-image gebaseerd op Debian 12</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_debian12" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_debian13</a></td>
+<td>AIOps CI/CD-image gebaseerd op Debian 13</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_debian13" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_debian</a></td>
+<td>AIOps CI/CD Debian alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_debian" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_rockylinux8</a></td>
+<td>AIOps CI/CD-image gebaseerd op Rocky Linux 8</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_rockylinux8" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_rockylinux9</a></td>
+<td>AIOps CI/CD-image gebaseerd op Rocky Linux 9</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_rockylinux9" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_rockylinux</a></td>
+<td>AIOps CI/CD Rocky Linux alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_rockylinux" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_alpine3.22</a></td>
+<td>AIOps CI/CD-image gebaseerd op Alpine 3.22</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_alpine3.22" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_alpine3.23</a></td>
+<td>AIOps CI/CD-image gebaseerd op Alpine 3.23</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_alpine3.23" /></td>
+</tr>
+<tr>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd_alpine3</a></td>
+<td>AIOps CI/CD Alpine 3 alias-image</td>
+<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
+<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_alpine3" /></td>
 </tr>
 </tbody>
 </table>
