@@ -1026,41 +1026,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#docker-cicd-images" class="md-nav__link">
+  <a href="#cicd-image-families" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Docker CI/CD Images
+        CI/CD Image Families
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Docker CI/CD Images">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#netdevops-cicd-images" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NetDevOps CI/CD Images
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#aiops-cicd-images" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AIOps CI/CD Images
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1229,41 +1201,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#docker-cicd-images" class="md-nav__link">
+  <a href="#cicd-image-families" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Docker CI/CD Images
+        CI/CD Image Families
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Docker CI/CD Images">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#netdevops-cicd-images" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NetDevOps CI/CD Images
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#aiops-cicd-images" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AIOps CI/CD Images
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1299,188 +1243,43 @@
 
 
 <h1 id="docker-images">Docker Images</h1>
-<p><strong>b@rtsmeding IT</strong> builds and maintains these <strong>Docker images</strong> so teams can run <strong>consistent Ansible CI/CD</strong> (Molecule, linting, device libraries) and <strong>opinionated app images</strong> (e.g. Nautobot with useful defaults) without reinventing base layers.</p>
-<p>They are what we use internally and in <strong>automation delivery</strong>; if you want <strong>images aligned to your registry, security policy, or pipeline</strong>, we can help through <strong>consultancy</strong> — see <a href="../about/">About</a>.</p>
+<p><strong>b@rtsmeding IT</strong> builds and maintains Docker images for reproducible CI/CD, NetDevOps, AIOps, network automation, and infrastructure lab workflows.</p>
+<p>This page is the compact status overview. Detailed package lists, supported distro tags, and usage examples are on the linked image pages.</p>
 <hr />
-<h2 id="docker-cicd-images">Docker CI/CD Images</h2>
-<p><strong>Currently installed Python packages for network and CMDB testing:</strong></p>
-<ul>
-<li>ansible (version varies by distribution)</li>
-<li>cryptography</li>
-<li>yamllint</li>
-<li>pynautobot</li>
-<li>pynetbox</li>
-<li>jmespath</li>
-<li>netaddr</li>
-<li>pywinrm</li>
-</ul>
-<p><strong>Network automation:</strong>
-- netmiko
-- ncclient
-- scrapli
-- napalm
-- paramiko
-- textfsm
-- ntc-templates
-- pyats <em>(pyats not available in alpine and rocky distros)</em></p>
-<p><strong>CI/CD testing:</strong>
-- ansible-lint
-- molecule
-- molecule-plugins
-- pytest
-- pytest-ansible</p>
-<p><strong>Cloud/API automation:</strong>
-- requests
-- boto3
-- openstacksdk
-- kubernetes</p>
-<p><strong>Utilities:</strong>
-- jinja2
-- passlib</p>
+<h2 id="cicd-image-families">CI/CD Image Families</h2>
 <table>
 <thead>
 <tr>
 <th>Container</th>
+<th>Description</th>
 <th>CI Status</th>
 <th>Downloads</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_debian12/general">ansible_cicd_debian12</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian12" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_debian13/general">ansible_cicd_debian13</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian13" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_debian/general">ansible_cicd_debian</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_rockylinux8/general">ansible_cicd_rockylinux8</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux8" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_rockylinux9/general">ansible_cicd_rockylinux9</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux9" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_rockylinux/general">ansible_cicd_rockylinux</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_ubuntu2404/general">ansible_cicd_ubuntu2404</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2404" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_ubuntu2604/general">ansible_cicd_ubuntu2604</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2604" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_ubuntu/general">ansible_cicd_ubuntu</a></td>
+<td><a href="../docker/docker_container_ansible_cicd/">ansible_cicd</a></td>
+<td>Ansible, Molecule, ansible-lint, network automation, and CMDB testing images</td>
 <td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
 <td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu" /></td>
 </tr>
 <tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_alpine3.22/general">ansible_cicd_alpine3.22</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.22" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_alpine3.23/general">ansible_cicd_alpine3.23</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.23" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/ansible_cicd_alpine3/general">ansible_cicd_alpine3</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml"><img alt="Build and Push Ansible Images" src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3" /></td>
-</tr>
-</tbody>
-</table>
-<h3 id="netdevops-cicd-images">NetDevOps CI/CD Images</h3>
-<p>These images are for Python-based NetDevOps pipelines where Ansible is not required. They include Netmiko, Scrapli, Nornir, NAPALM, ncclient, Paramiko, Nautobot and NetBox API clients (<code>pynautobot</code>, <code>pynetbox</code>), pytest, pytest-cov, pytest-xdist, ruff, mypy, and yamllint.</p>
-<p>For API and configuration validation they include JSON Schema, Pydantic, PyYAML, Jinja2, JMESPath, TextFSM, ntc-templates, TTP, requests, HTTPX, Rich, Typer, and pybatfish. Typical use cases are validating generated network configs, testing Jinja2 templates, checking YAML/JSON inventory data, testing Nautobot or NetBox synchronization jobs, validating REST API responses, parsing CLI output, and running network intent tests in CI/CD.</p>
-<p>They use the same distro tags as the Ansible images. The default aliases point to <code>ubuntu2604</code>, <code>debian13</code>, <code>rockylinux9</code>, and <code>alpine3.23</code>; older image tags remain available but are no longer updated.</p>
-<table>
-<thead>
-<tr>
-<th>Container</th>
-<th>CI Status</th>
-<th>Downloads</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/netdevops_cicd_ubuntu/general">netdevops_cicd_ubuntu</a></td>
+<td><a href="../docker/docker_container_netdevops_cicd/">netdevops_cicd</a></td>
+<td>Python NetDevOps images with Netmiko, Scrapli, Nornir, NAPALM, API and config validation tools</td>
 <td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
 <td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu" /></td>
 </tr>
 <tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/netdevops_cicd_debian/general">netdevops_cicd_debian</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_debian" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/netdevops_cicd_rockylinux/general">netdevops_cicd_rockylinux</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_rockylinux" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/netdevops_cicd_alpine3/general">netdevops_cicd_alpine3</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml"><img alt="Build and Push NetDevOps Images" src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_alpine3" /></td>
-</tr>
-</tbody>
-</table>
-<h3 id="aiops-cicd-images">AIOps CI/CD Images</h3>
-<p>These images are for testing AI-assisted operational pipelines. They include LLM clients and routers such as OpenAI, Anthropic, and LiteLLM; evaluation frameworks such as DeepEval and Ragas; and agent workflow tools such as LangChain, LangSmith, and LangGraph on Python 3.10+ images.</p>
-<p>For AIOps CI/CD testing they include pytest, pytest-asyncio, pytest-cov, ruff, mypy, Pydantic, JSON Schema, PyYAML, Jinja2, python-dotenv, structlog, requests, HTTPX, responses, respx, vcrpy, freezegun, faker, pandas, NumPy, DuckDB, OpenTelemetry SDK, Prometheus API client, pynautobot, and pynetbox. Typical use cases are prompt regression tests, agent tool-call tests, structured JSON output validation, incident replay, log/event classification tests, RAG evaluation, mocked Nautobot/NetBox API tests, and CI checks for AI-generated operational recommendations.</p>
-<p>They use the same distro tags as the Ansible images. The default aliases point to <code>ubuntu2604</code>, <code>debian13</code>, <code>rockylinux9</code>, and <code>alpine3.23</code>; older image tags remain available but are no longer updated.</p>
-<table>
-<thead>
-<tr>
-<th>Container</th>
-<th>CI Status</th>
-<th>Downloads</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/aiops_cicd_ubuntu/general">aiops_cicd_ubuntu</a></td>
+<td><a href="../docker/docker_container_aiops_cicd/">aiops_cicd</a></td>
+<td>AIOps evaluation images for LLM clients, prompt tests, agent tests, RAG evaluation, and operational replay</td>
 <td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
 <td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu" /></td>
 </tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/aiops_cicd_debian/general">aiops_cicd_debian</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_debian" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/aiops_cicd_rockylinux/general">aiops_cicd_rockylinux</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_rockylinux" /></td>
-</tr>
-<tr>
-<td><a href="https://hub.docker.com/repository/docker/bsmeding/aiops_cicd_alpine3/general">aiops_cicd_alpine3</a></td>
-<td><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml"><img alt="Build and Push AIOps Images" src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" /></a></td>
-<td><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_alpine3" /></td>
-</tr>
 </tbody>
 </table>
+<p>The maintained CI/CD images support the latest two distro versions per family: Ubuntu 24.04/26.04, Debian 12/13, Rocky Linux 8/9, and Alpine 3.22/3.23. Older Docker Hub image tags remain available but are no longer updated.</p>
 <hr />
 <h2 id="docker-applications">Docker Applications</h2>
-<p>These images are for running specific applications with enhancements for network automation and infrastructure labs.</p>
 <table>
 <thead>
 <tr>

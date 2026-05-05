@@ -232,6 +232,27 @@
         <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_rat_of_fortune/"/>
     </url>
     <url>
+        <loc>https://bartsmeding.nl/docker/docker_container_aiops_cicd/</loc>
+        <lastmod>2026-05-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_container_aiops_cicd/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_container_aiops_cicd/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/docker/docker_container_ansible_cicd/</loc>
+        <lastmod>2026-05-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_container_ansible_cicd/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_container_ansible_cicd/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/docker/docker_container_netdevops_cicd/</loc>
+        <lastmod>2026-05-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_container_netdevops_cicd/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_container_netdevops_cicd/"/>
+    </url>
+    <url>
         <loc>https://bartsmeding.nl/nl/about/</loc>
         <lastmod>2026-05-05</lastmod>
         <changefreq>daily</changefreq>
@@ -461,5 +482,26 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_conatiner_rat_of_fortune/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_conatiner_rat_of_fortune/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/docker/docker_container_aiops_cicd/</loc>
+        <lastmod>2026-05-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_container_aiops_cicd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_container_aiops_cicd/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/docker/docker_container_ansible_cicd/</loc>
+        <lastmod>2026-05-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_container_ansible_cicd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_container_ansible_cicd/"/>
+    </url>
+    <url>
+        <loc>https://bartsmeding.nl/nl/docker/docker_container_netdevops_cicd/</loc>
+        <lastmod>2026-05-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://bartsmeding.nl/nl/docker/docker_container_netdevops_cicd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bartsmeding.nl/docker/docker_container_netdevops_cicd/"/>
     </url>
 </urlset>
