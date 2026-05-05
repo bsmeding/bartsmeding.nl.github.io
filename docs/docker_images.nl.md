@@ -18,11 +18,13 @@ Deze pagina is het compacte statusoverzicht. Gedetailleerde pakketlijsten, onder
 
 ## CI/CD-imagefamilies
 
-| Container | Omschrijving | CI-status | Downloads |
-| --------- | ------------ | --------- | --------- |
-| [ansible_cicd](docker/docker_container_ansible_cicd.md) | Images met Ansible, Molecule, ansible-lint, netwerkautomatisering en CMDB-tests | [![Build and Push Ansible Images](https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu) |
-| [netdevops_cicd](docker/docker_container_netdevops_cicd.md) | Python NetDevOps-images met Netmiko, Scrapli, Nornir, NAPALM, API- en configuratievalidatie | [![Build and Push NetDevOps Images](https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu) |
-| [aiops_cicd](docker/docker_container_aiops_cicd.md) | AIOps-evaluatie-images voor LLM-clients, prompttests, agenttests, RAG-evaluatie en operationele replay | [![Build and Push AIOps Images](https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml) | ![Docker Pulls](https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu) |
+Menu: [ansible_cicd](docker/docker_container_ansible_cicd.md) | [netdevops_cicd](docker/docker_container_netdevops_cicd.md) | [aiops_cicd](docker/docker_container_aiops_cicd.md)
+
+| Container | Omschrijving | CI-status |
+| --------- | ------------ | --------- |
+| [ansible_cicd](docker/docker_container_ansible_cicd.md) | Images met Ansible, Molecule, ansible-lint, netwerkautomatisering en CMDB-tests | [![Build and Push Ansible Images](https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml) |
+| [netdevops_cicd](docker/docker_container_netdevops_cicd.md) | Python NetDevOps-images met Netmiko, Scrapli, Nornir, NAPALM, API- en configuratievalidatie | [![Build and Push NetDevOps Images](https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml) |
+| [aiops_cicd](docker/docker_container_aiops_cicd.md) | AIOps-evaluatie-images voor LLM-clients, prompttests, agenttests, RAG-evaluatie en operationele replay | [![Build and Push AIOps Images](https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml) |
 
 De onderhouden CI/CD-images ondersteunen de nieuwste twee distroversies per familie: Ubuntu 24.04/26.04, Debian 12/13, Rocky Linux 8/9 en Alpine 3.22/3.23. Oudere Docker Hub image-tags blijven beschikbaar maar worden niet meer bijgewerkt.
 
