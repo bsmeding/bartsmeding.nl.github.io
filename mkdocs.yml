@@ -58,6 +58,9 @@ nav:
       - 'bsmeding.webmin': ansible/ansible-role-webmin.md
   - Docker images:
       - Docker overview: docker_images.md
+      - 'Ansible CI/CD images': docker/docker_container_ansible_cicd.md
+      - 'NetDevOps CI/CD images': docker/docker_container_netdevops_cicd.md
+      - 'AIOps CI/CD images': docker/docker_container_aiops_cicd.md
       - 'Nautobot container image': docker/docker_conatiner_nautobot.md
       - 'Gitea runner container image': docker/docker_conatiner_gitea_runner.md
       - 'Rat of Fortune container image': docker/docker_conatiner_rat_of_fortune.md
