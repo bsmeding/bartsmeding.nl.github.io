@@ -24,6 +24,7 @@ Older tags remain available on Docker Hub but are no longer updated.
 - Network automation: Netmiko, Scrapli, Nornir, NAPALM, ncclient, Paramiko
 - Source-of-truth and CMDB APIs: pynautobot, pynetbox
 - API and configuration validation: JSON Schema, Pydantic, PyYAML, Jinja2, JMESPath, TextFSM, ntc-templates, TTP, pybatfish
+- Cisco API helpers: dnacentersdk and wingpy on Python 3.10+ images
 - CI and code quality: pytest, pytest-cov, pytest-xdist, ruff, mypy, yamllint
 - API and CLI helpers: requests, HTTPX, Rich, Typer
 
