@@ -7,6 +7,14 @@ edit_uri: edit/main/docs/
 
 plugins:
   - search
+  - macros:
+      module_name: main
+      j2_variable_start_string: "[["
+      j2_variable_end_string: "]]"
+      j2_block_start_string: "[[%"
+      j2_block_end_string: "%]]"
+      j2_comment_start_string: "[[#"
+      j2_comment_end_string: "#]]"
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -36,9 +44,15 @@ plugins:
             'Gitea runner container image': Gitea runner-containerimage
             'Rat of Fortune container image': Rat of Fortune-containerimage
             'AI in networking': AI in netwerken
+            Services: Diensten
+            'Large home & home office networking': Grote woning & thuiswerkkantoor
+            'Camping & marina networking': Camping- & jachthaven-netwerken
 
 nav:
   - Home: index.md
+  - Services:
+      - 'Large home & home office networking': services/large-home-home-office-networking.md
+      - 'Camping & marina networking': services/camping-marina-networking.md
   - Projects: projects.md
   - Ansible roles & collections:
       - Roles overview: ansible_roles_and_collections.md
@@ -91,6 +105,10 @@ theme:
     - navigation.sections
     - content.code.copy
     - search.suggest
+    - navigation.footer
+
+extra_css:
+  - stylesheets/pricing.css
 
 markdown_extensions:
   - admonition

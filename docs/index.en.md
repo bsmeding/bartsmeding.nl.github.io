@@ -15,6 +15,7 @@ If you are looking for **network automation**, **CI/CD for infrastructure**, or 
 | **Delivery** | **Automated test, deploy, and rollback** patterns so changes are provable, not heroic. Clear **handover** so your team owns what we build. |
 | **Cloud & hybrid** | Automation that spans **on-prem and cloud** — APIs, pipelines, and consistency across environments. |
 | **NetAIOps** | Practical use of **AI alongside networking** (observability, CMDB/query patterns, agents) — see [AI in networking](ai/ai_in_networking.md) and we can align this with your automation strategy. |
+| **Managed residential & hospitality** | [Large home & home office networking](services/large-home-home-office-networking.md) and [camping & marina networking](services/camping-marina-networking.md) — UniFi-based managed networks with optional smart home operations. |
 
 ---
 
@@ -31,6 +32,7 @@ We bring long experience in **network design, engineering, and operations**, com
 | [Projects](projects.md) | What we publish and maintain — open tooling, images, and pointers. |
 | [Ansible roles & collections](ansible_roles_and_collections.md) | Roles we maintain on Galaxy (CI-backed), reused in real engagements. |
 | [Docker images](docker_images.md) | CI/CD images and application images we build and keep current. |
+| [Services](services/large-home-home-office-networking.md) | Managed **large home / home office** and **camping / marina** networking — packages and pricing. |
 | [About](about.md) | Background, competencies, **contact**, and how we work with clients. |
 
 **Articles, tutorials, and broader NetDevOps content** live on **[NetDevOps.it](https://netdevops.it/)** 
