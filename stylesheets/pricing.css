@@ -1,0 +1,95 @@
+/* Shared pricing card styles — dark-mode compatible via Material CSS variables */
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.pricing-card {
+    background: var(--md-code-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.pricing-card--featured {
+    border-color: var(--md-accent-fg-color);
+    box-shadow: 0 2px 8px rgba(0, 150, 136, 0.15);
+}
+
+.pricing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card h3 {
+    margin: 0 0 0.5rem;
+    color: var(--md-default-fg-color);
+    font-size: 1.15rem;
+}
+
+.pricing-price {
+    margin: 0 0 0.75rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--md-default-fg-color);
+}
+
+.pricing-price span {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--md-default-fg-color--light);
+}
+
+.pricing-tagline {
+    margin: 0 0 1rem;
+    color: var(--md-default-fg-color--light);
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+.pricing-optional {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--md-default-fg-color--light);
+}
+
+.pricing-features {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: var(--md-default-fg-color);
+    line-height: 1.6;
+    font-size: 0.92rem;
+}
+
+.pricing-features li {
+    margin-bottom: 0.35rem;
+}
+
+.card-badge {
+    display: inline-block;
+    float: right;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--md-accent-fg-color);
+    border: 1px solid var(--md-accent-fg-color);
+    border-radius: 4px;
+    padding: 0.1rem 0.45rem;
+    margin-top: 0.1rem;
+}
+
+.card-cta {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+}
