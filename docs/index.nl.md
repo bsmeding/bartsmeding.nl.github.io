@@ -32,7 +32,7 @@ We combineren jarenlange ervaring in **netwerkontwerp, engineering en operatie**
 | [Projecten](projects.md) | Wat we publiceren en onderhouden — open tooling, images en verwijzingen. |
 | [Ansible-roles & -collections](ansible_roles_and_collections.md) | Roles die we op Galaxy onderhouden (met CI), hergebruikt in echte opdrachten. |
 | [Docker-images](docker_images.md) | CI/CD-images en applicatie-images die we bouwen en actueel houden. |
-| [Diensten](services/large-home-home-office-networking.md) | Beheerde **grote woning / thuiswerk**- en **camping / jachthaven**-netwerken — pakketten en tarieven. |
+| [Diensten](services/index.md) | Beheerde **grote woning / thuiswerk**- en **camping / jachthaven**-netwerken — pakketten en tarieven. |
 | [Over](about.md) | Achtergrond, competenties, **contact** en hoe we met klanten werken. |
 
 **Artikelen, tutorials en bredere NetDevOps-content** staan op **[NetDevOps.it](https://netdevops.it/)**

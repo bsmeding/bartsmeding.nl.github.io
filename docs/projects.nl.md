@@ -4,7 +4,13 @@
 
 Hieronder een **NetDevOps-georiënteerd overzicht** van uitgelichte opdrachten. Meer achtergrond: **[LinkedIn](https://www.linkedin.com/in/bartsmeding/)**.
 
-De rest van deze pagina blijft uw **plattegrond** naar open assets; volledige overzichten en CI-status staan onder **Ansible-roles & -collections** en **Docker-images** in de navigatie.
+De rest van deze pagina blijft uw **plattegrond** naar open assets; volledige overzichten en CI-status staan onder **Ansible-roles & -collections**, **Docker-images** en **[Diensten](services/index.md)** in de navigatie.
+
+---
+
+## Beheerde netwerken (UniFi)
+
+Voor **grote woning**, **thuiswerk**, **camping** en **jachthaven** bieden we beheerde **UniFi**-operatie — zie **[Diensten](services/index.md)** voor pakketten, tarieven en hardware-opties.
 
 ---
 

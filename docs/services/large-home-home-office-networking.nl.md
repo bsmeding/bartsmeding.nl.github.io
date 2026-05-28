@@ -10,6 +10,8 @@ Professioneel beheerde netwerken voor **grote woningen** en **thuiswerkplekken**
 
 Geen consumenten IT-support, maar **gestandaardiseerde, betrouwbare en beheerde netwerk- en smart home infrastructuren** op basis van enterprise principes.
 
+Wij **werken uitsluitend met UniFi-apparatuur** en ondersteunen alleen UniFi. Hardware leveren is optioneel: wij kunnen nieuwe UniFi-apparatuur leveren of uw bestaande installatie overnemen met een **verbeterrapport**. Zie het [dienstenoverzicht](index.md) voor details.
+
 Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligde managementverbinding.
 
 ---
@@ -40,7 +42,7 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
             "Geavanceerde WiFi-optimalisatie",
             "VPN-beheer en remote access",
             "Prioriteit in support",
-            "Uitgebreide troubleshooting",
+            "Uitgebreide remote troubleshooting",
             "Tot <strong>15</strong> UniFi devices",
         ]
     )

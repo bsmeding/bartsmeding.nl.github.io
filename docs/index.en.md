@@ -32,7 +32,7 @@ We bring long experience in **network design, engineering, and operations**, com
 | [Projects](projects.md) | What we publish and maintain — open tooling, images, and pointers. |
 | [Ansible roles & collections](ansible_roles_and_collections.md) | Roles we maintain on Galaxy (CI-backed), reused in real engagements. |
 | [Docker images](docker_images.md) | CI/CD images and application images we build and keep current. |
-| [Services](services/large-home-home-office-networking.md) | Managed **large home / home office** and **camping / marina** networking — packages and pricing. |
+| [Services](services/index.md) | Managed **large home / home office** and **camping / marina** networking — packages and pricing. |
 | [About](about.md) | Background, competencies, **contact**, and how we work with clients. |
 
 **Articles, tutorials, and broader NetDevOps content** live on **[NetDevOps.it](https://netdevops.it/)** 

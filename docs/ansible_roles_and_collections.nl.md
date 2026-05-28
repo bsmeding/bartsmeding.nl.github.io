@@ -14,6 +14,8 @@ tags:
 
 Als u **roles wilt uitbreiden**, **in uw pipeline wilt inbedden** of **aan uw standaarden wilt toetsen**, hoort dat bij ons **advies** — [neem contact op via Over](about.md).
 
+Voor **beheerde UniFi-netwerken** (grote woning, thuiswerk, camping, jachthaven), zie **[Diensten](services/index.md)**.
+
 ---
 
 ## Actieve Ansible-roles van Bart Smeding

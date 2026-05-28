@@ -45,12 +45,14 @@ plugins:
             'Rat of Fortune container image': Rat of Fortune-containerimage
             'AI in networking': AI in netwerken
             Services: Diensten
+            Overview: Overzicht
             'Large home & home office networking': Grote woning & thuiswerkkantoor
             'Camping & marina networking': Camping- & jachthaven-netwerken
 
 nav:
   - Home: index.md
   - Services:
+      - Overview: services/index.md
       - 'Large home & home office networking': services/large-home-home-office-networking.md
       - 'Camping & marina networking': services/camping-marina-networking.md
   - Projects: projects.md
@@ -103,6 +105,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.indexes
     - content.code.copy
     - search.suggest
     - navigation.footer

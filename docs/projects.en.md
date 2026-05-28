@@ -4,7 +4,13 @@
 
 Below is a **NetDevOps-oriented summary** of selected engagements. More background: **[LinkedIn](https://www.linkedin.com/in/bartsmeding/)**.
 
-Use the rest of this page as a **map** to open assets; full listings and CI status are under **Ansible roles & collections** and **Docker images** in the navigation.
+Use the rest of this page as a **map** to open assets; full listings and CI status are under **Ansible roles & collections**, **Docker images**, and **[Services](services/index.md)** in the navigation.
+
+---
+
+## Managed networking (UniFi)
+
+For **large home**, **home office**, **camping**, and **marina** networks we offer managed **UniFi** operations — see **[Services](services/index.md)** for packages, pricing, and hardware options.
 
 ---
 

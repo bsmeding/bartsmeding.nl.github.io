@@ -14,6 +14,8 @@ tags:
 
 If you need **roles extended**, **integrated into your pipeline**, or **matched to your standards**, that is part of our **consultancy** — [get in touch via About](about.md).
 
+For **managed UniFi networking** (large home, home office, camping, marina), see **[Services](services/index.md)**.
+
 ---
 
 ## Active Ansible roles maintained by Bart Smeding

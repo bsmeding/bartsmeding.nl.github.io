@@ -10,9 +10,9 @@ Managed netwerkoplossingen voor **campings**, **jachthavens** en **hospitality**
 
 Wij ontwerpen en beheren schaalbare **UniFi-netwerken** voor buitenomgevingen, recreatiegebieden en waterfront-infrastructuur — inclusief **gastnetwerken**, **cameranetwerken** en segmentatie van kritieke systemen.
 
-Geen consumenten WiFi — **gestandaardiseerde, betrouwbare en beheerde netwerkinfrastructuur** op basis van enterprise principes, gebouwd voor een volledig seizoen.
+Wij **werken uitsluitend met UniFi-apparatuur** en ondersteunen alleen UniFi. Hardware leveren is optioneel: wij kunnen nieuwe UniFi-apparatuur leveren of uw bestaande installatie overnemen met een **verbeterrapport**. Zie het [dienstenoverzicht](index.md) voor details.
 
-Alle oplossingen zijn **remote beheerd** via centrale monitoring en secure VPN management.
+Alle oplossingen zijn **remote beheerd** via centrale monitoring en secure VPN management. Geen consumenten WiFi — **gestandaardiseerde, betrouwbare en beheerde netwerkinfrastructuur** op basis van enterprise principes, gebouwd voor een volledig seizoen.
 
 ---
 

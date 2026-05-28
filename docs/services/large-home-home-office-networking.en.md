@@ -10,6 +10,8 @@ Professionally managed networks for **large homes** and **home office** environm
 
 We deliver and operate complete **UniFi-based** network infrastructures with central monitoring, a secure VPN management layer, and automation. Not consumer Wi‑Fi kits — **standardised, reliable, enterprise-grade infrastructure** for residential use.
 
+We **work with and support UniFi equipment only**. Hardware supply is optional: we can deliver new UniFi gear or onboard your existing installation and provide an **improvement report**. See the [Services overview](index.md) for details.
+
 All management is **remote** (ticket/e-mail) via a secure management connection.
 
 ---
