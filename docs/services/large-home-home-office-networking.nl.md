@@ -40,6 +40,7 @@ Device-telling omvat gateways, switches en access points in UniFi. Extra apparat
             "Monitoring van netwerkapparatuur",
             "Configuratie back-ups",
             "Firmware &amp; lifecycle updates",
+            "VLAN-segmentatie LAN/gast <em>(max 2 VLAN's — gasten standaard gescheiden)</em>",
             "Ticket support (best effort)",
             "Kleine wijzigingen inbegrepen <em>(fair use, max 30 min/maand)</em>",
             "Tot <strong>10</strong> UniFi devices",
@@ -52,7 +53,7 @@ Device-telling omvat gateways, switches en access points in UniFi. Extra apparat
         tagline="Grote woningen met zakelijk thuisgebruik en hybride netwerken.",
         features=[
             "Alles uit Essential",
-            "VLAN-segmentatie (IoT / werk / gast)",
+            "Uitgebreide VLAN-segmentatie (IoT / werk / gast en meer)",
             "Geavanceerde WiFi-optimalisatie",
             "VPN-beheer en remote access",
             "Prioriteit in support",

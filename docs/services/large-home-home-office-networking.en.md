@@ -40,6 +40,7 @@ Device counts include gateways, switches, and access points managed in UniFi. Ex
             "Network equipment monitoring",
             "Configuration backups",
             "Firmware &amp; lifecycle updates",
+            "VLAN segmentation LAN/guest <em>(max 2 VLANs — guests always isolated)</em>",
             "Ticket support (best effort)",
             "Small changes included <em>(fair use, max 30 min/month)</em>",
             "Up to <strong>10</strong> UniFi devices",
@@ -52,7 +53,7 @@ Device counts include gateways, switches, and access points managed in UniFi. Ex
         tagline="Large homes with business use and hybrid home/office networking.",
         features=[
             "Everything in Essential",
-            "VLAN segmentation (IoT / work / guest)",
+            "Extended VLAN segmentation (IoT / work / guest and more)",
             "Advanced Wi&#8209;Fi optimisation",
             "VPN management and remote access",
             "Priority support",
