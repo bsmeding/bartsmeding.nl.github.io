@@ -95,6 +95,14 @@ Device counts include gateways, switches, and access points managed in UniFi. Ex
 
 **Essential** is limited to the standard Home Assistant core and simple automations — no community add-ons or HACS. **Estate** covers extensions and custom work within the included hours; time beyond the monthly allowance is quoted separately.
 
+!!! note "Access to Home Assistant"
+    Smart home management requires **remote access to Home Assistant**.
+
+    - With a **network management package**, access is usually already in place via the **management VPN**.
+    - **Smart Home only** (no network package): access is set up during **one-time onboarding** (if not already available; quoted separately).
+
+    Secure remote access is part of the design — for example **Nabu Casa**, **your own VPN**, **Cloudflare Tunnel**, **Tailscale**, or comparable solutions. No open ports or unsecured exposure to the internet.
+
 ---
 
 ## Bundles

@@ -95,6 +95,14 @@ Device-telling omvat gateways, switches en access points in UniFi. Extra apparat
 
 Bij **Essential** beperken we ons tot de standaard Home Assistant-kern en eenvoudige automatiseringen — geen community-add-ons of HACS. **Estate** dekt uitbreidingen en maatwerk binnen de inbegrepen uren; tijd boven het maandmaximum wordt apart geoffreerd.
 
+!!! note "Toegang tot Home Assistant"
+    Voor smart home-beheer moet **remote toegang tot Home Assistant** beschikbaar zijn.
+
+    - Neemt u **ook netwerkbeheer** af, dan is toegang doorgaans al ingericht via de **management-VPN**.
+    - Alleen **Smart Home** zonder netwerkpakket: toegang wordt bij **eenmalige onboarding** ingericht (indien nog niet aanwezig; apart geoffreerd).
+
+    Veilige toegang op afstand hoort bij de opzet — bijvoorbeeld via **Nabu Casa**, een **eigen VPN**, **Cloudflare Tunnel**, **Tailscale** of vergelijkbaar. Geen open poorten of onbeveiligde exposure naar het internet.
+
 ---
 
 ## Bundels
