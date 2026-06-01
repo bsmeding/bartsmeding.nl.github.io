@@ -1,18 +1,31 @@
 ---
 title: "Grote woning & thuiswerkkantoor"
 tags: ["diensten", "netwerken", "unifi", "smart home", "thuiswerken", "grote woning", "managed services"]
-summary: Professioneel beheerde UniFi-netwerken en optionele Home Assistant-ondersteuning voor grote woningen en thuiswerkplekken.
+summary: Professioneel beheerde UniFi-netwerken voor grote woningen, zakelijke thuisomgevingen en hybride thuis/zakelijke netwerken.
 ---
 
 # Grote woning & thuiswerkkantoor
 
-Professioneel beheerde netwerken voor **grote woningen** en **thuiswerkplekken** waar **stabiliteit**, **snelheid** en **betrouwbaarheid** cruciaal zijn — meerdere verdiepingen, veel apparaten en serieus thuiswerken.
+Professioneel beheerde netwerken voor **grote woningen**, **zakelijke thuisomgevingen** en **hybride thuis/zakelijke netwerken** — waar stabiliteit, snelheid en betrouwbaarheid cruciaal zijn. Denk aan meerdere verdiepingen, veel aangesloten apparaten, thuiswerken en zakelijk gebruik vanuit huis.
 
-Geen consumenten IT-support, maar **gestandaardiseerde, betrouwbare en beheerde netwerk- en smart home infrastructuren** op basis van enterprise principes.
+Wij leveren en beheren **UniFi-infrastructuren** met centrale monitoring, een beveiligde management-VPN en lifecycle-automatisering. Geen consumenten-mesh: **gestandaardiseerde, enterprise-achtige infrastructuur** voor veeleisende woningen en thuiswerkplekken.
 
-Wij **werken uitsluitend met UniFi-apparatuur** en ondersteunen alleen UniFi. Hardware leveren is optioneel: wij kunnen nieuwe UniFi-apparatuur leveren of uw bestaande installatie overnemen met een **verbeterrapport**. Zie het [dienstenoverzicht](index.md) voor details.
+Wij hebben **voorkeur voor UniFi**; zakelijke merken (Arista, Juniper, Cisco, …) zijn **in overleg** mogelijk. Door veel te **automatiseren** houden we de beheerkosten laag — dat lukt niet met standaard consumenten-netwerkapparatuur. Hardware leveren is optioneel; zie [dienstenoverzicht](index.md) voor platform, enterprise en hardware.
 
-Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligde managementverbinding.
+Alle doorlopende beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligde managementverbinding.
+
+---
+
+## Voor wie zijn deze pakketten
+
+| Profiel | Typische situatie | Startpunt |
+|---------|-------------------|-----------|
+| **Grote woning** | Gateway, switches, meerdere AP's, IoT en gast-WiFi | Network Essential |
+| **Zakelijk thuis of hybride netwerk** | Meerdere verdiepingen, VLANs, thuiswerk en zakelijk gebruik, veel AP's | Network Professional |
+| **Smart home add-on** | Home Assistant in gebruik of gepland | Smart Home Essential of Estate |
+| **Volledige stack** | Netwerk + Home Assistant onder één beheerdienst | Connected Home of Connected Estate |
+
+Device-telling omvat gateways, switches en access points in UniFi. Extra apparaten boven het pakket worden apart geoffreerd.
 
 ---
 
@@ -20,8 +33,8 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
 
 [[ card_grid(
     card("Network Essential",
-        price="€39", period="/ maand",
-        tagline="Stabiele basisnetwerken in moderne woningen.",
+        price="€65", period="/ maand",
+        tagline="Stabiel beheerd netwerk voor grote moderne woningen.",
         features=[
             "Remote beheer via management VPN",
             "Monitoring van netwerkapparatuur",
@@ -29,13 +42,14 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
             "Firmware &amp; lifecycle updates",
             "Ticket support (best effort)",
             "Kleine wijzigingen inbegrepen <em>(fair use, max 30 min/maand)</em>",
-            "Tot <strong>5</strong> UniFi devices",
+            "Tot <strong>10</strong> UniFi devices",
         ]
     ),
     card("Network Professional",
-        price="€79", period="/ maand",
+        price="€119", period="/ maand",
         featured=True,
-        tagline="Grote woningen en geavanceerde thuiswerkplekken.",
+        badge="Meest gekozen",
+        tagline="Grote woningen met zakelijk thuisgebruik en hybride netwerken.",
         features=[
             "Alles uit Essential",
             "VLAN-segmentatie (IoT / werk / gast)",
@@ -43,7 +57,7 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
             "VPN-beheer en remote access",
             "Prioriteit in support",
             "Uitgebreide remote troubleshooting",
-            "Tot <strong>15</strong> UniFi devices",
+            "Tot <strong>20</strong> UniFi devices",
         ]
     )
 ) ]]
@@ -54,7 +68,8 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
 
 [[ card_grid(
     card("Smart Home Essential",
-        price="€29", period="/ maand",
+        price="€39", period="/ maand",
+        tagline="Home Assistant-beheer voor één omgeving.",
         features=[
             "Monitoring Home Assistant-omgeving",
             "Back-ups &amp; updatebegeleiding",
@@ -64,7 +79,8 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
         ]
     ),
     card("Smart Home Estate",
-        price="€59", period="/ maand",
+        price="€79", period="/ maand",
+        tagline="Grotere of multi-zone Home Assistant-installaties.",
         features=[
             "Alles uit Essential",
             "Complexere automatiseringen",
@@ -79,9 +95,11 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
 
 ## Bundels
 
+Voordeliger dan losse netwerk- en smart home-pakketten.
+
 [[ card_grid(
     card("Connected Home",
-        price="€59", period="/ maand",
+        price="€95", period="/ maand",
         tagline="Network Essential + Smart Home Essential",
         features=[
             "Remote netwerk- en Home Assistant-beheer",
@@ -89,36 +107,42 @@ Alle beheer vindt plaats via **remote support** (ticket/e-mail) en een beveiligd
             "Firmware &amp; updatebegeleiding",
             "Ticket/e-mail support",
             "Kleine wijzigingen inbegrepen <em>(fair use, max 30 min/maand)</em>",
+            "Tot <strong>10</strong> UniFi devices",
         ]
     ),
     card("Connected Estate",
-        price="€129", period="/ maand",
+        price="€169", period="/ maand",
         featured=True,
+        badge="Beste waarde",
+        tagline="Network Professional + Smart Home Estate",
         features=[
-            "Network Professional + Smart Home Estate",
-            "Prioriteit support",
+            "Volledige netwerk- en smart home-stack",
+            "Prioriteit support voor netwerk en HA",
             "Geavanceerde netwerk- + smart home-integratie",
+            "Tot <strong>20</strong> UniFi devices",
         ]
     )
 ) ]]
 
 !!! note "Prijzen"
-    Maandbedragen zijn indicatief voor managed services. **Initieel ontwerp, hardware en werk op locatie** worden apart geoffreerd. Neem contact op via **[Over](../about.md)** om uw situatie te bespreken.
+    Maandbedragen zijn **indicatief** voor managed services en sluiten aan bij de scope van grote en veeleisende woningen (aantal devices, segmentatie en supportniveau). **Initieel ontwerp, hardware en werk op locatie** worden apart geoffreerd.
 
-    **Kleine wijzigingen** zijn inbegrepen op basis van fair use (max 30 min/maand). Extra tijd is altijd in overleg beschikbaar of bij te kopen.
+    **Kleine wijzigingen** zijn inbegrepen op basis van fair use (max 30 min/maand). Extra tijd is in overleg beschikbaar of bij te kopen.
+
+    Neem contact op via **[Over](../about.md)** voor een offerte op maat.
 
 ---
 
 ## Niet inbegrepen
 
-Dit is een **beheerde netwerk- en smart home infrastructuurdienst** — geen consumenten IT-support. Wij leveren gestandaardiseerde, betrouwbare en beheerde netwerk- en smart home infrastructuren op basis van enterprise principes.
+Dit is een **beheerde netwerk- en smart home infrastructuurdienst** — geen consumenten IT-support.
 
 Het volgende valt **buiten** de scope van deze pakketten:
 
 - Support voor internetprovider storingen (ISP)
 - Eindgebruikersapparaten (laptops, telefoons, printers)
 - Windows / macOS ondersteuning
-- Niet-ondersteunde routers of netwerkapparatuur
+- Consumenten-mesh, ISP-routers en niet-ondersteunde netwerkapparatuur (zakelijke merken in overleg — zie [dienstenoverzicht](index.md))
 - HACS / custom Home Assistant components
 - Custom scripts of maatwerk automation (tenzij projectbasis)
 - Ad-hoc "computerhulp" werkzaamheden

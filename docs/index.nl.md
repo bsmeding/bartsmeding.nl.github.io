@@ -15,7 +15,7 @@ Zoekt u **netwerkautomatisering**, **CI/CD voor infrastructuur**, of **opleiding
 | **Oplevering** | Patronen voor **geautomatiseerd testen, uitrollen en terugdraaien**, zodat wijzigingen aantoonbaar zijn. Duidelijke **overdracht** zodat uw team eigenaar blijft. |
 | **Cloud & hybride** | Automatisering die **on-prem en cloud** verbindt — API’s, pipelines en consistentie over omgevingen. |
 | **NetAIOps** | Praktische inzet van **AI naast netwerken** (observability, CMDB/query-patronen, agents) — zie [AI in netwerken](ai/ai_in_networking.md); we kunnen dit koppelen aan uw automatiseringsstrategie. |
-| **Beheerde woning & hospitality** | [Grote woning & thuiswerkkantoor](services/large-home-home-office-networking.md) en [camping- & jachthaven-netwerken](services/camping-marina-networking.md) — beheerde UniFi-netwerken met optioneel smart home-beheer. |
+| **Beheerde woning & hospitality** | [Grote woning & thuiswerkkantoor](services/large-home-home-office-networking.md) (grote woningen, zakelijk thuis, hybride netwerken) en [camping- & jachthaven-netwerken](services/camping-marina-networking.md) — beheerde UniFi-netwerken met optioneel smart home-beheer. |
 
 ---
 

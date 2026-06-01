@@ -10,7 +10,7 @@ Managed network solutions for **campings**, **marinas**, and **hospitality** loc
 
 We design and operate scalable **UniFi networks** for outdoor environments, recreation areas, and waterfront infrastructure — including **guest networks**, **camera networks**, and segmentation of critical systems.
 
-We **work with and support UniFi equipment only**. Hardware supply is optional: we can deliver new UniFi gear or onboard your existing installation and provide an **improvement report**. See the [Services overview](index.md) for details.
+We **prefer UniFi**; enterprise brands (Arista, Juniper, Cisco, …) are available **by agreement**. Automation keeps operations scalable and affordable — not with standard consumer gear. See the [Services overview](index.md) for platform and hardware options.
 
 All solutions are **remotely managed** via central monitoring and secure VPN management. Not consumer WiFi — standardised, enterprise-grade outdoor network infrastructure built for reliability across a full season.
 

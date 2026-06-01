@@ -15,7 +15,7 @@ If you are looking for **network automation**, **CI/CD for infrastructure**, or 
 | **Delivery** | **Automated test, deploy, and rollback** patterns so changes are provable, not heroic. Clear **handover** so your team owns what we build. |
 | **Cloud & hybrid** | Automation that spans **on-prem and cloud** — APIs, pipelines, and consistency across environments. |
 | **NetAIOps** | Practical use of **AI alongside networking** (observability, CMDB/query patterns, agents) — see [AI in networking](ai/ai_in_networking.md) and we can align this with your automation strategy. |
-| **Managed residential & hospitality** | [Large home & home office networking](services/large-home-home-office-networking.md) and [camping & marina networking](services/camping-marina-networking.md) — UniFi-based managed networks with optional smart home operations. |
+| **Managed residential & hospitality** | [Large home & home office networking](services/large-home-home-office-networking.md) (large homes, business-grade home use, hybrid networks) and [camping & marina networking](services/camping-marina-networking.md) — UniFi-based managed networks with optional smart home operations. |
 
 ---
 
