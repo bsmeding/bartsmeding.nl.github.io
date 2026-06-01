@@ -69,27 +69,31 @@ Device-telling omvat gateways, switches en access points in UniFi. Extra apparat
 [[ card_grid(
     card("Smart Home Essential",
         price="€39", period="/ maand",
-        tagline="Home Assistant-beheer voor één omgeving.",
+        tagline="Basis Home Assistant — één omgeving, beperkte scope.",
         features=[
-            "Monitoring Home Assistant-omgeving",
-            "Back-ups &amp; updatebegeleiding",
-            "Support voor officiële integraties",
+            "Alleen <strong>basis Home Assistant</strong> en <strong>basisautomatiseringen</strong>",
+            "Geen add-ons, geen HACS of custom integraties",
+            "Onderhoud van het systeem, beveiligingsupdates",
+            "<strong>Interne</strong> back-ups van de HA-omgeving",
+            "Wijzigingen &amp; support <em>(max 1 uur/maand)</em>",
             "Ticket/e-mail support",
-            "Geplande remote sessies",
         ]
     ),
     card("Smart Home Estate",
         price="€79", period="/ maand",
-        tagline="Grotere of multi-zone Home Assistant-installaties.",
+        tagline="Uitgebreide Home Assistant — add-ons, HACS en complexiteit.",
         features=[
-            "Alles uit Essential",
-            "Complexere automatiseringen",
-            "Energie- &amp; dashboardoptimalisatie",
-            "Multi-zone smart home-ondersteuning",
+            "Alles uit Essential, plus <strong>add-ons en HACS</strong> (binnen scope)",
+            "Complexere automatiseringen, dashboards, multi-zone",
+            "Onderhoud van het systeem, beveiligingsupdates",
+            "<strong>Interne</strong> back-ups; <strong>externe back-ups</strong> optioneel",
+            "Wijzigingen &amp; support <em>(max 2 uur/maand)</em>",
             "Prioriteitsverwerking",
         ]
     )
 ) ]]
+
+Bij **Essential** beperken we ons tot de standaard Home Assistant-kern en eenvoudige automatiseringen — geen community-add-ons of HACS. **Estate** dekt uitbreidingen en maatwerk binnen de inbegrepen uren; tijd boven het maandmaximum wordt apart geoffreerd.
 
 ---
 
@@ -102,11 +106,10 @@ Voordeliger dan losse netwerk- en smart home-pakketten.
         price="€95", period="/ maand",
         tagline="Network Essential + Smart Home Essential",
         features=[
-            "Remote netwerk- en Home Assistant-beheer",
-            "Configuratie back-ups voor netwerk en HA",
-            "Firmware &amp; updatebegeleiding",
+            "Network Essential + Smart Home Essential (basis HA, geen HACS)",
+            "Netwerk: kleine wijzigingen <em>(fair use, max 30 min/maand)</em>",
+            "HA: wijzigingen <em>(max 1 uur/maand)</em>, interne HA-back-ups",
             "Ticket/e-mail support",
-            "Kleine wijzigingen inbegrepen <em>(fair use, max 30 min/maand)</em>",
             "Tot <strong>10</strong> UniFi devices",
         ]
     ),
@@ -116,9 +119,9 @@ Voordeliger dan losse netwerk- en smart home-pakketten.
         badge="Beste waarde",
         tagline="Network Professional + Smart Home Estate",
         features=[
-            "Volledige netwerk- en smart home-stack",
+            "Network Professional + Smart Home Estate (incl. add-ons/HACS)",
+            "HA: wijzigingen <em>(max 2 uur/maand)</em>, optionele externe back-ups",
             "Prioriteit support voor netwerk en HA",
-            "Geavanceerde netwerk- + smart home-integratie",
             "Tot <strong>20</strong> UniFi devices",
         ]
     )
@@ -127,7 +130,7 @@ Voordeliger dan losse netwerk- en smart home-pakketten.
 !!! note "Prijzen"
     Maandbedragen zijn **indicatief** voor managed services en sluiten aan bij de scope van grote en veeleisende woningen (aantal devices, segmentatie en supportniveau). **Initieel ontwerp, hardware en werk op locatie** worden apart geoffreerd.
 
-    **Kleine wijzigingen** zijn inbegrepen op basis van fair use (max 30 min/maand). Extra tijd is in overleg beschikbaar of bij te kopen.
+    **Netwerk:** kleine wijzigingen fair use (max 30 min/maand). **Smart Home Essential:** max 1 uur/maand; **Estate:** max 2 uur/maand. Extra tijd is in overleg beschikbaar of bij te kopen.
 
     Neem contact op via **[Over](../about.md)** voor een offerte op maat.
 
@@ -143,8 +146,8 @@ Het volgende valt **buiten** de scope van deze pakketten:
 - Eindgebruikersapparaten (laptops, telefoons, printers)
 - Windows / macOS ondersteuning
 - Consumenten-mesh, ISP-routers en niet-ondersteunde netwerkapparatuur (zakelijke merken in overleg — zie [dienstenoverzicht](index.md))
-- HACS / custom Home Assistant components
-- Custom scripts of maatwerk automation (tenzij projectbasis)
+- Add-ons, HACS en custom integraties onder **Smart Home Essential** (wel inbegrepen bij **Estate**, binnen de uren)
+- Maatwerk automation of scripts buiten de pakketuren (projectbasis)
 - Ad-hoc "computerhulp" werkzaamheden
 
 ---

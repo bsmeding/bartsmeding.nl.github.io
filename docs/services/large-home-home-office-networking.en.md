@@ -69,27 +69,31 @@ Device counts include gateways, switches, and access points managed in UniFi. Ex
 [[ card_grid(
     card("Smart Home Essential",
         price="€39", period="/ month",
-        tagline="Home Assistant operations for a single environment.",
+        tagline="Basic Home Assistant — one environment, limited scope.",
         features=[
-            "Home Assistant environment monitoring",
-            "Backups &amp; update guidance",
-            "Support for official integrations",
+            "<strong>Core Home Assistant</strong> and <strong>basic automations</strong> only",
+            "No add-ons, no HACS or custom integrations",
+            "System maintenance and security updates",
+            "<strong>Internal</strong> backups of the HA environment",
+            "Changes &amp; support <em>(max 1 hour/month)</em>",
             "Ticket/e-mail support",
-            "Scheduled remote sessions",
         ]
     ),
     card("Smart Home Estate",
         price="€79", period="/ month",
-        tagline="Larger or multi-zone Home Assistant setups.",
+        tagline="Extended Home Assistant — add-ons, HACS, and complexity.",
         features=[
-            "Everything in Essential",
-            "More complex automations",
-            "Energy &amp; dashboard optimisation",
-            "Multi-zone smart home support",
+            "Everything in Essential, plus <strong>add-ons and HACS</strong> (in scope)",
+            "More complex automations, dashboards, multi-zone",
+            "System maintenance and security updates",
+            "<strong>Internal</strong> backups; <strong>external backups</strong> optional",
+            "Changes &amp; support <em>(max 2 hours/month)</em>",
             "Priority handling",
         ]
     )
 ) ]]
+
+**Essential** is limited to the standard Home Assistant core and simple automations — no community add-ons or HACS. **Estate** covers extensions and custom work within the included hours; time beyond the monthly allowance is quoted separately.
 
 ---
 
@@ -102,11 +106,10 @@ Save compared with separate network and smart home packages.
         price="€95", period="/ month",
         tagline="Network Essential + Smart Home Essential",
         features=[
-            "Remote network and Home Assistant management",
-            "Configuration backups for network and HA",
-            "Firmware &amp; update guidance",
+            "Network Essential + Smart Home Essential (basic HA, no HACS)",
+            "Network: small changes <em>(fair use, max 30 min/month)</em>",
+            "HA: changes <em>(max 1 hour/month)</em>, internal HA backups",
             "Ticket/e-mail support",
-            "Small changes included <em>(fair use, max 30 min/month)</em>",
             "Up to <strong>10</strong> UniFi devices",
         ]
     ),
@@ -116,9 +119,9 @@ Save compared with separate network and smart home packages.
         badge="Best value",
         tagline="Network Professional + Smart Home Estate",
         features=[
-            "Complete managed network and smart home stack",
+            "Network Professional + Smart Home Estate (incl. add-ons/HACS)",
+            "HA: changes <em>(max 2 hours/month)</em>, optional external backups",
             "Priority support across network and HA",
-            "Advanced network + smart home integration",
             "Up to <strong>20</strong> UniFi devices",
         ]
     )
@@ -127,7 +130,7 @@ Save compared with separate network and smart home packages.
 !!! note "Pricing"
     Monthly fees are **indicative** for managed services and reflect the scope of large, demanding residential setups (device counts, segmentation, and support level). **Initial design, hardware, and on-site work** are quoted separately.
 
-    **Small changes** are included under fair use (max 30 min/month). Additional time is available on request or can be purchased separately.
+    **Network:** small changes under fair use (max 30 min/month). **Smart Home Essential:** max 1 hour/month; **Estate:** max 2 hours/month. Additional time is available on request or can be purchased separately.
 
     Contact us via **[About](../about.md)** for a quote tailored to your property.
 
@@ -143,8 +146,8 @@ The following is explicitly **outside** the scope of these packages:
 - End-user devices (laptops, phones, printers)
 - Windows / macOS troubleshooting
 - Consumer mesh, ISP routers, and unsupported network gear (enterprise brands by agreement — see [Services overview](index.md))
-- HACS / custom Home Assistant components
-- Custom scripts or bespoke automation (available on project basis)
+- Add-ons, HACS, and custom integrations under **Smart Home Essential** (included in **Estate**, within the hourly allowance)
+- Bespoke automation or scripts beyond package hours (project basis)
 - Ad-hoc "computer help" tasks
 
 ---
