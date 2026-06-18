@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — b@rtsmeding IT</title>
+  <meta name="description" content="Managed UniFi networking packages for homes, home offices, campings, and marinas. Network automation consultancy and training.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lang.js"></script>
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────── -->
+<nav class="site-nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="b@rtsmeding IT" class="nav-logo-img"></a>
+      <button class="nav-hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active"><span class="lang-en">Services</span><span class="lang-nl">Diensten</span></a>
+        <a href="projects.html"><span class="lang-en">Projects</span><span class="lang-nl">Projecten</span></a>
+        <a href="status.html"><span class="lang-en">Status</span><span class="lang-nl">Status</span></a>
+        <a href="about.html"><span class="lang-en">About</span><span class="lang-nl">Over</span></a>
+        <button class="lang-btn" onclick="toggleLang()">
+          <span class="lang-en">NL</span><span class="lang-nl">EN</span>
+        </button>
+        <a href="about.html" class="btn-nav">
+          <span class="lang-en">Get in touch</span><span class="lang-nl">Contact</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Page hero ──────────────────────────────────────── -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-label"><span class="lang-en">Services</span><span class="lang-nl">Diensten</span></div>
+    <h1><span class="lang-en">What we offer</span><span class="lang-nl">Wat wij bieden</span></h1>
+    <p>
+      <span class="lang-en">Enterprise network automation consulting &amp; training, and managed UniFi networking for residential and hospitality clients.</span>
+      <span class="lang-nl">Zakelijk netwerkautomatiserings­advies &amp; training, en beheerde UniFi-netwerken voor woon- en hospitality-klanten.</span>
+    </p>
+  </div>
+</section>
+<div class="brand-bar"></div>
+
+<!-- ── Enterprise / NetDevOps ─────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="sec-label"><span class="lang-en">Enterprise &amp; NetDevOps</span><span class="lang-nl">Enterprise &amp; NetDevOps</span></div>
+    <h2 class="sec-title"><span class="lang-en">Network automation consultancy &amp; training</span><span class="lang-nl">Netwerkautomatisering &amp; training</span></h2>
+    <p class="sec-sub">
+      <span class="lang-en">Project-based engagement — scoped and priced per assignment. Contact via LinkedIn for availability and to discuss your requirements.</span>
+      <span class="lang-nl">Projectmatige opdrachten — scope en prijs per project bepaald. Neem contact op via LinkedIn voor beschikbaarheid en het bespreken van uw behoeften.</span>
+    </p>
+    <div class="grid-3">
+
+      <div class="card">
+        <div class="card-icon">&#9113;</div>
+        <h3 class="card-title"><span class="lang-en">Automation architecture</span><span class="lang-nl">Automatiseringsarchitectuur</span></h3>
+        <p class="card-body">
+          <span class="lang-en">HLD/LLD design, source-of-truth strategy (Nautobot/NetBox), Ansible + AWX/Tower patterns, brownfield onboarding, drift control, and closed-loop change pipelines.</span>
+          <span class="lang-nl">HLD/LLD-ontwerp, source-of-truth-strategie (Nautobot/NetBox), Ansible + AWX/Tower-patronen, brownfield onboarding, driftcontrole en closed-loop wijzigingspipelines.</span>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">&#9881;</div>
+        <h3 class="card-title"><span class="lang-en">CI/CD &amp; pipeline delivery</span><span class="lang-nl">CI/CD &amp; pipeline-implementatie</span></h3>
+        <p class="card-body">
+          <span class="lang-en">GitLab CI/CD or similar — tested deploy and rollback pipelines for network configuration changes. Integrations with Cisco DNA Center, Infoblox, Panorama, SolarWinds, and more.</span>
+          <span class="lang-nl">GitLab CI/CD of vergelijkbaar — geteste deploy- en rollback-pipelines voor netwerkconfiguraties. Integraties met Cisco DNA Center, Infoblox, Panorama, SolarWinds en meer.</span>
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">&#9998;</div>
+        <h3 class="card-title"><span class="lang-en">Training &amp; team enablement</span><span class="lang-nl">Training &amp; kennisoverdracht</span></h3>
+        <p class="card-body">
+          <span class="lang-en">Custom training built around your specific environment, vendors, and constraints. Global NetDevOps programs to bring network engineers toward automation, CI/CD, and sustainable practices. Clear handover so automation doesn't stop when the project ends.</span>
+          <span class="lang-nl">Maatwerk-training afgestemd op uw specifieke omgeving, vendors en randvoorwaarden. Wereldwijde NetDevOps-programma's om netwerkengineers richting automatisering, CI/CD en duurzame werkwijzen te brengen. Duidelijke overdracht zodat automatisering niet stopt als het project klaar is.</span>
+        </p>
+      </div>
+
+    </div>
+    <p style="margin-top:24px;font-size:14px;color:var(--muted)">
+      <span class="lang-en">Pricing is per project. </span><span class="lang-nl">Prijzen per project. </span>
+      <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank" class="inline-link">
+        <span class="lang-en">Reach out on LinkedIn to discuss your project →</span>
+        <span class="lang-nl">Neem contact op via LinkedIn om uw project te bespreken →</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- ── Managed home networking ────────────────────────── -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="sec-label"><span class="lang-en">Managed networking — home &amp; office</span><span class="lang-nl">Beheerd netwerk — woning &amp; kantoor</span></div>
+    <h2 class="sec-title"><span class="lang-en">Large home &amp; home office networking</span><span class="lang-nl">Grote woning &amp; thuiswerkkantoor</span></h2>
+    <p class="sec-sub">
+      <span class="lang-en">Enterprise-style UniFi infrastructure for large homes, home offices, and hybrid setups — remote management, monitoring, and lifecycle automation. Not consumer mesh.</span>
+      <span class="lang-nl">Enterprise-achtige UniFi-infrastructuur voor grote woningen, thuiswerkkantoren en hybride netwerken — remote beheer, monitoring en lifecycle-automatisering. Geen consumenten-mesh.</span>
+    </p>
+
+    <h3 style="font-size:16px;font-weight:600;margin-bottom:20px">
+      <span class="lang-en">Network packages</span><span class="lang-nl">Netwerkpakketten</span>
+    </h3>
+    <div class="grid-2" style="margin-bottom:40px">
+
+      <div class="pricing-card">
+        <div class="pricing-name">Network Essential</div>
+        <div class="pricing-tagline"><span class="lang-en">Stable managed network for large modern homes.</span><span class="lang-nl">Stabiel beheerd netwerk voor grote moderne woningen.</span></div>
+        <div class="price-row"><span class="price-amount">€65</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Remote management via VPN</span><span class="lang-nl">Remote beheer via management-VPN</span></li>
+          <li><span class="lang-en">Network equipment monitoring</span><span class="lang-nl">Monitoring netwerkapparatuur</span></li>
+          <li><span class="lang-en">Configuration backups</span><span class="lang-nl">Configuratieback-ups</span></li>
+          <li><span class="lang-en">Firmware &amp; lifecycle updates</span><span class="lang-nl">Firmware &amp; lifecycle-updates</span></li>
+          <li><span class="lang-en">VLAN segmentation (max 2 VLANs)</span><span class="lang-nl">VLAN-segmentatie (max. 2 VLAN's)</span></li>
+          <li><span class="lang-en">Ticket support (best effort)</span><span class="lang-nl">Ticketondersteuning (best effort)</span></li>
+          <li><span class="lang-en">Small changes included (max 30 min/mo)</span><span class="lang-nl">Kleine wijzigingen inbegrepen (max. 30 min/mnd)</span></li>
+          <li><span class="lang-en">Up to <strong>10</strong> UniFi devices</span><span class="lang-nl">Tot <strong>10</strong> UniFi-apparaten</span></li>
+        </ul>
+      </div>
+
+      <div class="pricing-card featured">
+        <span class="feat-badge"><span class="lang-en">Most chosen</span><span class="lang-nl">Meest gekozen</span></span>
+        <div class="pricing-name">Network Professional</div>
+        <div class="pricing-tagline"><span class="lang-en">Large homes with business use and hybrid home/office networking.</span><span class="lang-nl">Grote woningen met zakelijk gebruik en hybride netwerken.</span></div>
+        <div class="price-row"><span class="price-amount">€119</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Everything in Essential</span><span class="lang-nl">Alles uit Essential</span></li>
+          <li><span class="lang-en">Extended VLAN segmentation (IoT / work / guest)</span><span class="lang-nl">Uitgebreide VLAN-segmentatie (IoT / werk / gast)</span></li>
+          <li><span class="lang-en">Advanced WiFi optimisation</span><span class="lang-nl">Geavanceerde WiFi-optimalisatie</span></li>
+          <li><span class="lang-en">VPN management &amp; remote access</span><span class="lang-nl">VPN-beheer &amp; remote access</span></li>
+          <li><span class="lang-en">Priority support</span><span class="lang-nl">Prioriteitsondersteuning</span></li>
+          <li><span class="lang-en">Extended remote troubleshooting</span><span class="lang-nl">Uitgebreide remote troubleshooting</span></li>
+          <li><span class="lang-en">Up to <strong>20</strong> UniFi devices</span><span class="lang-nl">Tot <strong>20</strong> UniFi-apparaten</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <h3 style="font-size:16px;font-weight:600;margin-bottom:6px">
+      Smart Home <span style="font-size:13px;font-weight:400;color:var(--muted)">(<span class="lang-en">optional add-on</span><span class="lang-nl">optionele toevoeging</span>)</span>
+    </h3>
+    <p style="font-size:14px;color:var(--muted);margin-bottom:20px">
+      <span class="lang-en">Home Assistant management, maintenance, and support — Essential for core HA, Estate for add-ons and HACS.</span>
+      <span class="lang-nl">Home Assistant-beheer, onderhoud en support — Essential voor basis-HA, Estate voor add-ons en HACS.</span>
+    </p>
+    <div class="grid-2" style="margin-bottom:40px">
+
+      <div class="pricing-card">
+        <div class="pricing-name">Smart Home Essential</div>
+        <div class="pricing-tagline"><span class="lang-en">Core Home Assistant — basic automations only, no add-ons or HACS.</span><span class="lang-nl">Basis Home Assistant — alleen standaard-automatiseringen, geen add-ons of HACS.</span></div>
+        <div class="price-row"><span class="price-amount">€39</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Core HA + basic automations only</span><span class="lang-nl">Alleen basis-HA + standaardautomatiseringen</span></li>
+          <li><span class="lang-en">System maintenance &amp; security updates</span><span class="lang-nl">Systeemonderhoud &amp; beveiligingsupdates</span></li>
+          <li><span class="lang-en">Internal HA backups</span><span class="lang-nl">Interne HA-back-ups</span></li>
+          <li><span class="lang-en">Changes &amp; support (max 1 hr/mo)</span><span class="lang-nl">Wijzigingen &amp; support (max. 1 uur/mnd)</span></li>
+          <li><span class="lang-en">Ticket/e-mail support</span><span class="lang-nl">Ticket/e-mail-support</span></li>
+        </ul>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-name">Smart Home Estate</div>
+        <div class="pricing-tagline"><span class="lang-en">Extended Home Assistant — add-ons, HACS, complex automations, dashboards.</span><span class="lang-nl">Uitgebreide Home Assistant — add-ons, HACS, complexe automatiseringen, dashboards.</span></div>
+        <div class="price-row"><span class="price-amount">€79</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Everything in Essential + add-ons &amp; HACS (in scope)</span><span class="lang-nl">Alles uit Essential + add-ons &amp; HACS (binnen scope)</span></li>
+          <li><span class="lang-en">Complex automations, dashboards, multi-zone</span><span class="lang-nl">Complexe automatiseringen, dashboards, multi-zone</span></li>
+          <li><span class="lang-en">Internal backups; external optional</span><span class="lang-nl">Interne back-ups; extern optioneel</span></li>
+          <li><span class="lang-en">Changes &amp; support (max 2 hrs/mo)</span><span class="lang-nl">Wijzigingen &amp; support (max. 2 uur/mnd)</span></li>
+          <li><span class="lang-en">Priority handling</span><span class="lang-nl">Prioriteitsverwerking</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <h3 style="font-size:16px;font-weight:600;margin-bottom:6px">
+      <span class="lang-en">Bundles</span><span class="lang-nl">Bundels</span>
+      <span style="font-size:13px;font-weight:400;color:var(--muted);margin-left:8px">
+        <span class="lang-en">— save vs. separate packages</span><span class="lang-nl">— voordeliger dan losse pakketten</span>
+      </span>
+    </h3>
+    <div class="grid-2">
+
+      <div class="pricing-card">
+        <div class="pricing-name">Connected Home</div>
+        <div class="pricing-tagline">Network Essential + Smart Home Essential</div>
+        <div class="price-row"><span class="price-amount">€95</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Network Essential + Smart Home Essential (basic HA)</span><span class="lang-nl">Network Essential + Smart Home Essential (basis HA)</span></li>
+          <li><span class="lang-en">Network: small changes (fair use, max 30 min/mo)</span><span class="lang-nl">Netwerk: kleine wijzigingen (fair use, max. 30 min/mnd)</span></li>
+          <li><span class="lang-en">HA: changes (max 1 hr/mo) + internal HA backups</span><span class="lang-nl">HA: wijzigingen (max. 1 uur/mnd) + interne HA-back-ups</span></li>
+          <li><span class="lang-en">Up to <strong>10</strong> UniFi devices</span><span class="lang-nl">Tot <strong>10</strong> UniFi-apparaten</span></li>
+        </ul>
+      </div>
+
+      <div class="pricing-card featured">
+        <span class="feat-badge"><span class="lang-en">Best value</span><span class="lang-nl">Beste waarde</span></span>
+        <div class="pricing-name">Connected Estate</div>
+        <div class="pricing-tagline">Network Professional + Smart Home Estate</div>
+        <div class="price-row"><span class="price-amount">€169</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Network Professional + Smart Home Estate (incl. add-ons/HACS)</span><span class="lang-nl">Network Professional + Smart Home Estate (incl. add-ons/HACS)</span></li>
+          <li><span class="lang-en">HA: changes (max 2 hrs/mo), optional external backups</span><span class="lang-nl">HA: wijzigingen (max. 2 uur/mnd), optionele externe back-ups</span></li>
+          <li><span class="lang-en">Priority support across network and HA</span><span class="lang-nl">Prioriteitsondersteuning voor netwerk en HA</span></li>
+          <li><span class="lang-en">Up to <strong>20</strong> UniFi devices</span><span class="lang-nl">Tot <strong>20</strong> UniFi-apparaten</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Hospitality ────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="sec-label"><span class="lang-en">Managed networking — hospitality</span><span class="lang-nl">Beheerd netwerk — hospitality</span></div>
+    <h2 class="sec-title"><span class="lang-en">Camping &amp; marina networking</span><span class="lang-nl">Camping- &amp; jachthaven-netwerken</span></h2>
+    <p class="sec-sub">
+      <span class="lang-en">Scalable UniFi networks for outdoor environments, recreation areas, and waterfront infrastructure — guest networks, camera networks, and segmentation of critical systems. Fully remote-managed.</span>
+      <span class="lang-nl">Schaalbare UniFi-netwerken voor buitenomgevingen, recreatiegebieden en waterfront-infrastructuur — gastnetwerken, cameranetwerken en segmentatie van kritieke systemen. Volledig remote beheerd.</span>
+    </p>
+    <div class="grid-3" style="margin-bottom:40px">
+
+      <div class="pricing-card">
+        <div class="pricing-name">Hospitality Network Basic</div>
+        <div class="pricing-tagline"><span class="lang-en">Smaller campings and marinas.</span><span class="lang-nl">Kleinere campings en jachthavens.</span></div>
+        <div class="price-row"><span class="price-amount">€149</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Network monitoring (WiFi + core infra)</span><span class="lang-nl">Netwerkmonitoring (WiFi + core-infra)</span></li>
+          <li><span class="lang-en">Remote management via VPN</span><span class="lang-nl">Remote beheer via VPN</span></li>
+          <li><span class="lang-en">Config backups &amp; firmware management</span><span class="lang-nl">Configuratieback-ups &amp; firmware-beheer</span></li>
+          <li><span class="lang-en">Ticket support (best effort)</span><span class="lang-nl">Ticketondersteuning (best effort)</span></li>
+          <li><span class="lang-en">Up to ~10–15 access points</span><span class="lang-nl">Tot ca. 10–15 access points</span></li>
+        </ul>
+      </div>
+
+      <div class="pricing-card featured">
+        <span class="feat-badge"><span class="lang-en">Most popular</span><span class="lang-nl">Meest gekozen</span></span>
+        <div class="pricing-name">Hospitality Network Pro</div>
+        <div class="pricing-tagline"><span class="lang-en">Medium-sized campings and marinas.</span><span class="lang-nl">Middelgrote campings en jachthavens.</span></div>
+        <div class="price-row"><span class="price-amount">€299</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Everything in Basic</span><span class="lang-nl">Alles uit Basic</span></li>
+          <li><span class="lang-en">Guest network &amp; captive portal support</span><span class="lang-nl">Gastnetwerk &amp; captive portal-ondersteuning</span></li>
+          <li><span class="lang-en">VLAN segmentation (guests / management / IoT)</span><span class="lang-nl">VLAN-segmentatie (gasten / beheer / IoT)</span></li>
+          <li><span class="lang-en">WiFi optimisation (outdoor coverage)</span><span class="lang-nl">WiFi-optimalisatie (outdoor dekking)</span></li>
+          <li><span class="lang-en">Camera network support</span><span class="lang-nl">Cameranetwerk-ondersteuning</span></li>
+          <li><span class="lang-en">Up to ~30 access points</span><span class="lang-nl">Tot ca. 30 access points</span></li>
+        </ul>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-name">Hospitality Network Estate</div>
+        <div class="pricing-tagline"><span class="lang-en">Large campings, resorts, and marinas — custom quote.</span><span class="lang-nl">Grote campings, resorts en marina's — maatwerk offerte.</span></div>
+        <div class="price-row"><span class="price-amount">€499+</span><span class="price-period"><span class="lang-en">/ month</span><span class="lang-nl">/ maand</span></span></div>
+        <ul class="price-features">
+          <li><span class="lang-en">Multi-zone network architecture</span><span class="lang-nl">Multi-zone netwerkarchitectuur</span></li>
+          <li><span class="lang-en">Advanced segmentation &amp; traffic control</span><span class="lang-nl">Geavanceerde segmentatie &amp; verkeerscontrole</span></li>
+          <li><span class="lang-en">CCTV + access control network management</span><span class="lang-nl">CCTV + toegangscontrole netwerkbeheer</span></li>
+          <li><span class="lang-en">High-availability monitoring</span><span class="lang-nl">High-availability monitoring</span></li>
+          <li><span class="lang-en">Multiple sites / clusters</span><span class="lang-nl">Meerdere locaties / clusters</span></li>
+          <li><span class="lang-en">Optional light SLA</span><span class="lang-nl">Optionele light-SLA</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Project services table -->
+    <h3 style="font-size:16px;font-weight:600;margin-bottom:16px">
+      <span class="lang-en">Project services</span><span class="lang-nl">Projectdiensten</span>
+    </h3>
+    <div class="grid-2">
+      <div class="repo-card">
+        <div><div class="repo-name" style="font-family:inherit;font-size:14px"><span class="lang-en">Camping / marina WiFi design &amp; build</span><span class="lang-nl">Camping / jachthaven WiFi-ontwerp &amp; aanleg</span></div></div>
+        <div style="font-size:15px;font-weight:600;color:var(--navy);white-space:nowrap"><span class="lang-en">from €2,500</span><span class="lang-nl">vanaf €2.500</span></div>
+      </div>
+      <div class="repo-card">
+        <div><div class="repo-name" style="font-family:inherit;font-size:14px"><span class="lang-en">Network renovation / upgrade</span><span class="lang-nl">Netwerkrenovatie / upgrade</span></div></div>
+        <div style="font-size:15px;font-weight:600;color:var(--navy);white-space:nowrap"><span class="lang-en">from €1,500</span><span class="lang-nl">vanaf €1.500</span></div>
+      </div>
+      <div class="repo-card">
+        <div><div class="repo-name" style="font-family:inherit;font-size:14px"><span class="lang-en">Captive portal &amp; guest network implementation</span><span class="lang-nl">Captive portal &amp; gastnetwerk-implementatie</span></div></div>
+        <div style="font-size:15px;font-weight:600;color:var(--navy);white-space:nowrap"><span class="lang-en">from €750</span><span class="lang-nl">vanaf €750</span></div>
+      </div>
+      <div class="repo-card">
+        <div><div class="repo-name" style="font-family:inherit;font-size:14px"><span class="lang-en">Camera network integration</span><span class="lang-nl">Cameranetwerk-integratie</span></div></div>
+        <div style="font-size:15px;font-weight:600;color:var(--navy);white-space:nowrap"><span class="lang-en">from €1,500</span><span class="lang-nl">vanaf €1.500</span></div>
+      </div>
+    </div>
+    <p style="margin-top:16px;font-size:13px;color:var(--muted)">
+      <span class="lang-en">Monthly fees are indicative. Initial design, hardware, and on-site work are quoted separately. Seasonal operations: flexible contracts available — contact us to discuss.</span>
+      <span class="lang-nl">Maandbedragen zijn indicatief. Initieel ontwerp, hardware en werk op locatie worden apart geoffreerd. Seizoensgebonden bedrijven: flexibele contracten mogelijk — neem contact op.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ── CTA ────────────────────────────────────────────── -->
+<section class="cta-section">
+  <div class="container">
+    <h2><span class="lang-en">Let's discuss your project</span><span class="lang-nl">Laten we uw project bespreken</span></h2>
+    <p><span class="lang-en">Whether it's enterprise automation or a managed home network — get in touch on LinkedIn.</span><span class="lang-nl">Of het nu gaat om enterprise-automatisering of een beheerd thuisnetwerk — neem contact op via LinkedIn.</span></p>
+    <div class="cta-actions">
+      <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank" class="btn-primary">
+        <span class="lang-en">Connect on LinkedIn</span><span class="lang-nl">Verbinden via LinkedIn</span>
+      </a>
+      <a href="about.html" class="btn-ghost">
+        <span class="lang-en">About &amp; contact</span><span class="lang-nl">Over &amp; contact</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="index.html"><img src="images/logo.png" alt="b@rtsmeding IT" class="footer-logo"></a>
+      <span class="footer-copy">© 2026 b@rtsmeding IT B.V.</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank">&#128100; LinkedIn</a>
+        <a href="https://github.com/bsmeding" target="_blank">&#128736; GitHub</a>
+        <a href="https://netdevops.it" target="_blank">netdevops.it ↗</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
