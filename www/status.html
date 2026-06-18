@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source Status — b@rtsmeding IT</title>
+  <meta name="description" content="Live CI status and download counts for all Ansible roles and Docker images maintained by b@rtsmeding IT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lang.js"></script>
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────── -->
+<nav class="site-nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="b@rtsmeding IT" class="nav-logo-img"></a>
+      <button class="nav-hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html"><span class="lang-en">Services</span><span class="lang-nl">Diensten</span></a>
+        <a href="projects.html"><span class="lang-en">Projects</span><span class="lang-nl">Projecten</span></a>
+        <a href="status.html" class="active"><span class="lang-en">Status</span><span class="lang-nl">Status</span></a>
+        <a href="about.html"><span class="lang-en">About</span><span class="lang-nl">Over</span></a>
+        <button class="lang-btn" onclick="toggleLang()">
+          <span class="lang-en">NL</span><span class="lang-nl">EN</span>
+        </button>
+        <a href="about.html" class="btn-nav">
+          <span class="lang-en">Get in touch</span><span class="lang-nl">Contact</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Page hero ──────────────────────────────────────── -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-label">Open source</div>
+    <h1><span class="lang-en">Roles &amp; images — live status</span><span class="lang-nl">Roles &amp; images — live status</span></h1>
+    <p>
+      <span class="lang-en">CI build status and download counts for all maintained Ansible roles and Docker images. Badges load live — counts are always current.</span>
+      <span class="lang-nl">CI-buildstatus en downloadaantallen voor alle beheerde Ansible-roles en Docker-images. Badges worden live geladen — aantallen zijn altijd actueel.</span>
+    </p>
+  </div>
+</section>
+<div class="brand-bar"></div>
+
+<!-- ── Ansible Roles ──────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="sec-label">Ansible</div>
+    <h2 class="sec-title">
+      <span class="lang-en">Ansible roles &amp; collections</span>
+      <span class="lang-nl">Ansible-roles &amp; -collections</span>
+    </h2>
+    <p class="sec-sub">
+      <span class="lang-en">All roles are published on <a href="https://galaxy.ansible.com/ui/standalone/namespaces/bsmeding/" target="_blank" class="inline-link">Ansible Galaxy</a> and maintained on <a href="https://github.com/bsmeding" target="_blank" class="inline-link">GitHub</a>. CI runs on every push.</span>
+      <span class="lang-nl">Alle roles zijn gepubliceerd op <a href="https://galaxy.ansible.com/ui/standalone/namespaces/bsmeding/" target="_blank" class="inline-link">Ansible Galaxy</a> en worden onderhouden op <a href="https://github.com/bsmeding" target="_blank" class="inline-link">GitHub</a>. CI draait bij elke push.</span>
+    </p>
+
+    <div class="status-scroll">
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th><span class="lang-en">Role</span><span class="lang-nl">Role</span></th>
+            <th><span class="lang-en">Description</span><span class="lang-nl">Omschrijving</span></th>
+            <th>CI</th>
+            <th><span class="lang-en">Downloads</span><span class="lang-nl">Downloads</span></th>
+            <th>GitHub</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/nautobot_docker/" target="_blank" class="inline-link">bsmeding.nautobot_docker</a></td>
+            <td class="desc"><span class="lang-en">Install Nautobot CMDB in Docker container</span><span class="lang-nl">Nautobot CMDB installeren in Docker-container</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_nautobot_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_nautobot_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/nautobot_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_nautobot_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/awx_docker/" target="_blank" class="inline-link">bsmeding.awx_docker</a></td>
+            <td class="desc"><span class="lang-en">Install Ansible AWX (open-source Tower) in Docker</span><span class="lang-nl">Ansible AWX (open-source Tower) installeren in Docker</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_awx_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_awx_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/awx_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_awx_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/docker/" target="_blank" class="inline-link">bsmeding.docker</a></td>
+            <td class="desc"><span class="lang-en">Docker for Linux — host setup and engine install</span><span class="lang-nl">Docker voor Linux — host-setup en engine-installatie</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/gitlab_docker/" target="_blank" class="inline-link">bsmeding.gitlab_docker</a></td>
+            <td class="desc"><span class="lang-en">GitLab CE in Docker with Postgres backend</span><span class="lang-nl">GitLab CE in Docker met Postgres-backend</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_gitlab_ce_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_gitlab_ce_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/gitlab_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_gitlab_ce_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/gitea_runner/" target="_blank" class="inline-link">bsmeding.gitea_runner</a></td>
+            <td class="desc"><span class="lang-en">Gitea ACT runner in Docker container</span><span class="lang-nl">Gitea ACT-runner in Docker-container</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_gitea_runner/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_gitea_runner/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/gitea_runner?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_gitea_runner" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/ollama/" target="_blank" class="inline-link">bsmeding.ollama</a></td>
+            <td class="desc"><span class="lang-en">Deploy Ollama local LLM inference server on Linux</span><span class="lang-nl">Ollama lokale LLM-inferentieserver deployen op Linux</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_ollama/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_ollama/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/ollama?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_ollama" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/openwebui_docker/" target="_blank" class="inline-link">bsmeding.openwebui_docker</a></td>
+            <td class="desc"><span class="lang-en">Deploy Open WebUI (Ollama front-end) via Docker</span><span class="lang-nl">Open WebUI (Ollama-front-end) deployen via Docker</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_openwebui_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_openwebui_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/openwebui_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_openwebui_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/librechat_docker/" target="_blank" class="inline-link">bsmeding.librechat_docker</a></td>
+            <td class="desc"><span class="lang-en">Deploy LibreChat (multi-provider AI chat) via Docker Compose</span><span class="lang-nl">LibreChat (multi-provider AI-chat) deployen via Docker Compose</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_librechat_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_librechat_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/librechat_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_librechat_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/nginx_docker/" target="_blank" class="inline-link">bsmeding.nginx_docker</a></td>
+            <td class="desc"><span class="lang-en">NGINX web server in Docker container</span><span class="lang-nl">NGINX-webserver in Docker-container</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_nginx_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_nginx_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/nginx_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_nginx_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/swag_docker/" target="_blank" class="inline-link">bsmeding.swag_docker</a></td>
+            <td class="desc"><span class="lang-en">Secure Web Application Gateway (SWAG) in Docker</span><span class="lang-nl">Secure Web Application Gateway (SWAG) in Docker</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_swag_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_swag_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/swag_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_swag_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/container_lab_docker/" target="_blank" class="inline-link">bsmeding.container_lab_docker</a></td>
+            <td class="desc"><span class="lang-en">Install ContainerLab in Docker container</span><span class="lang-nl">ContainerLab installeren in Docker-container</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_container_lab_docker/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_container_lab_docker/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/container_lab_docker?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_container_lab_docker" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/iptv_analyzer/" target="_blank" class="inline-link">bsmeding.iptv_analyzer</a></td>
+            <td class="desc"><span class="lang-en">Install IPTV Analyzer with Ansible</span><span class="lang-nl">IPTV-analyzer installeren met Ansible</span></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_iptv_analyzer/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible_role_iptv_analyzer/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/iptv_analyzer?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible_role_iptv_analyzer" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://galaxy.ansible.com/ui/standalone/roles/bsmeding/webmin/" target="_blank" class="inline-link">bsmeding.webmin</a></td>
+            <td class="desc"><span class="lang-en">Install and configure Webmin</span><span class="lang-nl">Webmin installeren en configureren</span></td>
+            <td><a href="https://github.com/bsmeding/ansible-role-webmin/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/bsmeding/ansible-role-webmin/actions/workflows/ci.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/ansible/role/d/bsmeding/webmin?label=downloads" alt="downloads" loading="lazy"></td>
+            <td><a href="https://github.com/bsmeding/ansible-role-webmin" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── Docker CI/CD — ansible_cicd ────────────────────── -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="sec-label">Docker — CI/CD images</div>
+    <h2 class="sec-title">ansible_cicd</h2>
+    <p class="sec-sub sec-sub-narrow">
+      <span class="lang-en">Ansible, Molecule, ansible-lint, network automation tools, and CMDB testing dependencies for role and playbook CI/CD.</span>
+      <span class="lang-nl">Ansible, Molecule, ansible-lint, netwerk-automatiseringstools en CMDB-testafhankelijkheden voor role- en playbook-CI/CD.</span>
+    </p>
+
+    <div class="status-scroll">
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th><span class="lang-en">Image</span><span class="lang-nl">Image</span></th>
+            <th><span class="lang-en">Base OS</span><span class="lang-nl">Basis-OS</span></th>
+            <th>CI</th>
+            <th><span class="lang-en">Downloads</span><span class="lang-nl">Downloads</span></th>
+            <th>Docker Hub</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>ansible_cicd_ubuntu2004</td><td class="desc">Ubuntu 20.04 <span class="tag-legacy">legacy</span></td><td rowspan="17"><a href="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml" target="_blank"><img src="https://github.com/bsmeding/docker_containers_ansible_cicd/actions/workflows/docker.yml/badge.svg" alt="CI" loading="lazy"></a></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2004?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_ubuntu2004" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_ubuntu2204</td><td class="desc">Ubuntu 22.04 <span class="tag-legacy">legacy</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2204?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_ubuntu2204" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_ubuntu2404</td><td class="desc">Ubuntu 24.04</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2404?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_ubuntu2404" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_ubuntu2604</td><td class="desc">Ubuntu 26.04</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu2604?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_ubuntu2604" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_ubuntu</td><td class="desc">Ubuntu <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_ubuntu?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_ubuntu" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_debian11</td><td class="desc">Debian 11 <span class="tag-legacy">legacy</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian11?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_debian11" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_debian12</td><td class="desc">Debian 12</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian12?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_debian12" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_debian13</td><td class="desc">Debian 13</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian13?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_debian13" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_debian</td><td class="desc">Debian <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_debian?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_debian" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_rockylinux8</td><td class="desc">Rocky Linux 8</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux8?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_rockylinux8" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_rockylinux9</td><td class="desc">Rocky Linux 9</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux9?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_rockylinux9" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_rockylinux</td><td class="desc">Rocky Linux <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_rockylinux?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_rockylinux" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_alpine3.20</td><td class="desc">Alpine 3.20 <span class="tag-legacy">legacy</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.20?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_alpine3.20" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_alpine3.21</td><td class="desc">Alpine 3.21 <span class="tag-legacy">legacy</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.21?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_alpine3.21" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_alpine3.22</td><td class="desc">Alpine 3.22</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.22?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_alpine3.22" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_alpine3.23</td><td class="desc">Alpine 3.23</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3.23?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_alpine3.23" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>ansible_cicd_alpine3</td><td class="desc">Alpine 3 <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/ansible_cicd_alpine3?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/ansible_cicd_alpine3" target="_blank" class="link-gh">↗</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── Docker CI/CD — netdevops_cicd ──────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="sec-label">Docker — CI/CD images</div>
+    <h2 class="sec-title">netdevops_cicd</h2>
+    <p class="sec-sub sec-sub-narrow">
+      <span class="lang-en">Python NetDevOps tooling: Netmiko, Scrapli, Nornir, NAPALM, API clients, and configuration validation helpers.</span>
+      <span class="lang-nl">Python NetDevOps-tooling: Netmiko, Scrapli, Nornir, NAPALM, API-clients en configuratievalidatie-helpers.</span>
+    </p>
+
+    <div class="status-scroll">
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th><span class="lang-en">Image</span><span class="lang-nl">Image</span></th>
+            <th><span class="lang-en">Base OS</span><span class="lang-nl">Basis-OS</span></th>
+            <th>CI</th>
+            <th><span class="lang-en">Downloads</span><span class="lang-nl">Downloads</span></th>
+            <th>Docker Hub</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>netdevops_cicd_ubuntu2404</td><td class="desc">Ubuntu 24.04</td><td rowspan="11"><a href="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml" target="_blank"><img src="https://github.com/bsmeding/docker_containers_netdevops_cicd/actions/workflows/docker.yml/badge.svg" alt="CI" loading="lazy"></a></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu2404?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_ubuntu2404" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_ubuntu2604</td><td class="desc">Ubuntu 26.04</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu2604?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_ubuntu2604" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_ubuntu</td><td class="desc">Ubuntu <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_ubuntu?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_ubuntu" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_debian12</td><td class="desc">Debian 12</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_debian12?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_debian12" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_debian13</td><td class="desc">Debian 13</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_debian13?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_debian13" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_debian</td><td class="desc">Debian <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_debian?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_debian" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_rockylinux8</td><td class="desc">Rocky Linux 8</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_rockylinux8?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_rockylinux8" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_rockylinux9</td><td class="desc">Rocky Linux 9</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_rockylinux9?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_rockylinux9" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_rockylinux</td><td class="desc">Rocky Linux <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_rockylinux?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_rockylinux" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_alpine3.22</td><td class="desc">Alpine 3.22</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_alpine3.22?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_alpine3.22" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>netdevops_cicd_alpine3</td><td class="desc">Alpine 3 <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/netdevops_cicd_alpine3?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/netdevops_cicd_alpine3" target="_blank" class="link-gh">↗</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── Docker CI/CD — aiops_cicd ──────────────────────── -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="sec-label">Docker — CI/CD images</div>
+    <h2 class="sec-title">aiops_cicd</h2>
+    <p class="sec-sub sec-sub-narrow">
+      <span class="lang-en">LLM clients, prompt and agent testing tools, structured output validation, RAG evaluation, and operational replay dependencies.</span>
+      <span class="lang-nl">LLM-clients, prompt- en agent-testtools, gestructureerde uitvoervalidatie, RAG-evaluatie en operationele replay-afhankelijkheden.</span>
+    </p>
+
+    <div class="status-scroll">
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th><span class="lang-en">Image</span><span class="lang-nl">Image</span></th>
+            <th><span class="lang-en">Base OS</span><span class="lang-nl">Basis-OS</span></th>
+            <th>CI</th>
+            <th><span class="lang-en">Downloads</span><span class="lang-nl">Downloads</span></th>
+            <th>Docker Hub</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>aiops_cicd_ubuntu2404</td><td class="desc">Ubuntu 24.04</td><td rowspan="12"><a href="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml" target="_blank"><img src="https://github.com/bsmeding/docker_containers_aiops_cicd/actions/workflows/docker.yml/badge.svg" alt="CI" loading="lazy"></a></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu2404?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_ubuntu2404" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_ubuntu2604</td><td class="desc">Ubuntu 26.04</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu2604?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_ubuntu2604" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_ubuntu</td><td class="desc">Ubuntu <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_ubuntu?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_ubuntu" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_debian12</td><td class="desc">Debian 12</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_debian12?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_debian12" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_debian13</td><td class="desc">Debian 13</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_debian13?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_debian13" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_debian</td><td class="desc">Debian <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_debian?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_debian" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_rockylinux8</td><td class="desc">Rocky Linux 8</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_rockylinux8?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_rockylinux8" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_rockylinux9</td><td class="desc">Rocky Linux 9</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_rockylinux9?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_rockylinux9" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_rockylinux</td><td class="desc">Rocky Linux <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_rockylinux?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_rockylinux" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_alpine3.22</td><td class="desc">Alpine 3.22</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_alpine3.22?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_alpine3.22" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_alpine3.23</td><td class="desc">Alpine 3.23</td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_alpine3.23?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_alpine3.23" target="_blank" class="link-gh">↗</a></td></tr>
+          <tr><td>aiops_cicd_alpine3</td><td class="desc">Alpine 3 <span class="tag-alias">alias</span></td><td><img src="https://img.shields.io/docker/pulls/bsmeding/aiops_cicd_alpine3?label=pulls" alt="pulls" loading="lazy"></td><td><a href="https://hub.docker.com/r/bsmeding/aiops_cicd_alpine3" target="_blank" class="link-gh">↗</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── Docker Applications ────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="sec-label">Docker — Applications</div>
+    <h2 class="sec-title">
+      <span class="lang-en">Docker application images</span>
+      <span class="lang-nl">Docker-applicatie-images</span>
+    </h2>
+
+    <div class="status-scroll">
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th><span class="lang-en">Image</span><span class="lang-nl">Image</span></th>
+            <th><span class="lang-en">Description</span><span class="lang-nl">Omschrijving</span></th>
+            <th>CI</th>
+            <th><span class="lang-en">Downloads</span><span class="lang-nl">Downloads</span></th>
+            <th>Docker Hub</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><a href="https://hub.docker.com/r/bsmeding/nautobot" target="_blank" class="inline-link">nautobot</a></td>
+            <td class="desc"><span class="lang-en">Nautobot including plugins and apps</span><span class="lang-nl">Nautobot inclusief plugins en apps</span></td>
+            <td><a href="https://github.com/bsmeding/docker_container_nautobot/actions/workflows/build.yml" target="_blank"><img src="https://github.com/bsmeding/docker_container_nautobot/actions/workflows/build.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/docker/pulls/bsmeding/nautobot?label=pulls" alt="pulls" loading="lazy"></td>
+            <td><a href="https://hub.docker.com/r/bsmeding/nautobot" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://hub.docker.com/r/bsmeding/gitea-act-runner-ansible" target="_blank" class="inline-link">gitea-act-runner-ansible</a></td>
+            <td class="desc"><span class="lang-en">Gitea Act Runner with Ansible and Python automation dependencies</span><span class="lang-nl">Gitea Act Runner met Ansible en Python-automatiseringsafhankelijkheden</span></td>
+            <td><a href="https://github.com/bsmeding/docker_container_gitea_runner_ansible/actions/workflows/build.yml" target="_blank"><img src="https://github.com/bsmeding/docker_container_gitea_runner_ansible/actions/workflows/build.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/docker/pulls/bsmeding/gitea-act-runner-ansible?label=pulls" alt="pulls" loading="lazy"></td>
+            <td><a href="https://hub.docker.com/r/bsmeding/gitea-act-runner-ansible" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://hub.docker.com/r/bsmeding/rat-of-fortune" target="_blank" class="inline-link">rat-of-fortune</a></td>
+            <td class="desc"><span class="lang-en">Browser-based graphical wheel for randomly selecting a name from a list</span><span class="lang-nl">Browser-gebaseerd grafisch wiel voor het willekeurig selecteren van een naam uit een lijst</span></td>
+            <td><a href="https://github.com/bsmeding/docker_container_rat-of-fortune/actions/workflows/docker-publish.yml" target="_blank"><img src="https://github.com/bsmeding/docker_container_rat-of-fortune/actions/workflows/docker-publish.yml/badge.svg" alt="CI" loading="lazy"></a></td>
+            <td><img src="https://img.shields.io/docker/pulls/bsmeding/rat-of-fortune?label=pulls" alt="pulls" loading="lazy"></td>
+            <td><a href="https://hub.docker.com/r/bsmeding/rat-of-fortune" target="_blank" class="link-gh">↗</a></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <p style="margin-top:20px;font-size:13px;color:var(--muted)">
+      <span class="lang-en">The maintained CI/CD images support the latest two distro versions per family: Ubuntu 24.04/26.04, Debian 12/13, Rocky Linux 8/9, and Alpine 3.22/3.23. Older tags remain available on Docker Hub but are no longer updated.</span>
+      <span class="lang-nl">De beheerde CI/CD-images ondersteunen de laatste twee distro-versies per familie: Ubuntu 24.04/26.04, Debian 12/13, Rocky Linux 8/9 en Alpine 3.22/3.23. Oudere tags blijven beschikbaar op Docker Hub maar worden niet meer bijgewerkt.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="index.html"><img src="images/logo.png" alt="b@rtsmeding IT" class="footer-logo"></a>
+      <span class="footer-copy">© 2026 b@rtsmeding IT B.V.</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank">&#128100; LinkedIn</a>
+        <a href="https://github.com/bsmeding" target="_blank">&#128736; GitHub</a>
+        <a href="https://netdevops.it" target="_blank">netdevops.it ↗</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

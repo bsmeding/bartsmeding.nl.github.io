@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — b@rtsmeding IT</title>
+  <meta name="description" content="Network automation client work and open source Ansible roles and Docker images by Bart Smeding.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lang.js"></script>
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────── -->
+<nav class="site-nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="b@rtsmeding IT" class="nav-logo-img"></a>
+      <button class="nav-hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html"><span class="lang-en">Services</span><span class="lang-nl">Diensten</span></a>
+        <a href="projects.html" class="active"><span class="lang-en">Projects</span><span class="lang-nl">Projecten</span></a>
+        <a href="status.html"><span class="lang-en">Status</span><span class="lang-nl">Status</span></a>
+        <a href="about.html"><span class="lang-en">About</span><span class="lang-nl">Over</span></a>
+        <button class="lang-btn" onclick="toggleLang()">
+          <span class="lang-en">NL</span><span class="lang-nl">EN</span>
+        </button>
+        <a href="about.html" class="btn-nav">
+          <span class="lang-en">Get in touch</span><span class="lang-nl">Contact</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Page hero ──────────────────────────────────────── -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-label"><span class="lang-en">Projects</span><span class="lang-nl">Projecten</span></div>
+    <h1><span class="lang-en">Client work &amp; open source</span><span class="lang-nl">Klantprojecten &amp; open source</span></h1>
+    <p>
+      <span class="lang-en">Selected NetDevOps engagements and the open source Ansible roles and Docker images that power them.</span>
+      <span class="lang-nl">Geselecteerde NetDevOps-opdrachten en de open source Ansible-roles en Docker-images die ze aandrijven.</span>
+    </p>
+  </div>
+</section>
+<div class="brand-bar"></div>
+
+<!-- ── Client work ────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="sec-label"><span class="lang-en">Selected client work</span><span class="lang-nl">Geselecteerde klantprojecten</span></div>
+    <h2 class="sec-title"><span class="lang-en">NetDevOps engagements</span><span class="lang-nl">NetDevOps-opdrachten</span></h2>
+    <p class="sec-sub">
+      <span class="lang-en">A summary of selected engagements. Full background on <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank" class="inline-link">LinkedIn</a>.</span>
+      <span class="lang-nl">Een overzicht van geselecteerde opdrachten. Meer achtergrond op <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank" class="inline-link">LinkedIn</a>.</span>
+    </p>
+
+    <div style="display:flex;flex-direction:column;gap:14px">
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-title">Centraal Orgaan opvang asielzoekers (COA)</div>
+          <div class="project-tags">
+            <span class="project-tag">Nautobot</span>
+            <span class="project-tag">Ansible</span>
+            <span class="project-tag">AWX</span>
+            <span class="project-tag">GitLab CI/CD</span>
+            <span class="project-tag">Cisco DNA Center</span>
+          </div>
+        </div>
+        <p class="project-body">
+          <span class="lang-en">Nautobot-centred automation framework (HLD/LLD) for new-site provisioning, decommissioning, and brownfield operations. Ansible with AWX and GitLab CI/CD integrated with Cisco DNA Center, Infoblox, Panorama, and SolarWinds. 7,000+ devices across 250+ locations — drift control, closed-loop change, NOC tests from the UI, and team training.</span>
+          <span class="lang-nl">Nautobot-gecentreerd automatiseringsframework (HLD/LLD) voor nieuwe sites, decommissioning en brownfield-operaties. Ansible met AWX en GitLab CI/CD gekoppeld aan Cisco DNA Center, Infoblox, Panorama en SolarWinds. 7.000+ apparaten op 250+ locaties — driftcontrole, closed-loop wijzigingen, NOC-tests vanuit de UI en teamtraining.</span>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-title">LeasePlan</div>
+          <div class="project-tags">
+            <span class="project-tag">NetBox</span>
+            <span class="project-tag">Ansible</span>
+            <span class="project-tag">Itential</span>
+            <span class="project-tag">RHEL/CentOS</span>
+          </div>
+        </div>
+        <p class="project-body">
+          <span class="lang-en">Global automated configuration, validation, and auto-remediation across on-prem, datacentre, and cloud using NetBox, Git, Itential, and Ansible. Linux server lifecycle management (RHEL/CentOS), delivered in agile sprints.</span>
+          <span class="lang-nl">Wereldwijde geautomatiseerde configuratie, validatie en auto-remediation voor on-prem, datacentre en cloud via NetBox, Git, Itential en Ansible. Linux-server lifecycle-beheer (RHEL/CentOS), opgeleverd in agile sprints.</span>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-title">DELTA Fiber Netherlands</div>
+          <div class="project-tags">
+            <span class="project-tag">Cisco IOS/XR</span>
+            <span class="project-tag">NetBox</span>
+            <span class="project-tag">AWX</span>
+            <span class="project-tag">InfluxDB</span>
+            <span class="project-tag">Grafana</span>
+          </div>
+        </div>
+        <p class="project-body">
+          <span class="lang-en">FTTH and wholesale automation: Cisco IOS/XR provisioning templates, NetBox → AWX pipeline, telemetry stack (InfluxDB + Grafana), access-layer compliance checks, and Ansible patterns across core, distribution, and access — including wholesale onboarding profiles.</span>
+          <span class="lang-nl">FTTH- en wholesale-automatisering: Cisco IOS/XR-provisioningtemplates, NetBox → AWX-pipeline, telemetriestack (InfluxDB + Grafana), access-layer compliance-checks en Ansible-patronen voor core, distributie en access — inclusief wholesale onboarding-profielen.</span>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-title">ProRail</div>
+          <div class="project-tags">
+            <span class="project-tag">SNMP</span>
+            <span class="project-tag">NetFlow</span>
+            <span class="project-tag">NBAR</span>
+            <span class="project-tag">SevOne</span>
+            <span class="project-tag">Cisco</span>
+            <span class="project-tag">Alcatel</span>
+          </div>
+        </div>
+        <p class="project-body">
+          <span class="lang-en">Capacity planning and nationwide monitoring: automated reporting, MAN threshold management, and telemetry (SNMP, NetFlow, NBAR, QoS, delay/jitter) across Cisco and Alcatel infrastructure with SevOne and supporting tooling.</span>
+          <span class="lang-nl">Capaciteitsplanning en landelijke monitoring: geautomatiseerde rapportage, MAN-drempelwaardebeheer en telemetrie (SNMP, NetFlow, NBAR, QoS, vertraging/jitter) op Cisco- en Alcatel-infrastructuur met SevOne en ondersteunende tooling.</span>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-title">YaWorks</div>
+          <div class="project-tags">
+            <span class="project-tag">Network automation</span>
+            <span class="project-tag">Auto-remediation</span>
+            <span class="project-tag">Training</span>
+          </div>
+        </div>
+        <p class="project-body">
+          <span class="lang-en">Long-term network automation consulting: task automation, auto-remediation, new-site rollout, and training. Home base for engagements such as DELTA Fiber and ProRail.</span>
+          <span class="lang-nl">Langdurig netwerkautomatiseringsadvies: taakautomatisering, auto-remediation, new-site rollout en training. Basis voor opdrachten zoals DELTA Fiber en ProRail.</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Ansible roles ──────────────────────────────────── -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="sec-label">Open source — Ansible</div>
+    <h2 class="sec-title">
+      <span class="lang-en">Ansible roles &amp; collections</span>
+      <span class="lang-nl">Ansible-roles &amp; -collections</span>
+    </h2>
+    <p class="sec-sub">
+      <span class="lang-en">Roles published on <a href="https://galaxy.ansible.com/ui/standalone/namespaces/bsmeding/" target="_blank" class="inline-link">Ansible Galaxy</a> and hosted on <a href="https://github.com/bsmeding" target="_blank" class="inline-link">GitHub</a>. Used in production across client environments.</span>
+      <span class="lang-nl">Roles gepubliceerd op <a href="https://galaxy.ansible.com/ui/standalone/namespaces/bsmeding/" target="_blank" class="inline-link">Ansible Galaxy</a> en gehost op <a href="https://github.com/bsmeding" target="_blank" class="inline-link">GitHub</a>. Ingezet in productie bij klantomgevingen.</span>
+    </p>
+    <div class="grid-2">
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.nautobot_docker</div>
+          <div class="repo-desc"><span class="lang-en">Deploy Nautobot as a Docker container. Used in CMDB-driven automation frameworks.</span><span class="lang-nl">Nautobot deployen als Docker-container. Ingezet in CMDB-gestuurde automatiseringsframeworks.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-nautobot_docker" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.awx_docker</div>
+          <div class="repo-desc"><span class="lang-en">Deploy AWX (open-source Ansible Tower) as a Docker container for team automation workflows.</span><span class="lang-nl">AWX (open-source Ansible Tower) deployen als Docker-container voor teamautomatisering.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-awx_docker" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.gitlab_docker</div>
+          <div class="repo-desc"><span class="lang-en">Deploy GitLab CE in Docker — self-hosted Git and CI/CD platform for NetDevOps pipelines.</span><span class="lang-nl">GitLab CE deployen in Docker — self-hosted Git- en CI/CD-platform voor NetDevOps-pipelines.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-gitlab_ce_docker" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.ollama</div>
+          <div class="repo-desc"><span class="lang-en">Deploy Ollama LLM server — local AI inference for NetAIOps use cases.</span><span class="lang-nl">Ollama LLM-server deployen — lokale AI-inferentie voor NetAIOps-toepassingen.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-ollama" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.openwebui_docker</div>
+          <div class="repo-desc"><span class="lang-en">Deploy Open WebUI as a Docker container — front-end for local LLM models.</span><span class="lang-nl">Open WebUI deployen als Docker-container — front-end voor lokale LLM-modellen.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-openwebui_docker" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.librechat_docker</div>
+          <div class="repo-desc"><span class="lang-en">Deploy LibreChat in Docker — self-hosted multi-model AI chat interface.</span><span class="lang-nl">LibreChat deployen in Docker — self-hosted multi-model AI-chatinterface.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-librechat_docker" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.gitea_runner</div>
+          <div class="repo-desc"><span class="lang-en">Deploy a Gitea Actions runner for self-hosted CI/CD pipelines.</span><span class="lang-nl">Gitea Actions-runner deployen voor self-hosted CI/CD-pipelines.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-gitea_runner" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">bsmeding.docker</div>
+          <div class="repo-desc"><span class="lang-en">Configure a Docker host — engine installation, users, and base settings for all container roles.</span><span class="lang-nl">Docker-host configureren — engine-installatie, gebruikers en basisinstellingen voor alle container-roles.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-ansible">Ansible</span>
+          <a href="https://github.com/bsmeding/ansible-role-docker" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+    </div>
+    <p style="margin-top:20px;font-size:14px">
+      <a href="https://galaxy.ansible.com/ui/standalone/namespaces/bsmeding/" target="_blank" class="inline-link">
+        <span class="lang-en">View all roles on Ansible Galaxy →</span>
+        <span class="lang-nl">Bekijk alle roles op Ansible Galaxy →</span>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://github.com/bsmeding" target="_blank" class="inline-link">
+        <span class="lang-en">View all on GitHub →</span>
+        <span class="lang-nl">Bekijk alle op GitHub →</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- ── Docker images ──────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="sec-label">Open source — Docker</div>
+    <h2 class="sec-title">
+      <span class="lang-en">Docker images</span>
+      <span class="lang-nl">Docker-images</span>
+    </h2>
+    <p class="sec-sub">
+      <span class="lang-en">CI/CD and application images built for network automation workflows. Available on <a href="https://hub.docker.com/u/bsmeding" target="_blank" class="inline-link">Docker Hub</a> and <a href="https://github.com/bsmeding" target="_blank" class="inline-link">GitHub</a>.</span>
+      <span class="lang-nl">CI/CD- en applicatie-images voor netwerkautomatiserings-workflows. Beschikbaar op <a href="https://hub.docker.com/u/bsmeding" target="_blank" class="inline-link">Docker Hub</a> en <a href="https://github.com/bsmeding" target="_blank" class="inline-link">GitHub</a>.</span>
+    </p>
+    <div class="grid-2">
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">Ansible CI/CD image</div>
+          <div class="repo-desc"><span class="lang-en">Multi-distro Ansible images for CI/CD pipelines — includes common network automation libraries and collections.</span><span class="lang-nl">Multi-distro Ansible-images voor CI/CD-pipelines — inclusief gangbare netwerk-automatiseringsbibliotheken en -collections.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-docker">Docker</span>
+          <a href="https://github.com/bsmeding/docker-ansible-cicd" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">NetDevOps CI/CD image</div>
+          <div class="repo-desc"><span class="lang-en">Network automation CI/CD image — Ansible, Nornir, Nautobot SDK, NAPALM, and netmiko pre-installed.</span><span class="lang-nl">Netwerk-automatiserings-CI/CD-image — Ansible, Nornir, Nautobot SDK, NAPALM en netmiko voorgeïnstalleerd.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-docker">Docker</span>
+          <a href="https://github.com/bsmeding/docker-netdevops-cicd" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">AIOps CI/CD image</div>
+          <div class="repo-desc"><span class="lang-en">CI/CD image combining network automation libraries with AI/ML tooling for NetAIOps pipelines — LangChain, LLM clients, and Ansible.</span><span class="lang-nl">CI/CD-image met netwerk-automatiseringsbibliotheken gecombineerd met AI/ML-tooling voor NetAIOps-pipelines — LangChain, LLM-clients en Ansible.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-docker">Docker</span>
+          <a href="https://github.com/bsmeding/docker-aiops-cicd" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">Nautobot container image</div>
+          <div class="repo-desc"><span class="lang-en">Enhanced Nautobot image with additional plugins and configuration for production deployments.</span><span class="lang-nl">Uitgebreid Nautobot-image met extra plugins en configuratie voor productie-deployments.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-docker">Docker</span>
+          <a href="https://github.com/bsmeding/docker-nautobot" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">Gitea runner image</div>
+          <div class="repo-desc"><span class="lang-en">Ready-to-use Gitea Actions runner image for self-hosted CI/CD with network automation tooling pre-installed.</span><span class="lang-nl">Gitea Actions runner-image voor self-hosted CI/CD met netwerk-automatiseringstooling voorgeïnstalleerd.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-docker">Docker</span>
+          <a href="https://github.com/bsmeding/docker-gitea-runner" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div>
+          <div class="repo-name">Rat of Fortune</div>
+          <div class="repo-desc"><span class="lang-en">Fun network-themed container image — spin up a random network topology for lab and demo purposes.</span><span class="lang-nl">Leuke netwerkgeoriënteerde container-image — start een willekeurige netwerktopologie voor lab en demo-doeleinden.</span></div>
+        </div>
+        <div class="repo-right">
+          <span class="badge badge-docker">Docker</span>
+          <a href="https://github.com/bsmeding/docker-rat-of-fortune" target="_blank" class="link-gh">GitHub ↗</a>
+        </div>
+      </div>
+
+    </div>
+    <p style="margin-top:20px;font-size:14px">
+      <a href="https://hub.docker.com/u/bsmeding" target="_blank" class="inline-link">
+        <span class="lang-en">View all images on Docker Hub →</span>
+        <span class="lang-nl">Bekijk alle images op Docker Hub →</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- ── Blog / education link ──────────────────────────── -->
+<section class="cta-section">
+  <div class="container">
+    <h2><span class="lang-en">Tutorials &amp; education on NetDevOps.it</span><span class="lang-nl">Tutorials &amp; educatie op NetDevOps.it</span></h2>
+    <p><span class="lang-en">Long-form blog posts, courses, and community content on network automation — separate from this services site.</span><span class="lang-nl">Uitgebreide blogartikelen, cursussen en community-content over netwerkautomatisering — apart van deze dienstensite.</span></p>
+    <div class="cta-actions">
+      <a href="https://netdevops.it" target="_blank" class="btn-primary">netdevops.it ↗</a>
+      <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank" class="btn-ghost">
+        <span class="lang-en">Connect on LinkedIn</span><span class="lang-nl">Verbinden via LinkedIn</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="index.html"><img src="images/logo.png" alt="b@rtsmeding IT" class="footer-logo"></a>
+      <span class="footer-copy">© 2026 b@rtsmeding IT B.V.</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/bartsmeding/" target="_blank">&#128100; LinkedIn</a>
+        <a href="https://github.com/bsmeding" target="_blank">&#128736; GitHub</a>
+        <a href="https://netdevops.it" target="_blank">netdevops.it ↗</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
